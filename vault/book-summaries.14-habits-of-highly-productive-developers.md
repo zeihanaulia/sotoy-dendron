@@ -2,7 +2,7 @@
 id: n7oobf4m1pytfexf8scoxao
 title: 14 Habits of Highly Productive Developers
 desc: ''
-updated: 1646857098319
+updated: 1646860166161
 created: 1646856523151
 published: true
 tags:
@@ -10,6 +10,8 @@ tags:
   - Zeno Rocha
 ---
 
+#self-improvement
+#zeno-rocha
 
 Buku ini ditulis oleh Zeno Rocha pada tahun 2020, dia juga menginterview atau bertanya ke beberapa software engineer yang berkerja di perusahaan-perusahaan besar seperti Google, Microsoft, Spotify, Amazon dan lain lain.
 

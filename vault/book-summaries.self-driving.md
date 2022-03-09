@@ -2,13 +2,15 @@
 id: oorvvxz032oov7psrw9ygte
 title: Self Driving
 desc: ''
-updated: 1646855011894
+updated: 1646860214990
 created: 1646854981225
 tags:
   - Self Improvement
   - Rhenald Kasali
 ---
 
+#self-improvement
+#rhenald-kasali
 
 Buku ini ditulis oleh Bapak Rhenald Kasali, Ph,D., Beliau adalah seorang guru besar FEUI, Praktisi Management dan Penulis Buku.
 Ditulis pada 

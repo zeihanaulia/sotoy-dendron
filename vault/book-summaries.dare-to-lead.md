@@ -2,13 +2,15 @@
 id: qt1780a5r3yr1h7fcqql1by
 title: Dare to Lead
 desc: ''
-updated: 1646858819388
+updated: 1646860194802
 created: 1646858780149
 tags:
   - Self Improvement
   - Brené Brown
 ---
 
+#self-improvement
+#brené-brown
 
 Brave work, Tough conversations, Whole heart.
 
