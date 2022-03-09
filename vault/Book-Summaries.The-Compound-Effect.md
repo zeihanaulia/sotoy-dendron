@@ -1,12 +1,12 @@
 ---
 id: 449wtl97i8ahd4sk4ya7vmw
-title: The-Compound-Effect
+title: The Compound Effect
 desc: ''
 updated: 1646853800684
 created: 1646853681217
-tags: 
-    - self-improvement
-    - Darren-Hardy
+tags:
+  - self-improvement
+  - Darren-Hardy
 ---
 
 Hal besar tidak terjadi dalam semalam, melainkan hal kecil yang dikumpulkan dan menjadi kebiasaan.
