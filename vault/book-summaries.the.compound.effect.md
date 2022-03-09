@@ -1,12 +1,12 @@
 ---
-id: 449wtl97i8ahd4sk4ya7vmw
-title: The Compound Effect
+id: lxr3tnzqll17pk0w0nl4toc
+title: Effect
 desc: ''
-updated: 1646853800684
-created: 1646853681217
+updated: 1646854891717
+created: 1646854887751
 tags:
-  - self-improvement
-  - Darren-Hardy
+  - Self Improvement
+  - Darren Hardy
 ---
 
 Hal besar tidak terjadi dalam semalam, melainkan hal kecil yang dikumpulkan dan menjadi kebiasaan.
@@ -185,3 +185,4 @@ Kita tidak bisa mengubah hidup kita hingga rutinitas kita berubah.
 6. Ambil aksi yang luar biasa.
 
 Terdengan sederhana tapi susah buat dikerjakan.
+
