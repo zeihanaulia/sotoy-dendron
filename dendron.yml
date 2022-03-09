@@ -80,7 +80,7 @@ publishing:
     enableMermaid: true
     enablePrettyRefs: true
     enableKatex: true
-    assetsPrefix: /sotoy-dendron
+    assetsPrefix: /sotoy
     copyAssets: true
     siteHierarchies:
         - root
