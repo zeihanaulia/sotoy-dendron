@@ -2,9 +2,9 @@
 id: n7oobf4m1pytfexf8scoxao
 title: 14 Habits of Highly Productive Developers
 desc: ''
-updated: 1646856867416
+updated: 1646857098319
 created: 1646856523151
-published: false
+published: true
 tags:
   - Self Improvement
   - Zeno Rocha
