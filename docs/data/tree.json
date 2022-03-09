@@ -1,0 +1,56 @@
+{
+  "roots": [
+    {
+      "key": "oqxmejlafk9x8rj9t5hya5z",
+      "title": "Root",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "vault",
+      "children": [
+        {
+          "key": "tmhsk3np1e06si2wld0trgr",
+          "title": "Books",
+          "icon": "plusOutlined",
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": [
+            {
+              "key": "2j2s6be3vzn12cr9q9z4jdo",
+              "title": "Self Improvement",
+              "icon": "plusOutlined",
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "children": [
+                {
+                  "key": "b3z03veq09yucy8l113hpy4",
+                  "title": "Darren Hardy",
+                  "icon": "plusOutlined",
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "children": [
+                    {
+                      "key": "26b7feacl1zvs6dxr6zfszd",
+                      "title": "The Compound Effects",
+                      "icon": null,
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "vault",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "child2parent": {
+    "403": null,
+    "oqxmejlafk9x8rj9t5hya5z": null,
+    "tmhsk3np1e06si2wld0trgr": "oqxmejlafk9x8rj9t5hya5z",
+    "2j2s6be3vzn12cr9q9z4jdo": "tmhsk3np1e06si2wld0trgr",
+    "b3z03veq09yucy8l113hpy4": "2j2s6be3vzn12cr9q9z4jdo",
+    "26b7feacl1zvs6dxr6zfszd": "b3z03veq09yucy8l113hpy4"
+  }
+}
