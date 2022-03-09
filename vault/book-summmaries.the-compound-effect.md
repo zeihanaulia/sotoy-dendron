@@ -1,9 +1,9 @@
 ---
-id: lxr3tnzqll17pk0w0nl4toc
-title: Effect
+id: i64qut2rc3wsr2hyvgpieth
+title: The Compound Effect
 desc: ''
-updated: 1646854891717
-created: 1646854887751
+updated: 1646855375393
+created: 1646855369108
 tags:
   - Self Improvement
   - Darren Hardy
