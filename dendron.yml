@@ -80,12 +80,13 @@ publishing:
     enableMermaid: true
     enablePrettyRefs: true
     enableKatex: true
+    assetsPrefix: /sotoy-dendron
     copyAssets: true
     siteHierarchies:
         - root
     enableSiteLastModified: true
     siteRootDir: docs
-    siteUrl: 'https://sotoy.github.io'
+    siteUrl: 'https://zeihanaulia.github.io'
     enableFrontmatterTags: true
     enableHashesForFMTags: false
     enableRandomlyColoredTags: true
