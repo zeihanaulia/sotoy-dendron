@@ -80,21 +80,27 @@ publishing:
     enableMermaid: true
     enablePrettyRefs: true
     enableKatex: true
+    assetsPrefix: /template.publish.github-action
     copyAssets: true
     siteHierarchies:
         - root
-    writeStubs: false
+    enableSiteLastModified: true
     siteRootDir: docs
+    siteUrl: 'https://sotoy.github.io'
+    enableFrontmatterTags: true
+    enableHashesForFMTags: false
+    enableRandomlyColoredTags: true
+    duplicateNoteBehavior:
+        action: useVault
+        payload:
+            - vault
+    writeStubs: false
     seo:
         title: Dendron
-        description: Personal Knowledge Space
+        description: Personal knowledge space
     github:
         enableEditLink: true
         editLinkText: Edit this page on GitHub
         editBranch: main
         editViewMode: tree
-    enableSiteLastModified: true
-    enableFrontmatterTags: true
-    enableHashesForFMTags: false
-    enableRandomlyColoredTags: true
     enablePrettyLinks: true
