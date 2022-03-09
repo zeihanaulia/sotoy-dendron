@@ -1,12 +1,12 @@
 ---
-id: i64qut2rc3wsr2hyvgpieth
+id: xvnfefwi9o4b10oxbk491wa
 title: The Compound Effect
 desc: ''
-updated: 1646855375393
-created: 1646855369108
+updated: 1646856211748
+created: 1646856184154
 tags:
   - Self Improvement
-  - Darren Hardy
+  - Rhenald Kasali
 ---
 
 Hal besar tidak terjadi dalam semalam, melainkan hal kecil yang dikumpulkan dan menjadi kebiasaan.
