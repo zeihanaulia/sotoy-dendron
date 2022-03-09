@@ -94,7 +94,7 @@ publishing:
         action: useVault
         payload:
             - vault
-    writeStubs: false
+    writeStubs: true
     seo:
         title: Dendron
         description: Personal knowledge space
