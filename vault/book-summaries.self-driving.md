@@ -1,12 +1,10 @@
 ---
 id: oorvvxz032oov7psrw9ygte
 title: Self Driving
-desc: ''
-updated: 1646860214990
+desc: 
+updated: 1647079773
 created: 1646854981225
-tags:
-  - Self Improvement
-  - Rhenald Kasali
+tags: [Self Improvement, Rhenald Kasali]
 ---
 
 #self-improvement
