@@ -1,9 +1,11 @@
 ---
-created: 2022-03-12T17:05:40+07:00
-modified: 2022-03-12T17:10:57+07:00
+id: uervvxz032oov7psrw9ygse
+title: Filosofi Teras
+updated: 1647079978
+created: 1646854981225
+tags: [Self Improvement, Henry Manampiring]
+desc: null
 ---
-
-# Filosofi Teras
 
 ## Kata Pengantar
 
