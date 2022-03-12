@@ -1,7 +1,7 @@
 ---
 id: uervvxz032oov7psrw9ygse
 title: Filosofi Teras
-updated: 1647079978
+updated: 1647080006
 created: 1646854981225
 tags: [Self Improvement, Henry Manampiring]
 desc: null
