@@ -22,6 +22,8 @@ commands:
 workspace:
     vaults:
         -
+            fsPath: vault2
+        -
             fsPath: vault
     journal:
         dailyDomain: daily
@@ -94,6 +96,7 @@ publishing:
         action: useVault
         payload:
             - vault
+            - vault2
     writeStubs: true
     seo:
         title: Dendron
