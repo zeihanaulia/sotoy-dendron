@@ -23,6 +23,10 @@ workspace:
     vaults:
         -
             fsPath: vault2
+            remote:
+                type: git
+                url: 'git@github.com:zeihanaulia/vault2.git'
+            name: vault2
         -
             fsPath: vault
     journal:
@@ -92,11 +96,6 @@ publishing:
     enableFrontmatterTags: true
     enableHashesForFMTags: false
     enableRandomlyColoredTags: true
-    duplicateNoteBehavior:
-        action: useVault
-        payload:
-            - vault
-            - vault2
     writeStubs: true
     seo:
         title: Dendron
@@ -107,3 +106,8 @@ publishing:
         editBranch: main
         editViewMode: tree
     enablePrettyLinks: true
+    duplicateNoteBehavior:
+        action: useVault
+        payload:
+            - vault2
+            - vault
