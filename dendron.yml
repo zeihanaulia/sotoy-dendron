@@ -24,6 +24,9 @@ workspace:
         -
             fsPath: vault2
             name: vault-private
+            remote:
+                type: git
+                url: 'git@github.com:zeihanaulia/journal.git'
         -
             fsPath: vault
     journal:
