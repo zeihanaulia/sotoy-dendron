@@ -22,12 +22,6 @@ commands:
 workspace:
     vaults:
         -
-            fsPath: vault2
-            remote:
-                type: git
-                url: 'git@github.com:zeihanaulia/vault2.git'
-            name: vault2
-        -
             fsPath: vault
     journal:
         dailyDomain: daily
@@ -106,8 +100,3 @@ publishing:
         editBranch: main
         editViewMode: tree
     enablePrettyLinks: true
-    duplicateNoteBehavior:
-        action: useVault
-        payload:
-            - vault2
-            - vault
