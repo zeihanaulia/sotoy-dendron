@@ -22,6 +22,9 @@ commands:
 workspace:
     vaults:
         -
+            fsPath: vault2
+            name: vault-private
+        -
             fsPath: vault
     journal:
         dailyDomain: daily
@@ -100,3 +103,8 @@ publishing:
         editBranch: main
         editViewMode: tree
     enablePrettyLinks: true
+    duplicateNoteBehavior:
+        action: useVault
+        payload:
+            - vault-private
+            - vault
