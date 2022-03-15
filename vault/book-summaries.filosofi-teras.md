@@ -1,13 +1,12 @@
 ---
-id: uervvxz032oov7psrw9ygse
+id: nqcileafeym7dxnxgdjw469
 title: Filosofi Teras
-desc: null
-updated: 1647080006
-created: 1646854981225
-tags:
-  - Self Improvement
-  - Henry Manampiring
+desc: ''
+updated: 1647314727767
+created: 1647314687902
 ---
+
+#self-improvement
 
 ## Kata Pengantar
 
