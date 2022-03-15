@@ -24,11 +24,13 @@ workspace:
         -
             fsPath: vault2
             name: vault-private
+            sync: sync
             remote:
                 type: git
                 url: 'git@github.com:zeihanaulia/journal.git'
         -
             fsPath: vault
+            name: vault-public
     journal:
         dailyDomain: daily
         name: journal
