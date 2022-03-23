@@ -22,13 +22,17 @@ commands:
 workspace:
     vaults:
         -
+            fsPath: templates
+            seed: dendron.templates
+            name: dendron.templates
+        -
             fsPath: vault2
             name: vault-private
             sync: sync
             visibility: private
             remote:
                 type: git
-                url: 'git@github.com:zeihanaulia/journal.git'
+                url: git@github.com:zeihanaulia/journal.git
         -
             fsPath: vault
             name: vault-public
@@ -73,7 +77,8 @@ workspace:
     enableEditorDecorations: true
     maxPreviewsCached: 10
     maxNoteLength: 204800
-    seeds: {}
+    seeds:
+        dendron.templates: {}
 preview:
     enableFMTitle: true
     enableNoteTitleForLink: true
@@ -95,7 +100,7 @@ publishing:
         - root
     enableSiteLastModified: true
     siteRootDir: docs
-    siteUrl: 'https://zeihanaulia.github.io'
+    siteUrl: https://zeihanaulia.github.io
     enableFrontmatterTags: true
     enableHashesForFMTags: false
     enableRandomlyColoredTags: true
@@ -114,3 +119,4 @@ publishing:
         payload:
             - vault-private
             - vault
+            - dendron.templates
