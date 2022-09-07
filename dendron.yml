@@ -18,7 +18,9 @@ commands:
         enableMultiSelect: false
     insertNoteIndex:
         enableMarker: false
-    copyNoteLink: {}
+    copyNoteLink:
+        aliasMode: title
+    templateHierarchy: template
 workspace:
     vaults:
         -
@@ -65,8 +67,12 @@ workspace:
             L: low
         todoIntegration: false
         createTaskSelectionType: selection2link
+        taskCompleteStatus:
+            - done
+            - x
     graph:
         zoomSpeed: 1
+        createStub: false
     enableAutoCreateOnDefinition: false
     enableXVaultWikiLink: false
     enableRemoteVaultInit: true
@@ -79,6 +85,8 @@ workspace:
     maxNoteLength: 204800
     seeds:
         dendron.templates: {}
+    enableFullHierarchyNoteTitle: false
+    enableSmartRefs: false
 preview:
     enableFMTitle: true
     enableNoteTitleForLink: true
@@ -120,3 +128,4 @@ publishing:
             - vault-private
             - vault
             - dendron.templates
+    enableTaskNotes: true
