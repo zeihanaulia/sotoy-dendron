@@ -2,7 +2,7 @@
 id: wjllig57c56t1zd1r06zi14
 title: Continous Delivery
 desc: ''
-updated: 1662668647008
+updated: 1662669642981
 created: 1662658315170
 ---
 
@@ -151,7 +151,7 @@ Menurut jez humble continous delivery adalah kemampuan dimana ketika kita melaku
       - availability
 
 NOTE:
-    - [chapter terhakhir sudah ditonton tapi belum dicatet](https://learning.oreilly.com/videos/continuous-delivery/9780134389363/9780134389363-CONT_01_04/)
+[chapter terhakhir sudah ditonton tapi belum dicatet](https://learning.oreilly.com/videos/continuous-delivery/9780134389363/9780134389363-CONT_01_04/)
 
 - Pertanyaan
   - Bagaimana implementasi continous delivery dengan proper
