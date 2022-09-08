@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/zeihanaulia/sotoy-dendron#readme",
   "dependencies": {
-    "@dendronhq/dendron-cli": "^0.85.0"
+    "@dendronhq/dendron-cli": "^0.111.0"
   }
 }
