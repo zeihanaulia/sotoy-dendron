@@ -9,5 +9,10 @@
     "editor.tabCompletion": "on",
     "markdownlint.config": {
         "MD007": { "indent": 2 },
-    }
+    },
+    "plantuml.render": "PlantUMLServer",
+    "plantuml.server": "http://localhost:8089",
+    "plantuml.commandArgs": [
+    
+    ]
 }

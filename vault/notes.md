@@ -2,8 +2,9 @@
 id: ohf85tu5nw2b8ewx6cetsmp
 title: Notes
 desc: ''
-updated: 1662526930770
+updated: 1663056595303
 created: 1659496157972
+published: false
 ---
 
 ## Dump notes
@@ -47,3 +48,25 @@ created: 1659496157972
   - KrakenD
   - Kong
   - Tyk
+
+### Identity & Access Management
+
+- Existing tools
+  - [Keycloak](https://www.keycloak.org/)
+  - [Casdoor](https://github.com/casdoor/casdoor)
+
+Referensi:
+
+- [https://github.com/kdeldycke/awesome-iam](https://github.com/kdeldycke/awesome-iam)
+
+### Frontend Development
+
+#### Web
+
+- React
+- Vue
+
+#### Mobile
+
+- React Native
+- Kotlin
