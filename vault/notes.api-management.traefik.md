@@ -1,6 +1,6 @@
 ---
 id: 70q1ezq7oigziebyru4erni
-title: Treafik
+title: Traefik
 desc: ''
 updated: 1664429855119
 created: 1664300381043
@@ -10,7 +10,7 @@ Treafik adalah cloud native router atau bisa kita bilang sebagai **API Gateway**
 Treafik dirancang untuk menyederhanakan operasi dari microservice.
 Project ini ada yang opensource dan ada yang enterprise.
 Project bertujuan memudahkan developer untuk mengembakan dan melakukan deploying aplikasi mereka.
- 
+ `
 ![treafik diagram](assets/treafik-diagram.png)  
 
 Treafik support ke setiap teknologi cluster seperti Kubernetes, Docker, Mesos dan lain lain.
