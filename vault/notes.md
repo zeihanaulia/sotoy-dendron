@@ -2,7 +2,7 @@
 id: ohf85tu5nw2b8ewx6cetsmp
 title: Notes
 desc: ''
-updated: 1663056595303
+updated: 1666072903686
 created: 1659496157972
 published: false
 ---
@@ -51,6 +51,10 @@ published: false
 
 ### Identity & Access Management
 
+- All About JWT
+  - [Symmetric vs Asymmetric JWTs](https://medium.com/@swayamraina/symmetric-vs-asymmetric-jwts-bd5d1a9567f6)
+  - [The Hard Parts of JWT Security Nobody Talks About](https://www.pingidentity.com/en/resources/blog/post/jwt-security-nobody-talks-about.html)
+
 - Existing tools
   - [Keycloak](https://www.keycloak.org/)
   - [Casdoor](https://github.com/casdoor/casdoor)
@@ -70,3 +74,12 @@ Referensi:
 
 - React Native
 - Kotlin
+
+### Software Architechture
+
+#### Diagraming
+
+- [https://c4model.com/](https://c4model.com/)
+- [The C4 Model for Software Architecture](https://www.infoq.com/articles/C4-architecture-model/)
+- [Automated Software Architecture Visualization & Emergent Understanding](https://esilva.net/articles/automated-software-architecture-visualization)
+  

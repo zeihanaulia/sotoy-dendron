@@ -2,7 +2,7 @@
 id: 70q1ezq7oigziebyru4erni
 title: Treafik
 desc: ''
-updated: 1664308942956
+updated: 1664429855119
 created: 1664300381043
 ---
 
@@ -72,4 +72,7 @@ Schema:
 - [https://json.schemastore.org/traefik-v2.json](https://json.schemastore.org/traefik-v2.json)
 - [https://json.schemastore.org/traefik-v2-file-provider.json](https://json.schemastore.org/traefik-v2-file-provider.json)
 
+Implementasi diatas akan menggunakan provider docker. Kita bisa juga menggunakan provider lain misalnya file.
+
+### File Provider
 

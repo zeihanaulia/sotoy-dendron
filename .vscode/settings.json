@@ -11,7 +11,7 @@
         "MD007": { "indent": 2 },
     },
     "plantuml.render": "PlantUMLServer",
-    "plantuml.server": "http://localhost:8089",
+    "plantuml.server": "http://localhost:3025",
     "plantuml.commandArgs": [
     
     ]
