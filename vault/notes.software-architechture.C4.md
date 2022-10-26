@@ -2,13 +2,23 @@
 id: lkwby4sk4bgobls2xo80u8c
 title: C4
 desc: ''
-updated: 1666075495393
+updated: 1666077306710
 created: 1666072852463
 ---
 <!-- markdownlint-disable no-missing-space-atx -->
 #software-architechture
 #diagram
 <!-- markdownlint-disable no-missing-space-atx -->
+
+C4 Diagram terdiri dari 4 tahap
+
+1. Context
+2. Contaners
+3. Component
+4. Code
+
+Yang akan digambar hanya 1-3 saja, sedangkan code itu adalah code yang akan kita tulis. ref: [simon tweet](https://twitter.com/simonbrown/status/1580504505086795778)
+Context menggambarkan `Big Picture` atau bagaimana user akan menggunakan sistem yang sedang kita bangun.
 
 ## C4 on VSCode with PlantUML extension
 
