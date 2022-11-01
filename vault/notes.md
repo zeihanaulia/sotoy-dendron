@@ -2,7 +2,7 @@
 id: ohf85tu5nw2b8ewx6cetsmp
 title: Notes
 desc: ''
-updated: 1666072903686
+updated: 1666760841977
 created: 1659496157972
 published: false
 ---
@@ -28,6 +28,9 @@ published: false
   - [https://www.payway.com.au/docs/rest.html#avoiding-duplicate-posts](https://www.payway.com.au/docs/rest.html#avoiding-duplicate-posts)
   - [https://gocardless.com/blog/idempotency-keys/](https://gocardless.com/blog/idempotency-keys/)
   - [https://stripe.com/docs/api/idempotent_requests](https://stripe.com/docs/api/idempotent_requests)
+
+- Internazionale
+  - Casdoor i18n
 
 ### Devcontainer
 
