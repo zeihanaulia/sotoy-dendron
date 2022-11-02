@@ -11,8 +11,6 @@ commands:
             bubbleUpCreateNew: true
             fuzzThreshold: 0.2
     randomNote: {}
-    insertNote:
-        initialValue: templates
     insertNoteLink:
         aliasMode: none
         enableMultiSelect: false
@@ -22,6 +20,7 @@ commands:
         aliasMode: title
     templateHierarchy: template
 workspace:
+    dendronVersion: 0.83.0
     vaults:
         -
             fsPath: templates
@@ -86,20 +85,17 @@ workspace:
     seeds:
         dendron.templates: {}
     enableFullHierarchyNoteTitle: false
-    enableSmartRefs: false
 preview:
     enableFMTitle: true
     enableNoteTitleForLink: true
     enableFrontmatterTags: true
     enableHashesForFMTags: false
-    enableMermaid: true
     enablePrettyRefs: true
     enableKatex: true
     automaticallyShowPreview: false
 publishing:
     enableFMTitle: true
     enableNoteTitleForLink: true
-    enableMermaid: true
     enablePrettyRefs: true
     enableKatex: true
     assetsPrefix: /sotoy
