@@ -2,7 +2,7 @@
 id: ohf85tu5nw2b8ewx6cetsmp
 title: Notes
 desc: ''
-updated: 1666760841977
+updated: 1669264768202
 created: 1659496157972
 published: false
 ---
@@ -86,3 +86,19 @@ Referensi:
 - [The C4 Model for Software Architecture](https://www.infoq.com/articles/C4-architecture-model/)
 - [Automated Software Architecture Visualization & Emergent Understanding](https://esilva.net/articles/automated-software-architecture-visualization)
   
+### Golang
+
+- Error Handling
+  - [Error Flags](https://npf.io/2021/04/errorflags/)
+  - [Error handling in Go HTTP applications](https://www.joeshaw.org/error-handling-in-go-http-applications/)
+
+- Memory Profiling
+  - untuk gin [https://github.com/gin-contrib/pprof](https://github.com/gin-contrib/pprof)
+  - ambil data heap
+    - curl http://localhost:8787/debug/pprof/heap > heap.6.pprof
+    - go tool pprof heap.pprof 
+  
+### Continous Profiling
+
+- pyroscope
+  - belum bisa melakukan profiling memoery

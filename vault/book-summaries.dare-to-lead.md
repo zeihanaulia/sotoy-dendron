@@ -2,7 +2,7 @@
 id: qt1780a5r3yr1h7fcqql1by
 title: Dare to Lead
 desc: ''
-updated: 1646860194802
+updated: 1668415907766
 created: 1646858780149
 tags:
   - Self Improvement
@@ -54,13 +54,13 @@ Ada tiga point,
 
 1. Kita tidak bisa mendapatkan keberanian tanpa bregemuruh dengan kerentanan, rangkulah kelemahan kita.
 
-Yang dimaksud dengan gemuruh adalah diskusi, percakapan atau pertemuan yang didasari oleh kerentanan. Mengidentifikasi masalahnya, hadapi dan mencoba lagi tanpa rasa takut dan belajar dari kesalahan.
+  Yang dimaksud dengan gemuruh adalah diskusi, percakapan atau pertemuan yang didasari oleh kerentanan. Mengidentifikasi masalahnya, hadapi dan mencoba lagi tanpa rasa takut dan belajar dari kesalahan.
 
 2. Kesadaran diri dan cinta diri itu penting. Siapa kita adalah bagaimana kita memimpin.
 
 3. Keberanian itu menular.
 
-Untuk meningkatkan kepemimpinan dan membangun keberanian didalam tim dan ognasisasi. Kita harus menumbuhkan budaya kerja yang berani, tough conversation dan sepenuh hati dan armor (jabatan) tidak diperdulikan.
+  Untuk meningkatkan kepemimpinan dan membangun keberanian didalam tim dan ognasisasi. Kita harus menumbuhkan budaya kerja yang berani, tough conversation dan sepenuh hati dan armor (jabatan) tidak diperdulikan.
 
 Pemimpin yang berani harus peduli dan terhubung dengan orang-orang yang dipimpinnya.
 
