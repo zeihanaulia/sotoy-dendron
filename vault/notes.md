@@ -2,7 +2,7 @@
 id: ohf85tu5nw2b8ewx6cetsmp
 title: Notes
 desc: ''
-updated: 1669264768202
+updated: 1674530389146
 created: 1659496157972
 published: false
 ---
@@ -51,6 +51,10 @@ published: false
   - KrakenD
   - Kong
   - Tyk
+
+- API Evolution
+  - [API Evolution without Versioning with Brandon Byars](https://www.infoq.com/podcasts/api-evolution-without-versioning)
+    - [mountebank](http://www.mbtest.org/)
 
 ### Identity & Access Management
 
@@ -101,4 +105,13 @@ Referensi:
 ### Continous Profiling
 
 - pyroscope
-  - belum bisa melakukan profiling memoery
+  - belum bisa melakukan profiling memory
+
+### Observability
+
+[[notes.observability]]
+
+- [Observability-driven development with Go and Tracetest](https://tracetest.io/blog/observability-driven-development-with-go-and-tracetest) 
+- [Why metrics, logs, and traces aren’t enough](https://www.elastic.co/blog/observability-profiling-metrics-logs-traces)
+- [Grafana Docs](https://grafana.com/docs/grafana/latest/)
+
