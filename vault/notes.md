@@ -2,9 +2,8 @@
 id: ohf85tu5nw2b8ewx6cetsmp
 title: Notes
 desc: ''
-updated: 1682012934948
+updated: 1682013531705
 created: 1659496157972
-published: true
 ---
 
 ## Dump notes
