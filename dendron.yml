@@ -28,6 +28,7 @@ workspace:
             fsPath: templates
             seed: dendron.templates
             name: dendron.templates
+            visibility: private
         -
             fsPath: vault2
             name: vault-private
