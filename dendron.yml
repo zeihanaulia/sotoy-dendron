@@ -23,6 +23,8 @@ workspace:
     dendronVersion: 0.83.0
     vaults:
         -
+            fsPath: vault
+        -
             fsPath: templates
             seed: dendron.templates
             name: dendron.templates
@@ -34,9 +36,6 @@ workspace:
             remote:
                 type: git
                 url: git@github.com:zeihanaulia/journal.git
-        -
-            fsPath: vault
-            name: vault-public
     journal:
         dailyDomain: daily
         name: journal

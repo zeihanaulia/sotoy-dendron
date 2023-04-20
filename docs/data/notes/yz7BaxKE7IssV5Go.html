@@ -1,0 +1,65 @@
+<h1 id="module">Module<a aria-hidden="true" class="anchor-heading icon-link" href="#module"></a></h1>
+<h2 id="summary">Summary<a aria-hidden="true" class="anchor-heading icon-link" href="#summary"></a></h2>
+<ul>
+<li>status: WIP</li>
+</ul>
+<p>This describes the <a href="/sotoy/module.schema.yml">module schema</a> in more detail. Modules are anything that encapsulate logic with software. They cover everything enmerated in <code>module.schema</code>. </p>
+<p>Dendron uses the schema to describe all of the <a href="https://wiki.dendron.so/notes/32cdd4aa-d9f6-4582-8d0c-07f64a00299b.html#summary">packages</a> it its monorepo. </p>
+<p>The module schema is meant to be used as part of other schemas. For example, in the template vault, it is used in both <code>pkg.schema</code> and <code>service.schema</code>. This is because both packages (eg. React, NextJS, etc) and services (eg. AWS S3, Github, Stripe, etc) share the same underlying structure (eg. quickstart, concepts, architecture, lifecycles, etc)</p>
+<h2 id="nodes">Nodes<a aria-hidden="true" class="anchor-heading icon-link" href="#nodes"></a></h2>
+<h3 id="quickstart">quickstart<a aria-hidden="true" class="anchor-heading icon-link" href="#quickstart"></a></h3>
+<p>How to get started as a user of the given module</p>
+<h3 id="concepts">concepts<a aria-hidden="true" class="anchor-heading icon-link" href="#concepts"></a></h3>
+<h3 id="concepts-1">concepts<a aria-hidden="true" class="anchor-heading icon-link" href="#concepts-1"></a></h3>
+<ul>
+<li>example: <a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">Concepts (Private)</a></li>
+</ul>
+<p>Any terms or concepts we should understand</p>
+<h3 id="architecture">architecture<a aria-hidden="true" class="anchor-heading icon-link" href="#architecture"></a></h3>
+<ul>
+<li>alias: arch</li>
+</ul>
+<p>This goes over the general architecture.</p>
+<p>This should include:</p>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled> mermaid diagram of major lifecylce events (eg. startup, shutdown, main feature) and components</li>
+<li class="task-list-item"><input type="checkbox" disabled> paragraph about major lifecycle events and components</li>
+</ul>
+<p>An archietcture node can have children if it exceeds 800 words. At that point, every lifecycle/component can be a direct child </p>
+<h3 id="dev">dev<a aria-hidden="true" class="anchor-heading icon-link" href="#dev"></a></h3>
+<p>This goes into specifics of the development process. Also includes cookbooks on doing specific operations</p>
+<h4 id="quickstart-1">quickstart<a aria-hidden="true" class="anchor-heading icon-link" href="#quickstart-1"></a></h4>
+<p>This goes into how to get started developing this module</p>
+<ul>
+<li>Sections:
+<ul>
+<li>Pre-Req: what is needed before you start</li>
+<li>Steps: How to setup the project for development</li>
+</ul>
+</li>
+</ul>
+<h3 id="faq">faq<a aria-hidden="true" class="anchor-heading icon-link" href="#faq"></a></h3>
+<p>Any commonly asked questions can be put here</p>
+<h3 id="ops">ops<a aria-hidden="true" class="anchor-heading icon-link" href="#ops"></a></h3>
+<ul>
+<li>example: <a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">Ops (Private)</a></li>
+</ul>
+<p>How do we diagnose problems with this module.</p>
+<h3 id="qa">qa<a aria-hidden="true" class="anchor-heading icon-link" href="#qa"></a></h3>
+<p>How do we maintain quality assurance on this module</p>
+<h4 id="test">test<a aria-hidden="true" class="anchor-heading icon-link" href="#test"></a></h4>
+<p>How do we functionally test that everything is correct</p>
+<h4 id="performance">performance<a aria-hidden="true" class="anchor-heading icon-link" href="#performance"></a></h4>
+<p>How do we test that the performance is sufficient?</p>
+<h3 id="quickstart-2">quickstart<a aria-hidden="true" class="anchor-heading icon-link" href="#quickstart-2"></a></h3>
+<ul>
+<li>example: <a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">Quickstart (Private)</a></li>
+</ul>
+<p>How do we get started with the module as a user</p>
+<h3 id="topic">topic<a aria-hidden="true" class="anchor-heading icon-link" href="#topic"></a></h3>
+<ul>
+<li>namespace: true</li>
+</ul>
+<p>This is for any major component of the module and might be a module itself.</p>
+<h3 id="wip">wip<a aria-hidden="true" class="anchor-heading icon-link" href="#wip"></a></h3>
+<p>Work in progress represents code that is currently being refactored</p>

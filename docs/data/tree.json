@@ -1,0 +1,592 @@
+{
+  "roots": [
+    {
+      "key": "spfwom01chbihki1twghclf",
+      "title": "Book Summaries",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "vault",
+      "children": [
+        {
+          "key": "n7oobf4m1pytfexf8scoxao",
+          "title": "14 Habits of Highly Productive Developers",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": []
+        },
+        {
+          "key": "qt1780a5r3yr1h7fcqql1by",
+          "title": "Dare to Lead",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": []
+        },
+        {
+          "key": "jljq4xao1aar28ec8sjucjn",
+          "title": "Developer Advocate",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": []
+        },
+        {
+          "key": "nqcileafeym7dxnxgdjw469",
+          "title": "Filosofi Teras",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": []
+        },
+        {
+          "key": "udapxjv1fpf80boxvak0rva",
+          "title": "Measure What Matters",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": []
+        },
+        {
+          "key": "oorvvxz032oov7psrw9ygte",
+          "title": "Self Driving",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": []
+        },
+        {
+          "key": "3nf7tr2quluye6g8t1c4lhr",
+          "title": "Staffeng",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": []
+        },
+        {
+          "key": "xvnfefwi9o4b10oxbk491wa",
+          "title": "The Compound Effect",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": []
+        }
+      ]
+    },
+    {
+      "key": "bsv930j2j6qlih60c7eu7wh",
+      "title": "Handbook",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "vault",
+      "children": [
+        {
+          "key": "3e9942id79hw89ncudt79ok",
+          "title": "Golang",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": [
+            {
+              "key": "gscpu1k5cvyqrwnobbyna8p",
+              "title": "1 Idiomatic",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "children": []
+            },
+            {
+              "key": "ro7nzb092u06toxmg4iofya",
+              "title": "2 Membuat HTTP Server",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "children": []
+            },
+            {
+              "key": "s74bijnsy1zt9zzshpmeyk3",
+              "title": "3 Build Image Dengan Docker",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "children": []
+            },
+            {
+              "key": "7hpir84idoztmofa72t2ozc",
+              "title": "4 Setup Golang CI",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "children": []
+            },
+            {
+              "key": "85suwlt8zylgcra3sradjfs",
+              "title": "5 Custom Metrics Dengan Promteheus",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ugk2ov2xb97m8o44u1b9iu1",
+      "title": "Schemas",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "dendron.templates",
+      "children": [
+        {
+          "key": "yz7BaxKE7IssV5Go",
+          "title": "Module",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "dendron.templates",
+          "children": []
+        }
+      ]
+    },
+    {
+      "key": "u3lhhpriar8wgcjw8svapha",
+      "title": "Tags",
+      "icon": "numberOutlined",
+      "hasTitleNumberOutlined": false,
+      "vaultName": "vault",
+      "children": [
+        {
+          "key": "eowp1kx28x7z84a884kho3i",
+          "title": "Brené Brown",
+          "icon": null,
+          "hasTitleNumberOutlined": true,
+          "vaultName": "vault",
+          "children": []
+        },
+        {
+          "key": "nlertrhxzb5mffxocj8c0uw",
+          "title": "Darren Hardy",
+          "icon": null,
+          "hasTitleNumberOutlined": true,
+          "vaultName": "vault",
+          "children": []
+        },
+        {
+          "key": "i4qdpg3wjwnulk1by0ti8dm",
+          "title": "Diagram",
+          "icon": null,
+          "hasTitleNumberOutlined": true,
+          "vaultName": "vault",
+          "children": []
+        },
+        {
+          "key": "6y00oq5e6tpq0g68u34frr7",
+          "title": "Docker",
+          "icon": null,
+          "hasTitleNumberOutlined": true,
+          "vaultName": "vault",
+          "children": []
+        },
+        {
+          "key": "1l18nvi2v8de3tka75ibojn",
+          "title": "Go",
+          "icon": null,
+          "hasTitleNumberOutlined": true,
+          "vaultName": "vault",
+          "children": []
+        },
+        {
+          "key": "wghdytgfyphqrrcmgp3ko0h",
+          "title": "Linter",
+          "icon": null,
+          "hasTitleNumberOutlined": true,
+          "vaultName": "vault",
+          "children": []
+        },
+        {
+          "key": "2s2ic9ajltco1l0einjx23g",
+          "title": "Rhenald Kasali",
+          "icon": null,
+          "hasTitleNumberOutlined": true,
+          "vaultName": "vault",
+          "children": []
+        },
+        {
+          "key": "8mz3dc3neqofv79za5ey5jp",
+          "title": "Self Improvement",
+          "icon": null,
+          "hasTitleNumberOutlined": true,
+          "vaultName": "vault",
+          "children": []
+        },
+        {
+          "key": "68iwuc6hvz6bq5i6l8r53qa",
+          "title": "Software Architechture",
+          "icon": null,
+          "hasTitleNumberOutlined": true,
+          "vaultName": "vault",
+          "children": []
+        },
+        {
+          "key": "gknqzf9ovamau992x4ew8u8",
+          "title": "Zeno Rocha",
+          "icon": null,
+          "hasTitleNumberOutlined": true,
+          "vaultName": "vault",
+          "children": []
+        }
+      ]
+    },
+    {
+      "key": "t58wEmhAtf1GlHmO",
+      "title": "Templates",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "dendron.templates",
+      "children": [
+        {
+          "key": "hXyoNOiZ0tRepcQ6Mw79Q",
+          "title": "Contacts",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "dendron.templates",
+          "children": []
+        },
+        {
+          "key": "r7ivsjgxmgiufuvwm0s6mqp",
+          "title": "Journal",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "dendron.templates",
+          "children": [
+            {
+              "key": "g670egliswm4fyrw3a93l7m",
+              "title": "Daily",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "dendron.templates",
+              "children": [
+                {
+                  "key": "x4bdzc7HETP9CDVGJJaHT",
+                  "title": "The Five Minute Journal",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "dendron.templates",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "xIwvEqQ71wRQ4wWk",
+          "title": "Module",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "dendron.templates",
+          "children": [
+            {
+              "key": "wpixDwK6nWSsGr8wJygM0",
+              "title": "Arch",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "dendron.templates",
+              "children": []
+            },
+            {
+              "key": "jU02nYSOp3VgANjM",
+              "title": "Dev",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "dendron.templates",
+              "children": [
+                {
+                  "key": "S6kgW0w5C7p2kzldJGQyi",
+                  "title": "Build",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "dendron.templates",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "ne7zjrxjurzaa9w6nbcnw1g",
+              "title": "Qa",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "dendron.templates",
+              "children": [
+                {
+                  "key": "37atxdsQM4EZsvtg",
+                  "title": "Debug",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "dendron.templates",
+                  "children": []
+                },
+                {
+                  "key": "hpEdCpUITvOQQ7wQ",
+                  "title": "Test",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "dendron.templates",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "WXSAaFaXKrsQd07dXfKJl",
+              "title": "Quickstart",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "dendron.templates",
+              "children": []
+            },
+            {
+              "key": "p1CSWjsY6fGAK69FbXkVa",
+              "title": "Topic",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "dendron.templates",
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "r9RV8pXvtAcoYjyn",
+          "title": "People",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "dendron.templates",
+          "children": []
+        },
+        {
+          "key": "dEQX87VBTFJdqBM0",
+          "title": "Project",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "dendron.templates",
+          "children": [
+            {
+              "key": "SYXrPmslg4yLWVDTB3J7d",
+              "title": "Writing",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "dendron.templates",
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "drpadXCVWfcVmnB5rwcdf",
+          "title": "Task List",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "dendron.templates",
+          "children": []
+        }
+      ]
+    },
+    {
+      "key": "aecilpcu1r34pyssvz4irzy",
+      "title": "Templates",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "vault",
+      "children": [
+        {
+          "key": "7bmupajj87y2ynur2co14cg",
+          "title": "Daily Journal Template",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": []
+        }
+      ]
+    },
+    {
+      "key": "tvdcga33h6hi7fxd9cwqd66",
+      "title": "Today I Learned",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "vault",
+      "children": [
+        {
+          "key": "ufs9d3p8e9ko04vng69ozhv",
+          "title": "Apa Itu Automation Workflow",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": []
+        },
+        {
+          "key": "czze72lb4zct2gtw8tn97e2",
+          "title": "bagaimana-instrumentasi-golang-dengan-elastic-APM",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": []
+        },
+        {
+          "key": "xnm5vsac3fqan9fasug824y",
+          "title": "Belajar Coaching",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": []
+        },
+        {
+          "key": "icjz52rcva7bmaw5f0dnubh",
+          "title": "Intermitten Fasting",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": []
+        },
+        {
+          "key": "amiow0h2k6amtoz2zfgn38v",
+          "title": "Preparing Performance Review",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": []
+        },
+        {
+          "key": "87x3xiegfz6oofofhvflxms",
+          "title": "Prometheus",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": []
+        },
+        {
+          "key": "e8r4q5f145zsdgsnyw0oxch",
+          "title": "Staff Engineer",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "child2parent": {
+    "spfwom01chbihki1twghclf": null,
+    "n7oobf4m1pytfexf8scoxao": "spfwom01chbihki1twghclf",
+    "qt1780a5r3yr1h7fcqql1by": "spfwom01chbihki1twghclf",
+    "jljq4xao1aar28ec8sjucjn": "spfwom01chbihki1twghclf",
+    "nqcileafeym7dxnxgdjw469": "spfwom01chbihki1twghclf",
+    "udapxjv1fpf80boxvak0rva": "spfwom01chbihki1twghclf",
+    "oorvvxz032oov7psrw9ygte": "spfwom01chbihki1twghclf",
+    "3nf7tr2quluye6g8t1c4lhr": "spfwom01chbihki1twghclf",
+    "xvnfefwi9o4b10oxbk491wa": "spfwom01chbihki1twghclf",
+    "bsv930j2j6qlih60c7eu7wh": null,
+    "3e9942id79hw89ncudt79ok": "bsv930j2j6qlih60c7eu7wh",
+    "gscpu1k5cvyqrwnobbyna8p": "3e9942id79hw89ncudt79ok",
+    "ro7nzb092u06toxmg4iofya": "3e9942id79hw89ncudt79ok",
+    "s74bijnsy1zt9zzshpmeyk3": "3e9942id79hw89ncudt79ok",
+    "7hpir84idoztmofa72t2ozc": "3e9942id79hw89ncudt79ok",
+    "85suwlt8zylgcra3sradjfs": "3e9942id79hw89ncudt79ok",
+    "ugk2ov2xb97m8o44u1b9iu1": null,
+    "yz7BaxKE7IssV5Go": "ugk2ov2xb97m8o44u1b9iu1",
+    "u3lhhpriar8wgcjw8svapha": null,
+    "eowp1kx28x7z84a884kho3i": "u3lhhpriar8wgcjw8svapha",
+    "nlertrhxzb5mffxocj8c0uw": "u3lhhpriar8wgcjw8svapha",
+    "i4qdpg3wjwnulk1by0ti8dm": "u3lhhpriar8wgcjw8svapha",
+    "6y00oq5e6tpq0g68u34frr7": "u3lhhpriar8wgcjw8svapha",
+    "1l18nvi2v8de3tka75ibojn": "u3lhhpriar8wgcjw8svapha",
+    "wghdytgfyphqrrcmgp3ko0h": "u3lhhpriar8wgcjw8svapha",
+    "2s2ic9ajltco1l0einjx23g": "u3lhhpriar8wgcjw8svapha",
+    "8mz3dc3neqofv79za5ey5jp": "u3lhhpriar8wgcjw8svapha",
+    "68iwuc6hvz6bq5i6l8r53qa": "u3lhhpriar8wgcjw8svapha",
+    "gknqzf9ovamau992x4ew8u8": "u3lhhpriar8wgcjw8svapha",
+    "t58wEmhAtf1GlHmO": null,
+    "hXyoNOiZ0tRepcQ6Mw79Q": "t58wEmhAtf1GlHmO",
+    "r7ivsjgxmgiufuvwm0s6mqp": "t58wEmhAtf1GlHmO",
+    "g670egliswm4fyrw3a93l7m": "r7ivsjgxmgiufuvwm0s6mqp",
+    "x4bdzc7HETP9CDVGJJaHT": "g670egliswm4fyrw3a93l7m",
+    "xIwvEqQ71wRQ4wWk": "t58wEmhAtf1GlHmO",
+    "wpixDwK6nWSsGr8wJygM0": "xIwvEqQ71wRQ4wWk",
+    "jU02nYSOp3VgANjM": "xIwvEqQ71wRQ4wWk",
+    "S6kgW0w5C7p2kzldJGQyi": "jU02nYSOp3VgANjM",
+    "ne7zjrxjurzaa9w6nbcnw1g": "xIwvEqQ71wRQ4wWk",
+    "37atxdsQM4EZsvtg": "ne7zjrxjurzaa9w6nbcnw1g",
+    "hpEdCpUITvOQQ7wQ": "ne7zjrxjurzaa9w6nbcnw1g",
+    "WXSAaFaXKrsQd07dXfKJl": "xIwvEqQ71wRQ4wWk",
+    "p1CSWjsY6fGAK69FbXkVa": "xIwvEqQ71wRQ4wWk",
+    "r9RV8pXvtAcoYjyn": "t58wEmhAtf1GlHmO",
+    "dEQX87VBTFJdqBM0": "t58wEmhAtf1GlHmO",
+    "SYXrPmslg4yLWVDTB3J7d": "dEQX87VBTFJdqBM0",
+    "drpadXCVWfcVmnB5rwcdf": "t58wEmhAtf1GlHmO",
+    "aecilpcu1r34pyssvz4irzy": null,
+    "7bmupajj87y2ynur2co14cg": "aecilpcu1r34pyssvz4irzy",
+    "tvdcga33h6hi7fxd9cwqd66": null,
+    "ufs9d3p8e9ko04vng69ozhv": "tvdcga33h6hi7fxd9cwqd66",
+    "czze72lb4zct2gtw8tn97e2": "tvdcga33h6hi7fxd9cwqd66",
+    "xnm5vsac3fqan9fasug824y": "tvdcga33h6hi7fxd9cwqd66",
+    "icjz52rcva7bmaw5f0dnubh": "tvdcga33h6hi7fxd9cwqd66",
+    "amiow0h2k6amtoz2zfgn38v": "tvdcga33h6hi7fxd9cwqd66",
+    "87x3xiegfz6oofofhvflxms": "tvdcga33h6hi7fxd9cwqd66",
+    "e8r4q5f145zsdgsnyw0oxch": "tvdcga33h6hi7fxd9cwqd66"
+  },
+  "notesLabelById": {
+    "spfwom01chbihki1twghclf": "Book Summaries",
+    "n7oobf4m1pytfexf8scoxao": "14 Habits of Highly Productive Developers",
+    "qt1780a5r3yr1h7fcqql1by": "Dare to Lead",
+    "jljq4xao1aar28ec8sjucjn": "Developer Advocate",
+    "nqcileafeym7dxnxgdjw469": "Filosofi Teras",
+    "udapxjv1fpf80boxvak0rva": "Measure What Matters",
+    "oorvvxz032oov7psrw9ygte": "Self Driving",
+    "3nf7tr2quluye6g8t1c4lhr": "Staffeng",
+    "xvnfefwi9o4b10oxbk491wa": "The Compound Effect",
+    "bsv930j2j6qlih60c7eu7wh": "Handbook",
+    "3e9942id79hw89ncudt79ok": "Golang",
+    "gscpu1k5cvyqrwnobbyna8p": "1 Idiomatic",
+    "ro7nzb092u06toxmg4iofya": "2 Membuat HTTP Server",
+    "s74bijnsy1zt9zzshpmeyk3": "3 Build Image Dengan Docker",
+    "7hpir84idoztmofa72t2ozc": "4 Setup Golang CI",
+    "85suwlt8zylgcra3sradjfs": "5 Custom Metrics Dengan Promteheus",
+    "ugk2ov2xb97m8o44u1b9iu1": "Schemas",
+    "yz7BaxKE7IssV5Go": "Module",
+    "u3lhhpriar8wgcjw8svapha": "Tags",
+    "eowp1kx28x7z84a884kho3i": "Brené Brown",
+    "nlertrhxzb5mffxocj8c0uw": "Darren Hardy",
+    "i4qdpg3wjwnulk1by0ti8dm": "Diagram",
+    "6y00oq5e6tpq0g68u34frr7": "Docker",
+    "1l18nvi2v8de3tka75ibojn": "Go",
+    "wghdytgfyphqrrcmgp3ko0h": "Linter",
+    "2s2ic9ajltco1l0einjx23g": "Rhenald Kasali",
+    "8mz3dc3neqofv79za5ey5jp": "Self Improvement",
+    "68iwuc6hvz6bq5i6l8r53qa": "Software Architechture",
+    "gknqzf9ovamau992x4ew8u8": "Zeno Rocha",
+    "t58wEmhAtf1GlHmO": "Templates",
+    "hXyoNOiZ0tRepcQ6Mw79Q": "Contacts",
+    "r7ivsjgxmgiufuvwm0s6mqp": "Journal",
+    "g670egliswm4fyrw3a93l7m": "Daily",
+    "x4bdzc7HETP9CDVGJJaHT": "The Five Minute Journal",
+    "xIwvEqQ71wRQ4wWk": "Module",
+    "wpixDwK6nWSsGr8wJygM0": "Arch",
+    "jU02nYSOp3VgANjM": "Dev",
+    "S6kgW0w5C7p2kzldJGQyi": "Build",
+    "ne7zjrxjurzaa9w6nbcnw1g": "Qa",
+    "37atxdsQM4EZsvtg": "Debug",
+    "hpEdCpUITvOQQ7wQ": "Test",
+    "WXSAaFaXKrsQd07dXfKJl": "Quickstart",
+    "p1CSWjsY6fGAK69FbXkVa": "Topic",
+    "r9RV8pXvtAcoYjyn": "People",
+    "dEQX87VBTFJdqBM0": "Project",
+    "SYXrPmslg4yLWVDTB3J7d": "Writing",
+    "drpadXCVWfcVmnB5rwcdf": "Task List",
+    "aecilpcu1r34pyssvz4irzy": "Templates",
+    "7bmupajj87y2ynur2co14cg": "Daily Journal Template",
+    "tvdcga33h6hi7fxd9cwqd66": "Today I Learned",
+    "ufs9d3p8e9ko04vng69ozhv": "Apa Itu Automation Workflow",
+    "czze72lb4zct2gtw8tn97e2": "bagaimana-instrumentasi-golang-dengan-elastic-APM",
+    "xnm5vsac3fqan9fasug824y": "Belajar Coaching",
+    "icjz52rcva7bmaw5f0dnubh": "Intermitten Fasting",
+    "amiow0h2k6amtoz2zfgn38v": "Preparing Performance Review",
+    "87x3xiegfz6oofofhvflxms": "Prometheus",
+    "e8r4q5f145zsdgsnyw0oxch": "Staff Engineer"
+  }
+}
