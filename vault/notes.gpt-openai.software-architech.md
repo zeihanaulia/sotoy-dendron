@@ -1,8 +1,8 @@
 ---
 id: 5rbi82qnchxua20px7l96qx
-title: Software Architech
+title: Software Architect
 desc: ''
-updated: 1670350261683
+updated: 1682012837977
 created: 1670345050974
 ---
 
