@@ -125,3 +125,4 @@ publishing:
             - vault
             - dendron.templates
     enableTaskNotes: true
+    searchMode: lookup
