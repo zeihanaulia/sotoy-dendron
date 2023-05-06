@@ -2,7 +2,7 @@
 id: ia5bmz82kr2m57t4b68lxm6
 title: The Most Powerful Way to Think First Principles
 desc: ''
-updated: 1682532342655
+updated: 1682563064475
 created: 1682531091616
 ---
 
@@ -66,4 +66,4 @@ menjadi pemikir prinsip pertama.
 
 3. Evaluasi solusi: Evaluasi setiap solusi yang dihasilkan dari sudut pandang logis dan fakta-fakta yang tersedia. Pertimbangkan juga konsekuensi jangka panjang dari setiap solusi. Jika solusi tersebut terbukti efektif, gunakan untuk memperbaiki proses pengembangan produk.
 
-4.Terus belajar: Tetap mempelajari teknologi dan tren terbaru dalam industri. Selalu mencari tahu cara-cara baru untuk memecahkan masalah dan meningkatkan proses pengembangan perangkat lunak.
+4. Terus belajar: Tetap mempelajari teknologi dan tren terbaru dalam industri. Selalu mencari tahu cara-cara baru untuk memecahkan masalah dan meningkatkan proses pengembangan perangkat lunak.
