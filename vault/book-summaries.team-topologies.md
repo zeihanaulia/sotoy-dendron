@@ -2,9 +2,9 @@
 id: z2knclhdtc45qgvhiv78nfx
 title: Team Topologies
 desc: ''
-updated: 1683526286489
+updated: 1683594980208
 created: 1683524168473
-published: false
+published: true
 ---
 
 ## The Problem with Org Charts
