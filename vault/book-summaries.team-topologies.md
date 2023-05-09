@@ -2,11 +2,18 @@
 id: z2knclhdtc45qgvhiv78nfx
 title: Team Topologies
 desc: ''
-updated: 1683595403722
+updated: 1683595554316
 created: 1683524168473
 ---
 
 ## The Problem with Org Charts
+
+### Problem & Solution
+
+Pada Chapter 1, buku ini membahas tentang masalah dalam pengembangan perangkat lunak yang sering terjadi di banyak organisasi, yaitu ketidakmampuan untuk mengoptimalkan aliran kerja dan feedback dari sistem yang dijalankan. Hal ini disebabkan oleh model organisasi tradisional yang terfokus pada spesialisasi fungsional, perencanaan proyek besar, dan minimnya perhatian terhadap dinamika sosioteknis dalam pengembangan perangkat lunak. Akibatnya, tim pengembang menjadi bottleneck dalam aliran kerja, memperlambat produksi, menurunkan kualitas, dan merusak motivasi anggota tim.
+
+Solusi yang ditawarkan oleh buku ini adalah pendekatan Team Topologies. Pendekatan ini mengusulkan desain organisasi yang lebih fleksibel dan adaptif dengan mengoptimalkan aliran perubahan dan umpan balik dari sistem yang dijalankan. Pendekatan ini mencakup perubahan dalam struktur, tujuan, dan interaksi tim, seperti pembatasan beban kognitif pada tim, perancangan interaksi tim secara eksplisit, dan pendekatan yang berorientasi pada tim. Dengan mengadopsi pendekatan Team Topologies, organisasi dapat mengoptimalkan aliran kerja dan meningkatkan adaptabilitas strategis mereka dalam jangka panjang.
+
 
 ### Takeaways
 
