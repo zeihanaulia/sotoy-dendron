@@ -2,9 +2,8 @@
 id: k774ju38pzm0h85rubp4dib
 title: The Problem with Org Charts
 desc: ''
-updated: 1683594993713
+updated: 1683595988177
 created: 1683526227862
-published: false
 ---
 
 
