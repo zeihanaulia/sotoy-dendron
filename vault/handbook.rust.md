@@ -2,11 +2,9 @@
 id: qsjn6anz0awbgtdp59s2n0i
 title: Rust
 desc: ''
-updated: 1705884556500
+updated: 1705884635260
 created: 1705884547047
 ---
-
-# Rust
 
 
 ## Setup
@@ -145,8 +143,7 @@ fn main() {
             let x = tup.0;
             let y = tup.1;
             let z = tup.2;
-
-        
+                    
             println!("The value of y is: {y}");
             println!("The value of z is: {z}");
             println!("The value of x is: {x}");
