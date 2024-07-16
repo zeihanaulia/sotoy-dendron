@@ -1,11 +1,12 @@
 ---
 id: oqxmejlafk9x8rj9t5hya5z
-title: Root
+title: Hi 👋
 desc: ''
-updated: 1646842475821
+updated: 1721116613997
 created: 1646842475821
 ---
-# Welcome to Dendron
+
+# Welcome to Sotoy
 
 This is the root of your dendron vault. If you decide to publish your entire vault, this will be your landing page. You are free to customize any part of this page except the frontmatter on top.
 
