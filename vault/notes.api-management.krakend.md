@@ -2,8 +2,9 @@
 id: dd0wc0prbr3pdpaekn3fp45
 title: Krakend
 desc: 'Explorasi KrakenD as API Gateway'
-updated: 1660833704366
+updated: 1721120112479
 created: 1660828707297
+published: false
 ---
 
 ### Basic Configuration

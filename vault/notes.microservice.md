@@ -2,8 +2,9 @@
 id: 32oadwuttrn541ymo6goqgl
 title: Microservice
 desc: ''
-updated: 1666075457351
+updated: 1721120170874
 created: 1659496157972
+published: false
 ---
 <!-- markdownlint-disable no-missing-space-atx -->
 #software-architechture

@@ -2,8 +2,9 @@
 id: 70q1ezq7oigziebyru4erni
 title: Traefik
 desc: ''
-updated: 1664429855119
+updated: 1721120117344
 created: 1664300381043
+published: false
 ---
 
 Treafik adalah cloud native router atau bisa kita bilang sebagai **API Gateway**.

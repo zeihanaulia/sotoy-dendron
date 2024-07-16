@@ -2,8 +2,9 @@
 id: peeaztaxxqvz0si81boibof
 title: Identity and Access Management
 desc: ''
-updated: 1669126725154
+updated: 1721120161104
 created: 1669118210026
+published: false
 ---
 
 ### Apa itu SAML, OAUTH2 dan OpenID Connect

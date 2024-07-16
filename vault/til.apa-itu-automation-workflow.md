@@ -2,8 +2,9 @@
 id: ufs9d3p8e9ko04vng69ozhv
 title: Apa Itu Automation Workflow
 desc: ''
-updated: 1647585187672
+updated: 1721120225039
 created: 1647584221450
+published: false
 ---
 
 Automation Workflow atau memproses secara otomatis.

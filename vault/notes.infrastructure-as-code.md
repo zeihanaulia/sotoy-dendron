@@ -2,8 +2,9 @@
 id: wbb03dc3mk9zsxwuiwbhweg
 title: Infrastructure as Code
 desc: ''
-updated: 1674204404224
+updated: 1721120167108
 created: 1674182809610
+published: false
 ---
 
 - Terraform
