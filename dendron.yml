@@ -110,7 +110,7 @@ publishing:
     enableRandomlyColoredTags: true
     writeStubs: true
     seo:
-        title: Dendron
+        title: Sotoy
         description: Personal knowledge space
     github:
         enableEditLink: true
