@@ -1,7 +1,7 @@
 name: Build Dendron Static Site
 
 on:
-  workflow_dispatch: # Enables manual triggering
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -14,7 +14,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '20.15.1' # Sesuaikan dengan versi lokal Anda
+          node-version: '20.15.1'
 
       # Step 2: Checkout source code
       - name: Checkout source
@@ -22,53 +22,35 @@ jobs:
         with:
           fetch-depth: 0
 
-      # Step 3: Cache Node modules
-      - name: Restore Node modules cache
-        uses: actions/cache@v2
-        id: node-modules-cache
-        with:
-          path: |
-            node_modules
-            .next/*
-            !.next/.next/cache
-            !.next/.env.*
-          key: ${{ runner.os }}-dendronv2-${{ hashFiles('**/yarn.lock', '**/package-lock.json') }}
+      # Step 3: Clear caches and Node modules
+      - name: Clear caches
+        run: rm -rf node_modules .next
 
-      # Step 4: Clear existing Node modules (optional but ensures clean state)
-      - name: Clear Node modules
-        run: rm -rf node_modules
-
-      # Step 5: Install dependencies
+      # Step 4: Install dependencies
       - name: Install dependencies
         run: yarn install
 
-      # Step 6: Update critical dependencies to latest versions
-      - name: Update React, Ant Design, and TypeScript
+      # Step 5: Update critical dependencies
+      - name: Update critical dependencies
         run: |
           yarn add react@latest react-dom@latest antd@latest
           yarn add --dev typescript@latest @types/react @types/react-dom @types/antd
 
-      # Step 7: Install types for lodash
-      - name: Install @types/lodash
-        run: yarn add --dev @types/lodash
-
-      # Step 8: Remove private and template vaults
+      # Step 6: Remove private and template vaults
       - name: Remove private and template vaults
         run: |
           echo "Removing private and template vaults from dendron.yml..."
           sed -i '/- fsPath: templates/,+3d' dendron.yml
           sed -i '/- fsPath: vault2/,+6d' dendron.yml
-          echo "Updated dendron.yml:"
-          cat dendron.yml
 
-      # Step 9: Initialize or pull Next.js template
-      - name: Initialize or pull nextjs template
+      # Step 7: Initialize or pull Next.js template
+      - name: Initialize or pull Next.js template
         run: |
           (test -d .next) && \
           (echo 'Updating Dendron Next.js template...' && cd .next && git reset --hard && git pull && yarn && cd ..) || \
           (echo 'Initializing Dendron Next.js template...' && yarn dendron publish init)
 
-      # Step 10: Cache Next.js build
+      # Step 8: Restore Next.js cache
       - name: Restore Next.js cache
         uses: actions/cache@v2
         with:
@@ -78,17 +60,24 @@ jobs:
             .next/static/chunks
           key: ${{ runner.os }}-nextjs-${{ hashFiles('.next/yarn.lock', '.next/package-lock.json') }}-${{ hashFiles('.next/**.[jt]s', '.next/**.[jt]sx') }}
 
-      # Step 11: Check Dendron version
-      - name: Check dendron version
+      # Step 9: Check Dendron version
+      - name: Check Dendron version
         run: yarn dendron --version
 
-      # Step 12: Export notes for publishing
+      # Step 10: Build the project
+      - name: Build the project
+        env:
+          NODE_ENV: production
+        run: |
+          yarn build || (echo "Build failed. Debug logs:" && cat .next/trace && exit 1)
+
+      # Step 11: Export notes for publishing
       - name: Export notes
         run: |
           yarn dendron publish export --target github --yes || \
           (echo "Export failed. Debug logs:" && cat dendron.log && exit 1)
 
-      # Step 13: Deploy site using GitHub Pages
+      # Step 12: Deploy site using GitHub Pages
       - name: Deploy site
         uses: peaceiris/actions-gh-pages@v3
         with:
@@ -96,4 +85,3 @@ jobs:
           publish_branch: pages
           publish_dir: docs/
           force_orphan: true
-          # cname: example.com (Uncomment if using a custom domain)
