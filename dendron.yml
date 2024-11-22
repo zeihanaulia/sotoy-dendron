@@ -111,7 +111,12 @@ publishing:
     writeStubs: true
     seo:
         title: Sotoy
-        description: Personal knowledge space
+        description: Personal knowledge space about anything I learn. Notes, knowledge, and ideas from me.
+        author: "Zeihan Aulia"
+        twitter: "zeihanaulia"
+        image:
+          url: "https://pbs.twimg.com/profile_images/502375255256485888/1UYtt7PT_400x400.jpeg"
+          alt: "Software Engineer, "
     github:
         enableEditLink: true
         editLinkText: Edit this page on GitHub
