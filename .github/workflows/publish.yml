@@ -10,13 +10,19 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      # Step 1: Checkout source code
+      # Step 1: Setup Node.js to match local version
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20.15.1' # Sesuaikan dengan versi lokal Anda
+
+      # Step 2: Checkout source code
       - name: Checkout source
         uses: actions/checkout@v2
         with:
           fetch-depth: 0
 
-      # Step 2: Cache Node modules
+      # Step 3: Cache Node modules
       - name: Restore Node modules cache
         uses: actions/cache@v2
         id: node-modules-cache
@@ -28,25 +34,25 @@ jobs:
             !.next/.env.*
           key: ${{ runner.os }}-dendronv2-${{ hashFiles('**/yarn.lock', '**/package-lock.json') }}
 
-      # Step 3: Clear existing Node modules (optional but ensures clean state)
+      # Step 4: Clear existing Node modules (optional but ensures clean state)
       - name: Clear Node modules
         run: rm -rf node_modules
 
-      # Step 4: Install dependencies
+      # Step 5: Install dependencies
       - name: Install dependencies
         run: yarn install
 
-      # Step 5: Update critical dependencies to latest versions
+      # Step 6: Update critical dependencies to latest versions
       - name: Update React, Ant Design, and TypeScript
         run: |
           yarn add react@latest react-dom@latest antd@latest
           yarn add --dev typescript@latest @types/react @types/react-dom @types/antd
 
-      # Step 6: Install types for lodash
+      # Step 7: Install types for lodash
       - name: Install @types/lodash
         run: yarn add --dev @types/lodash
 
-      # Step 7: Remove private and template vaults
+      # Step 8: Remove private and template vaults
       - name: Remove private and template vaults
         run: |
           echo "Removing private and template vaults from dendron.yml..."
@@ -55,14 +61,14 @@ jobs:
           echo "Updated dendron.yml:"
           cat dendron.yml
 
-      # Step 8: Initialize or pull Next.js template
+      # Step 9: Initialize or pull Next.js template
       - name: Initialize or pull nextjs template
         run: |
           (test -d .next) && \
           (echo 'Updating Dendron Next.js template...' && cd .next && git reset --hard && git pull && yarn && cd ..) || \
           (echo 'Initializing Dendron Next.js template...' && yarn dendron publish init)
 
-      # Step 9: Cache Next.js build
+      # Step 10: Cache Next.js build
       - name: Restore Next.js cache
         uses: actions/cache@v2
         with:
@@ -72,17 +78,17 @@ jobs:
             .next/static/chunks
           key: ${{ runner.os }}-nextjs-${{ hashFiles('.next/yarn.lock', '.next/package-lock.json') }}-${{ hashFiles('.next/**.[jt]s', '.next/**.[jt]sx') }}
 
-      # Step 10: Check Dendron version
+      # Step 11: Check Dendron version
       - name: Check dendron version
         run: yarn dendron --version
 
-      # Step 11: Export notes for publishing
+      # Step 12: Export notes for publishing
       - name: Export notes
         run: |
           yarn dendron publish export --target github --yes || \
           (echo "Export failed. Debug logs:" && cat dendron.log && exit 1)
 
-      # Step 12: Deploy site using GitHub Pages
+      # Step 13: Deploy site using GitHub Pages
       - name: Deploy site
         uses: peaceiris/actions-gh-pages@v3
         with:
