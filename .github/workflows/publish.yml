@@ -1,16 +1,16 @@
-name: Publish Notes to GitHub Pages
+name: Build Dendron Static Site
 
 on:
   workflow_dispatch: # Enables on-demand/manual triggering
   push:
     branches:
-      - main
+    - main
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout source code
+    - name: Checkout source
       uses: actions/checkout@v2
       with:
         fetch-depth: 0
@@ -27,21 +27,10 @@ jobs:
         key: ${{ runner.os }}-dendronv2-${{ hashFiles('**/yarn.lock', '**/package-lock.json') }}
 
     - name: Install dependencies
-      run: npx install-peerdeps --dev @dendronhq/cli
+      run: yarn
 
     - name: Initialize or pull nextjs template
-      run: |
-        if [ ! -d ".next" ]; then
-          echo "Initializing dendron next..."
-          npx dendron publish init
-        else
-          echo "Updating dendron next..."
-          cd .next
-          git reset --hard
-          git pull
-          npm install
-          cd ..
-        fi
+      run: "(test -d .next) && (echo 'updating dendron next...' && cd .next && git reset --hard && git pull && yarn && cd ..) || (echo 'init dendron next' && yarn dendron publish init)"
 
     - name: Restore Next cache
       uses: actions/cache@v2
@@ -53,15 +42,24 @@ jobs:
         key: ${{ runner.os }}-nextjs-${{ hashFiles('.next/yarn.lock', '.next/package-lock.json') }}-${{ hashFiles('.next/**.[jt]s', '.next/**.[jt]sx') }}
 
     - name: Check dendron version
-      run: npx dendron --version
+      run: yarn dendron --version
 
+    - name: Remove private and template vaults
+      run: |
+        echo "Removing private and template vaults from dendron.yml..."
+        sed -i '/fsPath: templates/,+4d' dendron.yml
+        sed -i '/fsPath: vault2/,+6d' dendron.yml
+        echo "Updated dendron.yml:"
+        cat dendron.yml
+  
     - name: Export notes
-      run: npx dendron publish export --target github --yes
+      run: yarn dendron publish export --target github --yes
 
-    - name: Deploy to GitHub Pages
+    - name: Deploy site
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_branch: pages
         publish_dir: docs/
         force_orphan: true
+        #cname: example.com
