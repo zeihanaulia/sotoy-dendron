@@ -39,7 +39,6 @@ jobs:
       # Step 6: Remove private and template vaults
       - name: Remove private and template vaults
         run: |
-          echo "Removing private and template vaults from dendron.yml..."
           sed -i '/- fsPath: templates/,+3d' dendron.yml
           sed -i '/- fsPath: vault2/,+6d' dendron.yml
 
@@ -66,10 +65,8 @@ jobs:
 
       # Step 10: Build the project
       - name: Build the project
-        env:
-          NODE_ENV: production
         run: |
-          yarn build || (echo "Build failed. Debug logs:" && cat .next/trace && exit 1)
+          yarn build || (echo "Build failed. Debugging logs:" && ls -R . && exit 1)
 
       # Step 11: Export notes for publishing
       - name: Export notes
