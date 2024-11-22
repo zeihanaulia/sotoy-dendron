@@ -27,10 +27,10 @@ jobs:
         key: ${{ runner.os }}-dendronv2-${{ hashFiles('**/yarn.lock', '**/package-lock.json') }}
 
     - name: Install dependencies
-      run: yarn
+      run: npx install-peerdeps --dev @dendronhq/cli
 
     - name: Initialize or pull nextjs template
-      run: "(test -d .next) && (echo 'updating dendron next...' && cd .next && git reset --hard && git pull && yarn && cd ..) || (echo 'init dendron next' && yarn dendron publish init)"
+      run: "(test -d .next) && (echo 'updating dendron next...' && cd .next && git reset --hard && git pull && npx install-peerdeps --dev @dendronhq/cli && cd ..) || (echo 'init dendron next' && npx install-peerdeps --dev @dendronhq/cli && npx dendron publish init)"
 
     - name: Restore Next cache
       uses: actions/cache@v2
@@ -42,10 +42,10 @@ jobs:
         key: ${{ runner.os }}-nextjs-${{ hashFiles('.next/yarn.lock', '.next/package-lock.json') }}-${{ hashFiles('.next/**.[jt]s', '.next/**.[jt]sx') }}
 
     - name: Check dendron version
-      run: yarn dendron --version
+      run: npx dendron --version
 
     - name: Export notes
-      run: yarn dendron publish export --target github --yes
+      run: npx dendron publish export --target github --yes
 
     - name: Deploy site
       uses: peaceiris/actions-gh-pages@v3
@@ -54,4 +54,3 @@ jobs:
         publish_branch: pages
         publish_dir: docs/
         force_orphan: true
-        #cname: example.com
