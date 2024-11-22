@@ -1,8 +1,8 @@
 ---
 id: czze72lb4zct2gtw8tn97e2
-title: bagaimana-instrumentasi-golang-dengan-elastic-APM
+title: Bagaimana instrumentasi golang dengan elastic APM
 desc: ''
-updated: 1647492888219
+updated: 1732274111594
 created: 1647490689917
 ---
 
