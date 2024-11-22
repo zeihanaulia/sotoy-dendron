@@ -36,7 +36,8 @@
       {
         "fsPath": "templates",
         "seed": "dendron.templates",
-        "name": "dendron.templates"
+        "name": "dendron.templates",
+        "visibility": "private"
       },
       {
         "fsPath": "vault2",
@@ -127,8 +128,14 @@
     "writeStubs": true,
     "siteRootDir": "docs",
     "seo": {
-      "title": "Dendron",
-      "description": "Personal knowledge space"
+      "title": "Sotoy",
+      "description": "Personal knowledge space about anything I learn. Notes, knowledge, and ideas from me.",
+      "author": "Zeihan Aulia",
+      "twitter": "zeihanaulia",
+      "image": {
+        "url": "https://pbs.twimg.com/profile_images/502375255256485888/1UYtt7PT_400x400.jpeg",
+        "alt": "Software Engineer, "
+      }
     },
     "github": {
       "enableEditLink": true,

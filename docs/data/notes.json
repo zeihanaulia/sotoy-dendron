@@ -9,8 +9,8 @@
       "title": "This page has not yet sprouted",
       "schemaStub": false,
       "type": "note",
-      "updated": 1682012520846,
-      "created": 1682012520846,
+      "updated": 1732273830091,
+      "created": 1732273830091,
       "desc": "",
       "links": [],
       "anchors": {},
@@ -20,9 +20,9 @@
     },
     "oqxmejlafk9x8rj9t5hya5z": {
       "id": "oqxmejlafk9x8rj9t5hya5z",
-      "title": "Root",
+      "title": "Hi 👋",
       "desc": "",
-      "updated": 1646842475821,
+      "updated": 1721116613997,
       "created": 1646842475821,
       "custom": {
         "nav_order": 0,
@@ -33,14 +33,14 @@
       "vault": {
         "fsPath": "vault"
       },
-      "contentHash": "07f18305ffd998624eafbf443e02f3c2",
+      "contentHash": "64c62caa2f0c02c2d68a5a2d826cc01e",
       "links": [],
       "anchors": {
-        "welcome-to-dendron": {
+        "welcome-to-sotoy": {
           "type": "header",
-          "text": "Welcome to Dendron",
-          "value": "welcome-to-dendron",
-          "line": 7,
+          "text": "Welcome to Sotoy",
+          "value": "welcome-to-sotoy",
+          "line": 8,
           "column": 0,
           "depth": 1
         },
@@ -48,7 +48,7 @@
           "type": "header",
           "text": "Lookup",
           "value": "lookup",
-          "line": 11,
+          "line": 12,
           "column": 0,
           "depth": 2
         }
@@ -56,1476 +56,10 @@
       "children": [
         "spfwom01chbihki1twghclf",
         "bsv930j2j6qlih60c7eu7wh",
-        "u3lhhpriar8wgcjw8svapha",
-        "aecilpcu1r34pyssvz4irzy",
-        "tvdcga33h6hi7fxd9cwqd66",
-        "ugk2ov2xb97m8o44u1b9iu1",
-        "t58wEmhAtf1GlHmO"
+        "ohf85tu5nw2b8ewx6cetsmp",
+        "tvdcga33h6hi7fxd9cwqd66"
       ],
       "parent": null,
-      "data": {}
-    },
-    "t58wEmhAtf1GlHmO": {
-      "id": "t58wEmhAtf1GlHmO",
-      "title": "Templates",
-      "desc": "",
-      "updated": 1627011873671,
-      "created": 1627011827853,
-      "stub": false,
-      "custom": {
-        "stub": false
-      },
-      "fname": "templates",
-      "type": "note",
-      "vault": {
-        "fsPath": "templates",
-        "seed": "dendron.templates",
-        "name": "dendron.templates"
-      },
-      "contentHash": "2dd61d773544e8cb975ed7e7759ad5f1",
-      "links": [],
-      "anchors": {
-        "summary": {
-          "type": "header",
-          "text": "Summary",
-          "value": "summary",
-          "line": 8,
-          "column": 0,
-          "depth": 2
-        }
-      },
-      "children": [
-        "hXyoNOiZ0tRepcQ6Mw79Q",
-        "r7ivsjgxmgiufuvwm0s6mqp",
-        "xIwvEqQ71wRQ4wWk",
-        "r9RV8pXvtAcoYjyn",
-        "dEQX87VBTFJdqBM0",
-        "drpadXCVWfcVmnB5rwcdf"
-      ],
-      "parent": "oqxmejlafk9x8rj9t5hya5z",
-      "data": {}
-    },
-    "drpadXCVWfcVmnB5rwcdf": {
-      "id": "drpadXCVWfcVmnB5rwcdf",
-      "title": "Task List",
-      "desc": "",
-      "updated": 1625827127150,
-      "created": 1625827127150,
-      "custom": {},
-      "fname": "templates.task-list",
-      "type": "note",
-      "vault": {
-        "fsPath": "templates",
-        "seed": "dendron.templates",
-        "name": "dendron.templates"
-      },
-      "contentHash": "2d3b8c6f0c7d844c8603a8efea0710a4",
-      "links": [],
-      "anchors": {
-        "important": {
-          "type": "header",
-          "text": "Important:",
-          "value": "important",
-          "line": 8,
-          "column": 0,
-          "depth": 3
-        },
-        "planned": {
-          "type": "header",
-          "text": "Planned:",
-          "value": "planned",
-          "line": 13,
-          "column": 0,
-          "depth": 3
-        }
-      },
-      "children": [],
-      "parent": "t58wEmhAtf1GlHmO",
-      "data": {}
-    },
-    "dEQX87VBTFJdqBM0": {
-      "id": "dEQX87VBTFJdqBM0",
-      "title": "Project",
-      "desc": "",
-      "updated": 1627597601449,
-      "created": 1627011879390,
-      "startDate": "TODO: date to start",
-      "endDate": "TODO: when project ends",
-      "custom": {
-        "startDate": "TODO: date to start",
-        "endDate": "TODO: when project ends"
-      },
-      "fname": "templates.project",
-      "type": "note",
-      "vault": {
-        "fsPath": "templates",
-        "seed": "dendron.templates",
-        "name": "dendron.templates"
-      },
-      "contentHash": "99d0dafeb322b64ec572ec25bc4433d3",
-      "links": [],
-      "anchors": {
-        "goal": {
-          "type": "header",
-          "text": "Goal",
-          "value": "goal",
-          "line": 10,
-          "column": 0,
-          "depth": 2
-        },
-        "context": {
-          "type": "header",
-          "text": "Context",
-          "value": "context",
-          "line": 13,
-          "column": 0,
-          "depth": 2
-        },
-        "success-criteria": {
-          "type": "header",
-          "text": "Success Criteria",
-          "value": "success-criteria",
-          "line": 16,
-          "column": 0,
-          "depth": 2
-        },
-        "log": {
-          "type": "header",
-          "text": "Log",
-          "value": "log",
-          "line": 19,
-          "column": 0,
-          "depth": 2
-        },
-        "outputs": {
-          "type": "header",
-          "text": "Outputs",
-          "value": "outputs",
-          "line": 22,
-          "column": 0,
-          "depth": 2
-        },
-        "tasks": {
-          "type": "header",
-          "text": "Tasks",
-          "value": "tasks",
-          "line": 27,
-          "column": 0,
-          "depth": 2
-        },
-        "notes": {
-          "type": "header",
-          "text": "Notes",
-          "value": "notes",
-          "line": 30,
-          "column": 0,
-          "depth": 2
-        },
-        "lookup": {
-          "type": "header",
-          "text": "Lookup",
-          "value": "lookup",
-          "line": 33,
-          "column": 0,
-          "depth": 2
-        }
-      },
-      "children": [
-        "SYXrPmslg4yLWVDTB3J7d"
-      ],
-      "parent": "t58wEmhAtf1GlHmO",
-      "data": {}
-    },
-    "SYXrPmslg4yLWVDTB3J7d": {
-      "id": "SYXrPmslg4yLWVDTB3J7d",
-      "title": "Writing",
-      "desc": "",
-      "updated": 1629088282640,
-      "created": 1629077359293,
-      "custom": {},
-      "fname": "templates.project.writing",
-      "type": "note",
-      "vault": {
-        "fsPath": "templates",
-        "seed": "dendron.templates",
-        "name": "dendron.templates"
-      },
-      "contentHash": "b6e1ffa09fca013b6090031bc26c79df",
-      "links": [
-        {
-          "type": "wiki",
-          "from": {
-            "fname": "templates.project.writing",
-            "id": "SYXrPmslg4yLWVDTB3J7d",
-            "vaultName": "dendron.templates"
-          },
-          "value": "proj.",
-          "position": {
-            "start": {
-              "line": 27,
-              "column": 3,
-              "offset": 624
-            },
-            "end": {
-              "line": 27,
-              "column": 12,
-              "offset": 633
-            },
-            "indent": []
-          },
-          "xvault": false,
-          "sameFile": false,
-          "to": {
-            "fname": "proj."
-          }
-        },
-        {
-          "type": "wiki",
-          "from": {
-            "fname": "templates.project.writing",
-            "id": "SYXrPmslg4yLWVDTB3J7d",
-            "vaultName": "dendron.templates"
-          },
-          "value": "proj..outline",
-          "position": {
-            "start": {
-              "line": 28,
-              "column": 3,
-              "offset": 636
-            },
-            "end": {
-              "line": 28,
-              "column": 20,
-              "offset": 653
-            },
-            "indent": []
-          },
-          "xvault": false,
-          "sameFile": false,
-          "to": {
-            "fname": "proj..outline"
-          }
-        },
-        {
-          "type": "wiki",
-          "from": {
-            "fname": "templates.project.writing",
-            "id": "SYXrPmslg4yLWVDTB3J7d",
-            "vaultName": "dendron.templates"
-          },
-          "value": "proj..v1",
-          "position": {
-            "start": {
-              "line": 29,
-              "column": 3,
-              "offset": 656
-            },
-            "end": {
-              "line": 29,
-              "column": 15,
-              "offset": 668
-            },
-            "indent": []
-          },
-          "xvault": false,
-          "sameFile": false,
-          "to": {
-            "fname": "proj..v1"
-          }
-        },
-        {
-          "type": "wiki",
-          "from": {
-            "fname": "templates.project.writing",
-            "id": "SYXrPmslg4yLWVDTB3J7d",
-            "vaultName": "dendron.templates"
-          },
-          "value": "proj..v2",
-          "position": {
-            "start": {
-              "line": 30,
-              "column": 3,
-              "offset": 671
-            },
-            "end": {
-              "line": 30,
-              "column": 15,
-              "offset": 683
-            },
-            "indent": []
-          },
-          "xvault": false,
-          "sameFile": false,
-          "to": {
-            "fname": "proj..v2"
-          }
-        },
-        {
-          "type": "wiki",
-          "from": {
-            "fname": "templates.project.writing",
-            "id": "SYXrPmslg4yLWVDTB3J7d",
-            "vaultName": "dendron.templates"
-          },
-          "value": "proj..v3",
-          "position": {
-            "start": {
-              "line": 31,
-              "column": 3,
-              "offset": 686
-            },
-            "end": {
-              "line": 31,
-              "column": 15,
-              "offset": 698
-            },
-            "indent": []
-          },
-          "xvault": false,
-          "sameFile": false,
-          "to": {
-            "fname": "proj..v3"
-          }
-        }
-      ],
-      "anchors": {
-        "goal": {
-          "type": "header",
-          "text": "Goal",
-          "value": "goal",
-          "line": 8,
-          "column": 0,
-          "depth": 2
-        },
-        "context": {
-          "type": "header",
-          "text": "Context",
-          "value": "context",
-          "line": 11,
-          "column": 0,
-          "depth": 2
-        },
-        "success-criteria": {
-          "type": "header",
-          "text": "Success Criteria",
-          "value": "success-criteria",
-          "line": 14,
-          "column": 0,
-          "depth": 2
-        },
-        "log": {
-          "type": "header",
-          "text": "Log",
-          "value": "log",
-          "line": 17,
-          "column": 0,
-          "depth": 2
-        },
-        "outputs": {
-          "type": "header",
-          "text": "Outputs",
-          "value": "outputs",
-          "line": 20,
-          "column": 0,
-          "depth": 2
-        },
-        "tasks": {
-          "type": "header",
-          "text": "Tasks",
-          "value": "tasks",
-          "line": 25,
-          "column": 0,
-          "depth": 2
-        },
-        "notes": {
-          "type": "header",
-          "text": "Notes",
-          "value": "notes",
-          "line": 28,
-          "column": 0,
-          "depth": 2
-        },
-        "lookup": {
-          "type": "header",
-          "text": "Lookup",
-          "value": "lookup",
-          "line": 31,
-          "column": 0,
-          "depth": 2
-        }
-      },
-      "children": [],
-      "parent": "dEQX87VBTFJdqBM0",
-      "data": {}
-    },
-    "r9RV8pXvtAcoYjyn": {
-      "id": "r9RV8pXvtAcoYjyn",
-      "title": "People",
-      "desc": "",
-      "updated": 1635429290959,
-      "created": 1628084685978,
-      "social": {
-        "linkedin": null,
-        "twitter": null,
-        "facebook": null,
-        "discord": null,
-        "github": null,
-        "hn": null,
-        "website": null
-      },
-      "contact": {
-        "number": null,
-        "email": null
-      },
-      "state": null,
-      "location": null,
-      "custom": {
-        "social": {
-          "linkedin": null,
-          "twitter": null,
-          "facebook": null,
-          "discord": null,
-          "github": null,
-          "hn": null,
-          "website": null
-        },
-        "contact": {
-          "number": null,
-          "email": null
-        },
-        "state": null,
-        "location": null
-      },
-      "fname": "templates.people",
-      "type": "note",
-      "vault": {
-        "fsPath": "templates",
-        "seed": "dendron.templates",
-        "name": "dendron.templates"
-      },
-      "contentHash": "ae9e4922407d89731ff47dfbcfe271ac",
-      "links": [],
-      "anchors": {
-        "summary": {
-          "type": "header",
-          "text": "Summary",
-          "value": "summary",
-          "line": 21,
-          "column": 0,
-          "depth": 2
-        },
-        "first-encounter": {
-          "type": "header",
-          "text": "First Encounter",
-          "value": "first-encounter",
-          "line": 23,
-          "column": 0,
-          "depth": 2
-        },
-        "work": {
-          "type": "header",
-          "text": "Work",
-          "value": "work",
-          "line": 25,
-          "column": 0,
-          "depth": 2
-        },
-        "current": {
-          "type": "header",
-          "text": "Current",
-          "value": "current",
-          "line": 27,
-          "column": 0,
-          "depth": 3
-        },
-        "past": {
-          "type": "header",
-          "text": "Past",
-          "value": "past",
-          "line": 34,
-          "column": 0,
-          "depth": 3
-        }
-      },
-      "children": [],
-      "parent": "t58wEmhAtf1GlHmO",
-      "data": {}
-    },
-    "xIwvEqQ71wRQ4wWk": {
-      "id": "xIwvEqQ71wRQ4wWk",
-      "title": "Module",
-      "desc": "Template for a software package",
-      "updated": 1627135764271,
-      "created": 1627135764271,
-      "custom": {},
-      "fname": "templates.module",
-      "type": "note",
-      "vault": {
-        "fsPath": "templates",
-        "seed": "dendron.templates",
-        "name": "dendron.templates"
-      },
-      "contentHash": "a68e39d1b075f84158fed51e27320dd6",
-      "links": [],
-      "anchors": {},
-      "children": [
-        "wpixDwK6nWSsGr8wJygM0",
-        "jU02nYSOp3VgANjM",
-        "ne7zjrxjurzaa9w6nbcnw1g",
-        "WXSAaFaXKrsQd07dXfKJl",
-        "p1CSWjsY6fGAK69FbXkVa"
-      ],
-      "parent": "t58wEmhAtf1GlHmO",
-      "data": {}
-    },
-    "p1CSWjsY6fGAK69FbXkVa": {
-      "id": "p1CSWjsY6fGAK69FbXkVa",
-      "title": "Topic",
-      "desc": "",
-      "updated": 1635718795595,
-      "created": 1635718764530,
-      "custom": {},
-      "fname": "templates.module.topic",
-      "type": "note",
-      "vault": {
-        "fsPath": "templates",
-        "seed": "dendron.templates",
-        "name": "dendron.templates"
-      },
-      "contentHash": "6dbf1b594bc65a86b7c9eeebe3679419",
-      "links": [],
-      "anchors": {
-        "summary": {
-          "type": "header",
-          "text": "Summary",
-          "value": "summary",
-          "line": 8,
-          "column": 0,
-          "depth": 2
-        },
-        "lifecycle": {
-          "type": "header",
-          "text": "Lifecycle",
-          "value": "lifecycle",
-          "line": 11,
-          "column": 0,
-          "depth": 2
-        },
-        "changelog": {
-          "type": "header",
-          "text": "Changelog",
-          "value": "changelog",
-          "line": 14,
-          "column": 0,
-          "depth": 2
-        }
-      },
-      "children": [],
-      "parent": "xIwvEqQ71wRQ4wWk",
-      "data": {}
-    },
-    "WXSAaFaXKrsQd07dXfKJl": {
-      "id": "WXSAaFaXKrsQd07dXfKJl",
-      "title": "Quickstart",
-      "desc": "",
-      "updated": 1636215950743,
-      "created": 1634590001871,
-      "example": "https://wiki.dendron.so/notes/64f0e2d5-2c83-43df-9144-40f2c68935aa.html#steps",
-      "custom": {
-        "example": "https://wiki.dendron.so/notes/64f0e2d5-2c83-43df-9144-40f2c68935aa.html#steps"
-      },
-      "fname": "templates.module.quickstart",
-      "type": "note",
-      "vault": {
-        "fsPath": "templates",
-        "seed": "dendron.templates",
-        "name": "dendron.templates"
-      },
-      "contentHash": "f3c10f18756567506c43ce13e065ce89",
-      "links": [],
-      "anchors": {
-        "prerequisites": {
-          "type": "header",
-          "text": "Prerequisites",
-          "value": "prerequisites",
-          "line": 9,
-          "column": 0,
-          "depth": 2
-        },
-        "build": {
-          "type": "header",
-          "text": "Build",
-          "value": "build",
-          "line": 12,
-          "column": 0,
-          "depth": 2
-        },
-        "run": {
-          "type": "header",
-          "text": "Run",
-          "value": "run",
-          "line": 15,
-          "column": 0,
-          "depth": 2
-        },
-        "troubleshooting": {
-          "type": "header",
-          "text": "Troubleshooting",
-          "value": "troubleshooting",
-          "line": 18,
-          "column": 0,
-          "depth": 2
-        }
-      },
-      "children": [],
-      "parent": "xIwvEqQ71wRQ4wWk",
-      "data": {}
-    },
-    "ne7zjrxjurzaa9w6nbcnw1g": {
-      "id": "ne7zjrxjurzaa9w6nbcnw1g",
-      "title": "Qa",
-      "desc": "",
-      "updated": 1682012396845,
-      "created": 1682012396845,
-      "custom": {},
-      "fname": "templates.module.qa",
-      "type": "note",
-      "vault": {
-        "fsPath": "templates",
-        "seed": "dendron.templates",
-        "name": "dendron.templates"
-      },
-      "contentHash": "a4937a8569201a93dd467fc9b5bde3b1",
-      "links": [],
-      "anchors": {},
-      "children": [
-        "37atxdsQM4EZsvtg",
-        "hpEdCpUITvOQQ7wQ"
-      ],
-      "parent": "xIwvEqQ71wRQ4wWk",
-      "data": {}
-    },
-    "hpEdCpUITvOQQ7wQ": {
-      "id": "hpEdCpUITvOQQ7wQ",
-      "title": "Test",
-      "desc": "",
-      "updated": 1631471787624,
-      "created": 1627135950477,
-      "custom": {},
-      "fname": "templates.module.qa.test",
-      "type": "note",
-      "vault": {
-        "fsPath": "templates",
-        "seed": "dendron.templates",
-        "name": "dendron.templates"
-      },
-      "contentHash": "51ca05de70b1232850e37c6b465fea88",
-      "links": [],
-      "anchors": {
-        "unit-testing": {
-          "type": "header",
-          "text": "Unit Testing",
-          "value": "unit-testing",
-          "line": 8,
-          "column": 0,
-          "depth": 2
-        },
-        "writing": {
-          "type": "header",
-          "text": "Writing",
-          "value": "writing",
-          "line": 10,
-          "column": 0,
-          "depth": 3
-        },
-        "executing": {
-          "type": "header",
-          "text": "Executing",
-          "value": "executing",
-          "line": 13,
-          "column": 0,
-          "depth": 3
-        },
-        "integration-testing": {
-          "type": "header",
-          "text": "Integration Testing",
-          "value": "integration-testing",
-          "line": 16,
-          "column": 0,
-          "depth": 2
-        },
-        "writing-1": {
-          "type": "header",
-          "text": "Writing",
-          "value": "writing-1",
-          "line": 18,
-          "column": 0,
-          "depth": 3
-        },
-        "executing-1": {
-          "type": "header",
-          "text": "Executing",
-          "value": "executing-1",
-          "line": 20,
-          "column": 0,
-          "depth": 3
-        },
-        "manual-testing": {
-          "type": "header",
-          "text": "Manual Testing",
-          "value": "manual-testing",
-          "line": 22,
-          "column": 0,
-          "depth": 2
-        }
-      },
-      "children": [],
-      "parent": "ne7zjrxjurzaa9w6nbcnw1g",
-      "data": {}
-    },
-    "37atxdsQM4EZsvtg": {
-      "id": "37atxdsQM4EZsvtg",
-      "title": "Debug",
-      "desc": "",
-      "updated": 1627140460425,
-      "created": 1627140450911,
-      "custom": {},
-      "fname": "templates.module.qa.debug",
-      "type": "note",
-      "vault": {
-        "fsPath": "templates",
-        "seed": "dendron.templates",
-        "name": "dendron.templates"
-      },
-      "contentHash": "fbf2f0d4e086c4597994023ce7a2828b",
-      "links": [],
-      "anchors": {
-        "debug": {
-          "type": "header",
-          "text": "Debug",
-          "value": "debug",
-          "line": 9,
-          "column": 0,
-          "depth": 2
-        },
-        "breakpoints": {
-          "type": "header",
-          "text": "Breakpoints",
-          "value": "breakpoints",
-          "line": 12,
-          "column": 0,
-          "depth": 3
-        }
-      },
-      "children": [],
-      "parent": "ne7zjrxjurzaa9w6nbcnw1g",
-      "data": {}
-    },
-    "jU02nYSOp3VgANjM": {
-      "id": "jU02nYSOp3VgANjM",
-      "title": "Dev",
-      "desc": "",
-      "updated": 1627142693960,
-      "created": 1627142619514,
-      "custom": {},
-      "fname": "templates.module.dev",
-      "type": "note",
-      "vault": {
-        "fsPath": "templates",
-        "seed": "dendron.templates",
-        "name": "dendron.templates"
-      },
-      "contentHash": "fe0aa9a9d56bd787145cb0a90870a57c",
-      "links": [],
-      "anchors": {
-        "build": {
-          "type": "header",
-          "text": "Build",
-          "value": "build",
-          "line": 8,
-          "column": 0,
-          "depth": 2
-        },
-        "prerequisites": {
-          "type": "header",
-          "text": "Prerequisites",
-          "value": "prerequisites",
-          "line": 10,
-          "column": 0,
-          "depth": 3
-        },
-        "steps": {
-          "type": "header",
-          "text": "Steps",
-          "value": "steps",
-          "line": 13,
-          "column": 0,
-          "depth": 3
-        },
-        "run": {
-          "type": "header",
-          "text": "Run",
-          "value": "run",
-          "line": 16,
-          "column": 0,
-          "depth": 2
-        }
-      },
-      "children": [
-        "S6kgW0w5C7p2kzldJGQyi"
-      ],
-      "parent": "xIwvEqQ71wRQ4wWk",
-      "data": {}
-    },
-    "S6kgW0w5C7p2kzldJGQyi": {
-      "id": "S6kgW0w5C7p2kzldJGQyi",
-      "title": "Build",
-      "desc": "",
-      "updated": 1635705983872,
-      "created": 1635705960618,
-      "custom": {},
-      "fname": "templates.module.dev.build",
-      "type": "note",
-      "vault": {
-        "fsPath": "templates",
-        "seed": "dendron.templates",
-        "name": "dendron.templates"
-      },
-      "contentHash": "cf6fcf134c74bf5d8f7b07d027700b2c",
-      "links": [],
-      "anchors": {
-        "cleanup": {
-          "type": "header",
-          "text": "Cleanup",
-          "value": "cleanup",
-          "line": 8,
-          "column": 0,
-          "depth": 2
-        }
-      },
-      "children": [],
-      "parent": "jU02nYSOp3VgANjM",
-      "data": {}
-    },
-    "wpixDwK6nWSsGr8wJygM0": {
-      "id": "wpixDwK6nWSsGr8wJygM0",
-      "title": "Arch",
-      "desc": "",
-      "updated": 1630970596442,
-      "created": 1630970573723,
-      "custom": {},
-      "fname": "templates.module.arch",
-      "type": "note",
-      "vault": {
-        "fsPath": "templates",
-        "seed": "dendron.templates",
-        "name": "dendron.templates"
-      },
-      "contentHash": "ff840491edacaee2d95d72afc72a5009",
-      "links": [],
-      "anchors": {
-        "components": {
-          "type": "header",
-          "text": "Components",
-          "value": "components",
-          "line": 8,
-          "column": 0,
-          "depth": 2
-        },
-        "lifecycle": {
-          "type": "header",
-          "text": "Lifecycle",
-          "value": "lifecycle",
-          "line": 11,
-          "column": 0,
-          "depth": 2
-        }
-      },
-      "children": [],
-      "parent": "xIwvEqQ71wRQ4wWk",
-      "data": {}
-    },
-    "r7ivsjgxmgiufuvwm0s6mqp": {
-      "id": "r7ivsjgxmgiufuvwm0s6mqp",
-      "title": "Journal",
-      "desc": "",
-      "updated": 1682012396844,
-      "created": 1682012396844,
-      "custom": {},
-      "fname": "templates.journal",
-      "type": "note",
-      "vault": {
-        "fsPath": "templates",
-        "seed": "dendron.templates",
-        "name": "dendron.templates"
-      },
-      "contentHash": "8a208551dadc7d383c0b745565753847",
-      "links": [],
-      "anchors": {},
-      "children": [
-        "g670egliswm4fyrw3a93l7m"
-      ],
-      "parent": "t58wEmhAtf1GlHmO",
-      "data": {}
-    },
-    "g670egliswm4fyrw3a93l7m": {
-      "id": "g670egliswm4fyrw3a93l7m",
-      "title": "Daily",
-      "desc": "",
-      "updated": 1682012396844,
-      "created": 1682012396844,
-      "custom": {},
-      "fname": "templates.journal.daily",
-      "type": "note",
-      "vault": {
-        "fsPath": "templates",
-        "seed": "dendron.templates",
-        "name": "dendron.templates"
-      },
-      "contentHash": "1b356744be969e757854e9e0e53b7b23",
-      "links": [],
-      "anchors": {},
-      "children": [
-        "x4bdzc7HETP9CDVGJJaHT"
-      ],
-      "parent": "r7ivsjgxmgiufuvwm0s6mqp",
-      "data": {}
-    },
-    "x4bdzc7HETP9CDVGJJaHT": {
-      "id": "x4bdzc7HETP9CDVGJJaHT",
-      "title": "The Five Minute Journal",
-      "desc": "Start your day, and end your day, with a simple journal method. The Five Minute Journal (5MJ) helps you express gratitude, make your days better, and focus on mindfulness.",
-      "updated": 1640789057397,
-      "created": 1640783124585,
-      "custom": {},
-      "fname": "templates.journal.daily.5mj",
-      "type": "note",
-      "vault": {
-        "fsPath": "templates",
-        "seed": "dendron.templates",
-        "name": "dendron.templates"
-      },
-      "contentHash": "2754539ac452cbfd205b6c79169a7c4d",
-      "links": [],
-      "anchors": {
-        "morning": {
-          "type": "header",
-          "text": "Morning",
-          "value": "morning",
-          "line": 17,
-          "column": 0,
-          "depth": 2
-        },
-        "gratitude": {
-          "type": "header",
-          "text": "Gratitude",
-          "value": "gratitude",
-          "line": 21,
-          "column": 0,
-          "depth": 3
-        },
-        "what-would-make-today-great": {
-          "type": "header",
-          "text": "What would make today great?",
-          "value": "what-would-make-today-great",
-          "line": 29,
-          "column": 0,
-          "depth": 3
-        },
-        "daily-affirmations": {
-          "type": "header",
-          "text": "Daily affirmations",
-          "value": "daily-affirmations",
-          "line": 35,
-          "column": 0,
-          "depth": 3
-        },
-        "evening": {
-          "type": "header",
-          "text": "Evening",
-          "value": "evening",
-          "line": 39,
-          "column": 0,
-          "depth": 2
-        },
-        "amazing-things-that-happened-today": {
-          "type": "header",
-          "text": "Amazing things that happened today",
-          "value": "amazing-things-that-happened-today",
-          "line": 43,
-          "column": 0,
-          "depth": 3
-        },
-        "how-could-i-have-made-today-even-better": {
-          "type": "header",
-          "text": "How could I have made today even better?",
-          "value": "how-could-i-have-made-today-even-better",
-          "line": 49,
-          "column": 0,
-          "depth": 3
-        }
-      },
-      "children": [],
-      "parent": "g670egliswm4fyrw3a93l7m",
-      "data": {}
-    },
-    "hXyoNOiZ0tRepcQ6Mw79Q": {
-      "id": "hXyoNOiZ0tRepcQ6Mw79Q",
-      "title": "Contacts",
-      "desc": "",
-      "updated": 1625827008607,
-      "created": 1625823188970,
-      "custom": {},
-      "fname": "templates.contacts",
-      "type": "note",
-      "vault": {
-        "fsPath": "templates",
-        "seed": "dendron.templates",
-        "name": "dendron.templates"
-      },
-      "contentHash": "43cca82a7f3e3a513bcbdab3bf2ea644",
-      "links": [
-        {
-          "type": "wiki",
-          "from": {
-            "fname": "templates.contacts",
-            "id": "hXyoNOiZ0tRepcQ6Mw79Q",
-            "vaultName": "dendron.templates"
-          },
-          "value": "work",
-          "position": {
-            "start": {
-              "line": 6,
-              "column": 14,
-              "offset": 65
-            },
-            "end": {
-              "line": 6,
-              "column": 22,
-              "offset": 73
-            },
-            "indent": []
-          },
-          "xvault": false,
-          "sameFile": false,
-          "to": {
-            "fname": "work"
-          }
-        },
-        {
-          "type": "wiki",
-          "from": {
-            "fname": "templates.contacts",
-            "id": "hXyoNOiZ0tRepcQ6Mw79Q",
-            "vaultName": "dendron.templates"
-          },
-          "value": "neighbor",
-          "position": {
-            "start": {
-              "line": 6,
-              "column": 24,
-              "offset": 75
-            },
-            "end": {
-              "line": 6,
-              "column": 36,
-              "offset": 87
-            },
-            "indent": []
-          },
-          "xvault": false,
-          "sameFile": false,
-          "to": {
-            "fname": "neighbor"
-          }
-        },
-        {
-          "type": "wiki",
-          "from": {
-            "fname": "templates.contacts",
-            "id": "hXyoNOiZ0tRepcQ6Mw79Q",
-            "vaultName": "dendron.templates"
-          },
-          "value": "work",
-          "position": {
-            "start": {
-              "line": 7,
-              "column": 19,
-              "offset": 107
-            },
-            "end": {
-              "line": 7,
-              "column": 27,
-              "offset": 115
-            },
-            "indent": []
-          },
-          "xvault": false,
-          "sameFile": false,
-          "to": {
-            "fname": "work"
-          }
-        },
-        {
-          "type": "wiki",
-          "from": {
-            "fname": "templates.contacts",
-            "id": "hXyoNOiZ0tRepcQ6Mw79Q",
-            "vaultName": "dendron.templates"
-          },
-          "value": "fundraising-team",
-          "position": {
-            "start": {
-              "line": 7,
-              "column": 29,
-              "offset": 117
-            },
-            "end": {
-              "line": 7,
-              "column": 49,
-              "offset": 137
-            },
-            "indent": []
-          },
-          "xvault": false,
-          "sameFile": false,
-          "to": {
-            "fname": "fundraising-team"
-          }
-        },
-        {
-          "type": "wiki",
-          "from": {
-            "fname": "templates.contacts",
-            "id": "hXyoNOiZ0tRepcQ6Mw79Q",
-            "vaultName": "dendron.templates"
-          },
-          "value": "college",
-          "position": {
-            "start": {
-              "line": 13,
-              "column": 15,
-              "offset": 213
-            },
-            "end": {
-              "line": 13,
-              "column": 26,
-              "offset": 224
-            },
-            "indent": []
-          },
-          "xvault": false,
-          "sameFile": false,
-          "to": {
-            "fname": "college"
-          }
-        },
-        {
-          "type": "wiki",
-          "from": {
-            "fname": "templates.contacts",
-            "id": "hXyoNOiZ0tRepcQ6Mw79Q",
-            "vaultName": "dendron.templates"
-          },
-          "value": "neighbor",
-          "position": {
-            "start": {
-              "line": 14,
-              "column": 19,
-              "offset": 267
-            },
-            "end": {
-              "line": 14,
-              "column": 31,
-              "offset": 279
-            },
-            "indent": []
-          },
-          "xvault": false,
-          "sameFile": false,
-          "to": {
-            "fname": "neighbor"
-          }
-        }
-      ],
-      "anchors": {
-        "professional-contacts": {
-          "type": "header",
-          "text": "Professional Contacts",
-          "value": "professional-contacts",
-          "line": 8,
-          "column": 0,
-          "depth": 2
-        },
-        "personal-contacts": {
-          "type": "header",
-          "text": "Personal Contacts",
-          "value": "personal-contacts",
-          "line": 15,
-          "column": 0,
-          "depth": 2
-        }
-      },
-      "children": [],
-      "parent": "t58wEmhAtf1GlHmO",
-      "data": {}
-    },
-    "ugk2ov2xb97m8o44u1b9iu1": {
-      "id": "ugk2ov2xb97m8o44u1b9iu1",
-      "title": "Schemas",
-      "desc": "",
-      "updated": 1682012396842,
-      "created": 1682012396842,
-      "custom": {},
-      "fname": "schemas",
-      "type": "note",
-      "vault": {
-        "fsPath": "templates",
-        "seed": "dendron.templates",
-        "name": "dendron.templates"
-      },
-      "contentHash": "bf6a0012d6b63fd4686e7317453f662a",
-      "links": [],
-      "anchors": {},
-      "children": [
-        "yz7BaxKE7IssV5Go"
-      ],
-      "parent": "oqxmejlafk9x8rj9t5hya5z",
-      "data": {}
-    },
-    "yz7BaxKE7IssV5Go": {
-      "id": "yz7BaxKE7IssV5Go",
-      "title": "Module",
-      "desc": "",
-      "updated": 1633299013130,
-      "created": 1627924831114,
-      "custom": {},
-      "fname": "schemas.module",
-      "type": "note",
-      "vault": {
-        "fsPath": "templates",
-        "seed": "dendron.templates",
-        "name": "dendron.templates"
-      },
-      "contentHash": "bd2435b00821ea6c8c8e95fc3f4c34ef",
-      "links": [
-        {
-          "type": "wiki",
-          "from": {
-            "fname": "schemas.module",
-            "id": "yz7BaxKE7IssV5Go",
-            "vaultName": "dendron.templates"
-          },
-          "value": "dendron.concepts",
-          "alias": "Concepts",
-          "position": {
-            "start": {
-              "line": 20,
-              "column": 12,
-              "offset": 833
-            },
-            "end": {
-              "line": 20,
-              "column": 41,
-              "offset": 862
-            },
-            "indent": []
-          },
-          "xvault": false,
-          "sameFile": false,
-          "to": {
-            "fname": "dendron.concepts"
-          }
-        },
-        {
-          "type": "wiki",
-          "from": {
-            "fname": "schemas.module",
-            "id": "yz7BaxKE7IssV5Go",
-            "vaultName": "dendron.templates"
-          },
-          "value": "pkg.dendron-plugin.ops",
-          "alias": "Ops",
-          "position": {
-            "start": {
-              "line": 52,
-              "column": 12,
-              "offset": 1669
-            },
-            "end": {
-              "line": 52,
-              "column": 42,
-              "offset": 1699
-            },
-            "indent": []
-          },
-          "xvault": false,
-          "sameFile": false,
-          "to": {
-            "fname": "pkg.dendron-plugin.ops"
-          }
-        },
-        {
-          "type": "wiki",
-          "from": {
-            "fname": "schemas.module",
-            "id": "yz7BaxKE7IssV5Go",
-            "vaultName": "dendron.templates"
-          },
-          "value": "pkg.dendron-plugin.quickstart",
-          "alias": "Quickstart",
-          "position": {
-            "start": {
-              "line": 69,
-              "column": 12,
-              "offset": 1972
-            },
-            "end": {
-              "line": 69,
-              "column": 56,
-              "offset": 2016
-            },
-            "indent": []
-          },
-          "xvault": false,
-          "sameFile": false,
-          "to": {
-            "fname": "pkg.dendron-plugin.quickstart"
-          }
-        }
-      ],
-      "anchors": {
-        "summary": {
-          "type": "header",
-          "text": "Summary",
-          "value": "summary",
-          "line": 8,
-          "column": 0,
-          "depth": 2
-        },
-        "nodes": {
-          "type": "header",
-          "text": "Nodes",
-          "value": "nodes",
-          "line": 17,
-          "column": 0,
-          "depth": 2
-        },
-        "quickstart": {
-          "type": "header",
-          "text": "quickstart",
-          "value": "quickstart",
-          "line": 19,
-          "column": 0,
-          "depth": 3
-        },
-        "concepts": {
-          "type": "header",
-          "text": "concepts",
-          "value": "concepts",
-          "line": 23,
-          "column": 0,
-          "depth": 3
-        },
-        "concepts-1": {
-          "type": "header",
-          "text": "concepts",
-          "value": "concepts-1",
-          "line": 25,
-          "column": 0,
-          "depth": 3
-        },
-        "architecture": {
-          "type": "header",
-          "text": "architecture",
-          "value": "architecture",
-          "line": 30,
-          "column": 0,
-          "depth": 3
-        },
-        "dev": {
-          "type": "header",
-          "text": "dev",
-          "value": "dev",
-          "line": 41,
-          "column": 0,
-          "depth": 3
-        },
-        "quickstart-1": {
-          "type": "header",
-          "text": "quickstart",
-          "value": "quickstart-1",
-          "line": 45,
-          "column": 0,
-          "depth": 4
-        },
-        "faq": {
-          "type": "header",
-          "text": "faq",
-          "value": "faq",
-          "line": 53,
-          "column": 0,
-          "depth": 3
-        },
-        "ops": {
-          "type": "header",
-          "text": "ops",
-          "value": "ops",
-          "line": 57,
-          "column": 0,
-          "depth": 3
-        },
-        "qa": {
-          "type": "header",
-          "text": "qa",
-          "value": "qa",
-          "line": 62,
-          "column": 0,
-          "depth": 3
-        },
-        "test": {
-          "type": "header",
-          "text": "test",
-          "value": "test",
-          "line": 66,
-          "column": 0,
-          "depth": 4
-        },
-        "performance": {
-          "type": "header",
-          "text": "performance",
-          "value": "performance",
-          "line": 70,
-          "column": 0,
-          "depth": 4
-        },
-        "quickstart-2": {
-          "type": "header",
-          "text": "quickstart",
-          "value": "quickstart-2",
-          "line": 74,
-          "column": 0,
-          "depth": 3
-        },
-        "topic": {
-          "type": "header",
-          "text": "topic",
-          "value": "topic",
-          "line": 79,
-          "column": 0,
-          "depth": 3
-        },
-        "wip": {
-          "type": "header",
-          "text": "wip",
-          "value": "wip",
-          "line": 84,
-          "column": 0,
-          "depth": 3
-        }
-      },
-      "children": [],
-      "parent": "ugk2ov2xb97m8o44u1b9iu1",
       "data": {}
     },
     "tvdcga33h6hi7fxd9cwqd66": {
@@ -1541,12 +75,37 @@
         "fsPath": "vault"
       },
       "contentHash": "b3f12e0d5942f35bad591ad3148d64cd",
-      "links": [],
+      "links": [
+        {
+          "from": {
+            "fname": "daily.journal.2023.09.05",
+            "id": "nidimranpxjm1hnndhoe7k1",
+            "vaultName": "vault-private"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 47,
+              "column": 5,
+              "offset": 1821
+            },
+            "end": {
+              "line": 47,
+              "column": 12,
+              "offset": 1828
+            },
+            "indent": []
+          },
+          "value": "til"
+        }
+      ],
       "anchors": {},
       "children": [
-        "ufs9d3p8e9ko04vng69ozhv",
         "xnm5vsac3fqan9fasug824y",
         "icjz52rcva7bmaw5f0dnubh",
+        "ysy5ewwozapqa7ck9m69yn7",
+        "bgwu895vww7e5evg117ucl3",
+        "w4ptpcefqr98mej5hjhs3m9",
         "amiow0h2k6amtoz2zfgn38v",
         "87x3xiegfz6oofofhvflxms",
         "e8r4q5f145zsdgsnyw0oxch",
@@ -1571,21 +130,21 @@
       "links": [
         {
           "from": {
-            "fname": "work.efishery.daily.journal.2022.03.16",
-            "id": "8om0qazxq0o414do6m4mr4a",
+            "fname": "daily.journal.2023.03.16",
+            "id": "8wsjp98hnzsygkrvs7hgr42",
             "vaultName": "vault-private"
           },
           "type": "backlink",
           "position": {
             "start": {
-              "line": 7,
+              "line": 21,
               "column": 42,
-              "offset": 315
+              "offset": 681
             },
             "end": {
-              "line": 7,
+              "line": 21,
               "column": 99,
-              "offset": 372
+              "offset": 738
             },
             "indent": []
           },
@@ -1850,6 +409,511 @@
       "parent": "tvdcga33h6hi7fxd9cwqd66",
       "data": {}
     },
+    "w4ptpcefqr98mej5hjhs3m9": {
+      "id": "w4ptpcefqr98mej5hjhs3m9",
+      "title": "Notes: Resolving Connection Issues from WSL to Windows",
+      "desc": "",
+      "updated": 1732271159615,
+      "created": 1732271049414,
+      "tags": [
+        "wsl2"
+      ],
+      "custom": {},
+      "fname": "til.resolving-connection-issues-from-wsl-to-windows",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "d8b1208cbe269ddc76348978f92e535c",
+      "links": [
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "til.resolving-connection-issues-from-wsl-to-windows",
+            "id": "w4ptpcefqr98mej5hjhs3m9",
+            "vaultName": "vault"
+          },
+          "value": "tags.wsl2",
+          "alias": "wsl2",
+          "xvault": false,
+          "to": {
+            "fname": "tags.wsl2"
+          }
+        }
+      ],
+      "anchors": {
+        "steps-to-resolve-connection-refused-from-wsl-to-windows": {
+          "type": "header",
+          "text": "Steps to Resolve \"Connection Refused\" from WSL to Windows",
+          "value": "steps-to-resolve-connection-refused-from-wsl-to-windows",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        },
+        "1-check-windows-ip-address-from-wsl": {
+          "type": "header",
+          "text": "1. Check Windows IP Address from WSL",
+          "value": "1-check-windows-ip-address-from-wsl",
+          "line": 12,
+          "column": 0,
+          "depth": 3
+        },
+        "2-access-service-using-windows-ip-address": {
+          "type": "header",
+          "text": "2. Access Service Using Windows IP Address",
+          "value": "2-access-service-using-windows-ip-address",
+          "line": 19,
+          "column": 0,
+          "depth": 3
+        },
+        "3-check-firewall-settings": {
+          "type": "header",
+          "text": "3. Check Firewall Settings",
+          "value": "3-check-firewall-settings",
+          "line": 25,
+          "column": 0,
+          "depth": 3
+        },
+        "4-ensure-services-in-windows-listen-on-all-interfaces": {
+          "type": "header",
+          "text": "4. Ensure Services in Windows Listen on All Interfaces",
+          "value": "4-ensure-services-in-windows-listen-on-all-interfaces",
+          "line": 30,
+          "column": 0,
+          "depth": 3
+        },
+        "5-use-port-forwarding-with-netsh": {
+          "type": "header",
+          "text": "5. Use Port Forwarding with netsh",
+          "value": "5-use-port-forwarding-with-netsh",
+          "line": 33,
+          "column": 0,
+          "depth": 3
+        },
+        "6-create-or-edit-wslconfig-file": {
+          "type": "header",
+          "text": "6. Create or Edit .wslconfig File",
+          "value": "6-create-or-edit-wslconfig-file",
+          "line": 39,
+          "column": 0,
+          "depth": 3
+        },
+        "powershell-script-to-createedit-wslconfig": {
+          "type": "header",
+          "text": "PowerShell Script to Create/Edit .wslconfig",
+          "value": "powershell-script-to-createedit-wslconfig",
+          "line": 42,
+          "column": 0,
+          "depth": 4
+        },
+        "7-restart-services-in-windows-and-wsl": {
+          "type": "header",
+          "text": "7. Restart Services in Windows and WSL",
+          "value": "7-restart-services-in-windows-and-wsl",
+          "line": 72,
+          "column": 0,
+          "depth": 3
+        },
+        "8-use-localhost-in-wsl": {
+          "type": "header",
+          "text": "8. Use localhost in WSL",
+          "value": "8-use-localhost-in-wsl",
+          "line": 79,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "tvdcga33h6hi7fxd9cwqd66",
+      "data": {}
+    },
+    "bgwu895vww7e5evg117ucl3": {
+      "id": "bgwu895vww7e5evg117ucl3",
+      "title": "Nix",
+      "desc": "",
+      "updated": 1691471896227,
+      "created": 1691470461657,
+      "custom": {},
+      "fname": "til.nix",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "ecc0b39b3a1e944c46bc0b3dfdf69352",
+      "links": [
+        {
+          "from": {
+            "fname": "daily.journal.2024.08.23",
+            "id": "uk66i0c0aaxvi1oc2orewku",
+            "vaultName": "vault-private"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 10,
+              "offset": 10
+            },
+            "end": {
+              "line": 2,
+              "column": 21,
+              "offset": 21
+            },
+            "indent": []
+          },
+          "value": "til.nix"
+        }
+      ],
+      "anchors": {
+        "instalasi-ulang-dengan": {
+          "type": "header",
+          "text": "instalasi ulang dengan",
+          "value": "instalasi-ulang-dengan",
+          "line": 13,
+          "column": 0,
+          "depth": 2
+        },
+        "build-nix": {
+          "type": "header",
+          "text": "Build Nix",
+          "value": "build-nix",
+          "line": 18,
+          "column": 0,
+          "depth": 2
+        },
+        "activate-zsh": {
+          "type": "header",
+          "text": "Activate zsh",
+          "value": "activate-zsh",
+          "line": 26,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "tvdcga33h6hi7fxd9cwqd66",
+      "data": {}
+    },
+    "ysy5ewwozapqa7ck9m69yn7": {
+      "id": "ysy5ewwozapqa7ck9m69yn7",
+      "title": "Managing Team",
+      "desc": "",
+      "updated": 1682532916719,
+      "created": 1682526271728,
+      "custom": {},
+      "fname": "til.managing-team",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "6c5c1eb41829035f59cee0fa3b6ab5c0",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "til.managing-team",
+            "id": "ysy5ewwozapqa7ck9m69yn7",
+            "vaultName": "vault"
+          },
+          "value": "til.managing-team.youtube.3-ways-to-express-your-thoughts-so-that-everyone-will-understand-you",
+          "position": {
+            "start": {
+              "line": 21,
+              "column": 34,
+              "offset": 1494
+            },
+            "end": {
+              "line": 21,
+              "column": 132,
+              "offset": 1592
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "til.managing-team.youtube.3-ways-to-express-your-thoughts-so-that-everyone-will-understand-you"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "til.managing-team",
+            "id": "ysy5ewwozapqa7ck9m69yn7",
+            "vaultName": "vault"
+          },
+          "value": "til.managing-team.youtube.the-most-powerful-way-to-think-first-principles",
+          "position": {
+            "start": {
+              "line": 24,
+              "column": 34,
+              "offset": 1905
+            },
+            "end": {
+              "line": 24,
+              "column": 111,
+              "offset": 1982
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "til.managing-team.youtube.the-most-powerful-way-to-think-first-principles"
+          }
+        },
+        {
+          "from": {
+            "fname": "daily.journal.2023.04.27",
+            "id": "m79fi9nn8b57mxo5o3tjdc1",
+            "vaultName": "vault-private"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 8,
+              "column": 11,
+              "offset": 68
+            },
+            "end": {
+              "line": 8,
+              "column": 32,
+              "offset": 89
+            },
+            "indent": []
+          },
+          "value": "til.managing-team"
+        }
+      ],
+      "anchors": {},
+      "children": [
+        "kdenagzo0nhhzegy3c6yumk",
+        "k7usigpogcwg5p0taxmwnr3"
+      ],
+      "parent": "tvdcga33h6hi7fxd9cwqd66",
+      "data": {}
+    },
+    "k7usigpogcwg5p0taxmwnr3": {
+      "id": "k7usigpogcwg5p0taxmwnr3",
+      "title": "Youtube",
+      "desc": "",
+      "updated": 1683597737337,
+      "created": 1683597737337,
+      "custom": {},
+      "fname": "til.managing-team.youtube",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "e39b480c29f1ed46a2767576ec0206c0",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "az8xqsdmrzd01zpuzu25bfq",
+        "ia5bmz82kr2m57t4b68lxm6"
+      ],
+      "parent": "ysy5ewwozapqa7ck9m69yn7",
+      "data": {}
+    },
+    "ia5bmz82kr2m57t4b68lxm6": {
+      "id": "ia5bmz82kr2m57t4b68lxm6",
+      "title": "The Most Powerful Way to Think First Principles",
+      "desc": "",
+      "updated": 1682563064475,
+      "created": 1682531091616,
+      "custom": {},
+      "fname": "til.managing-team.youtube.the-most-powerful-way-to-think-first-principles",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "40c10573aa7f2949158624c26596a138",
+      "links": [
+        {
+          "from": {
+            "fname": "til.managing-team",
+            "id": "ysy5ewwozapqa7ck9m69yn7",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 24,
+              "column": 34,
+              "offset": 1905
+            },
+            "end": {
+              "line": 24,
+              "column": 111,
+              "offset": 1982
+            },
+            "indent": []
+          },
+          "value": "til.managing-team.youtube.the-most-powerful-way-to-think-first-principles"
+        }
+      ],
+      "anchors": {
+        "intinya": {
+          "type": "header",
+          "text": "Intinya",
+          "value": "intinya",
+          "line": 12,
+          "column": 0,
+          "depth": 2
+        },
+        "transkrip": {
+          "type": "header",
+          "text": "Transkrip",
+          "value": "transkrip",
+          "line": 16,
+          "column": 0,
+          "depth": 2
+        },
+        "pengaplikasian-untuk-seorang-engineering-manager": {
+          "type": "header",
+          "text": "Pengaplikasian untuk seorang Engineering Manager",
+          "value": "pengaplikasian-untuk-seorang-engineering-manager",
+          "line": 60,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "k7usigpogcwg5p0taxmwnr3",
+      "data": {}
+    },
+    "az8xqsdmrzd01zpuzu25bfq": {
+      "id": "az8xqsdmrzd01zpuzu25bfq",
+      "title": "3 Ways to Express Your Thoughts so That Everyone Will Understand You",
+      "desc": "",
+      "updated": 1682530195168,
+      "created": 1682529907500,
+      "custom": {},
+      "fname": "til.managing-team.youtube.3-ways-to-express-your-thoughts-so-that-everyone-will-understand-you",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "005e0beb5e42729e0525ea467b22ab33",
+      "links": [
+        {
+          "from": {
+            "fname": "til.managing-team",
+            "id": "ysy5ewwozapqa7ck9m69yn7",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 21,
+              "column": 34,
+              "offset": 1494
+            },
+            "end": {
+              "line": 21,
+              "column": 132,
+              "offset": 1592
+            },
+            "indent": []
+          },
+          "value": "til.managing-team.youtube.3-ways-to-express-your-thoughts-so-that-everyone-will-understand-you"
+        }
+      ],
+      "anchors": {
+        "intinya": {
+          "type": "header",
+          "text": "Intinya",
+          "value": "intinya",
+          "line": 12,
+          "column": 0,
+          "depth": 2
+        },
+        "transcript": {
+          "type": "header",
+          "text": "Transcript",
+          "value": "transcript",
+          "line": 16,
+          "column": 0,
+          "depth": 2
+        },
+        "rules-of-three-yang-bisa-diaplikasikan-untuk-seorang-engineering-manager": {
+          "type": "header",
+          "text": "Rules of three yang bisa diaplikasikan untuk seorang engineering manager",
+          "value": "rules-of-three-yang-bisa-diaplikasikan-untuk-seorang-engineering-manager",
+          "line": 34,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "k7usigpogcwg5p0taxmwnr3",
+      "data": {}
+    },
+    "kdenagzo0nhhzegy3c6yumk": {
+      "id": "kdenagzo0nhhzegy3c6yumk",
+      "title": "Oreily",
+      "desc": "",
+      "updated": 1683597737335,
+      "created": 1683597737335,
+      "custom": {},
+      "fname": "til.managing-team.oreily",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "a6241d08dc593205ab2f75e6c0d2c543",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "x0x78wplldkhqugsia6u9kw"
+      ],
+      "parent": "ysy5ewwozapqa7ck9m69yn7",
+      "data": {}
+    },
+    "x0x78wplldkhqugsia6u9kw": {
+      "id": "x0x78wplldkhqugsia6u9kw",
+      "title": "Critical Thinking at Work",
+      "desc": "",
+      "updated": 1682562686824,
+      "created": 1682560486525,
+      "custom": {},
+      "fname": "til.managing-team.oreily.critical-thinking-at-work",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "9646d5f0f4643210f1dbd7669546ed96",
+      "links": [],
+      "anchors": {
+        "what-is-critical-thinking--actually": {
+          "type": "header",
+          "text": "What Is Critical Thinking,  Actually?",
+          "value": "what-is-critical-thinking--actually",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "inti": {
+          "type": "header",
+          "text": "Inti",
+          "value": "inti",
+          "line": 12,
+          "column": 0,
+          "depth": 3
+        },
+        "transkrip": {
+          "type": "header",
+          "text": "Transkrip",
+          "value": "transkrip",
+          "line": 16,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "kdenagzo0nhhzegy3c6yumk",
+      "data": {}
+    },
     "icjz52rcva7bmaw5f0dnubh": {
       "id": "icjz52rcva7bmaw5f0dnubh",
       "title": "Intermitten Fasting",
@@ -1888,265 +952,268 @@
       "parent": "tvdcga33h6hi7fxd9cwqd66",
       "data": {}
     },
-    "ufs9d3p8e9ko04vng69ozhv": {
-      "id": "ufs9d3p8e9ko04vng69ozhv",
-      "title": "Apa Itu Automation Workflow",
+    "ohf85tu5nw2b8ewx6cetsmp": {
+      "id": "ohf85tu5nw2b8ewx6cetsmp",
+      "title": "Notes",
       "desc": "",
-      "updated": 1647585187672,
-      "created": 1647584221450,
+      "updated": 1682013531705,
+      "created": 1659496157972,
       "custom": {},
-      "fname": "til.apa-itu-automation-workflow",
+      "fname": "notes",
       "type": "note",
       "vault": {
         "fsPath": "vault"
       },
-      "contentHash": "0c5bbbe7e060a06314bd763869f746c5",
-      "links": [],
-      "anchors": {},
-      "children": [],
-      "parent": "tvdcga33h6hi7fxd9cwqd66",
-      "data": {}
-    },
-    "aecilpcu1r34pyssvz4irzy": {
-      "id": "aecilpcu1r34pyssvz4irzy",
-      "title": "Templates",
-      "desc": "",
-      "updated": 1682012396834,
-      "created": 1682012396834,
-      "custom": {},
-      "fname": "templates",
-      "type": "note",
-      "vault": {
-        "fsPath": "vault"
-      },
-      "contentHash": "f3fc3d0aeae4b607daa4c0c70cf0cce0",
-      "links": [],
-      "anchors": {},
-      "children": [
-        "7bmupajj87y2ynur2co14cg"
-      ],
-      "parent": "oqxmejlafk9x8rj9t5hya5z",
-      "data": {}
-    },
-    "7bmupajj87y2ynur2co14cg": {
-      "id": "7bmupajj87y2ynur2co14cg",
-      "title": "Daily Journal Template",
-      "desc": "",
-      "updated": 1670348596183,
-      "created": 1670348596183,
-      "custom": {},
-      "fname": "templates.daily",
-      "type": "note",
-      "vault": {
-        "fsPath": "vault"
-      },
-      "contentHash": "35314fc08a8373c8098e3bbe3909fc6e",
+      "contentHash": "f9aed8cf888c145b878d4df3c310bc92",
       "links": [
         {
           "type": "wiki",
           "from": {
-            "fname": "templates.daily",
-            "id": "7bmupajj87y2ynur2co14cg",
-            "vaultName": "vault-public"
+            "fname": "notes",
+            "id": "ohf85tu5nw2b8ewx6cetsmp",
+            "vaultName": "vault"
           },
-          "value": "templates.daily",
+          "value": "notes.observability",
           "position": {
             "start": {
-              "line": 1,
-              "column": 68,
-              "offset": 67
+              "line": 104,
+              "column": 1,
+              "offset": 3693
             },
             "end": {
-              "line": 1,
-              "column": 87,
-              "offset": 86
+              "line": 104,
+              "column": 24,
+              "offset": 3716
             },
             "indent": []
           },
           "xvault": false,
           "sameFile": false,
           "to": {
-            "fname": "templates.daily"
+            "fname": "notes.observability"
           }
-        },
-        {
-          "from": {
-            "fname": "templates.daily",
-            "id": "7bmupajj87y2ynur2co14cg",
-            "vaultName": "vault-public"
-          },
-          "type": "backlink",
-          "position": {
-            "start": {
-              "line": 1,
-              "column": 68,
-              "offset": 67
-            },
-            "end": {
-              "line": 1,
-              "column": 87,
-              "offset": 86
-            },
-            "indent": []
-          },
-          "value": "templates.daily"
         }
       ],
       "anchors": {
-        "morning": {
+        "dump-notes": {
           "type": "header",
-          "text": "Morning",
-          "value": "morning",
-          "line": 16,
+          "text": "Dump notes",
+          "value": "dump-notes",
+          "line": 8,
           "column": 0,
           "depth": 2
         },
-        "gratitude": {
+        "web-apis": {
           "type": "header",
-          "text": "Gratitude",
-          "value": "gratitude",
-          "line": 20,
+          "text": "Web APIs",
+          "value": "web-apis",
+          "line": 10,
           "column": 0,
           "depth": 3
         },
-        "what-would-make-today-great": {
+        "devcontainer": {
           "type": "header",
-          "text": "What would make today great?",
-          "value": "what-would-make-today-great",
-          "line": 28,
+          "text": "Devcontainer",
+          "value": "devcontainer",
+          "line": 33,
           "column": 0,
           "depth": 3
         },
-        "daily-affirmations": {
+        "nix": {
           "type": "header",
-          "text": "Daily affirmations",
-          "value": "daily-affirmations",
-          "line": 34,
+          "text": "Nix",
+          "value": "nix",
+          "line": 37,
           "column": 0,
           "depth": 3
         },
-        "evening": {
+        "datadog": {
           "type": "header",
-          "text": "Evening",
-          "value": "evening",
-          "line": 38,
-          "column": 0,
-          "depth": 2
-        },
-        "amazing-things-that-happened-today": {
-          "type": "header",
-          "text": "Amazing things that happened today",
-          "value": "amazing-things-that-happened-today",
-          "line": 42,
+          "text": "Datadog",
+          "value": "datadog",
+          "line": 41,
           "column": 0,
           "depth": 3
         },
-        "how-could-i-have-made-today-even-better": {
+        "api-management": {
           "type": "header",
-          "text": "How could I have made today even better?",
-          "value": "how-could-i-have-made-today-even-better",
-          "line": 48,
+          "text": "API Management",
+          "value": "api-management",
+          "line": 46,
+          "column": 0,
+          "depth": 3
+        },
+        "identity--access-management": {
+          "type": "header",
+          "text": "Identity & Access Management",
+          "value": "identity--access-management",
+          "line": 57,
+          "column": 0,
+          "depth": 3
+        },
+        "frontend-development": {
+          "type": "header",
+          "text": "Frontend Development",
+          "value": "frontend-development",
+          "line": 71,
+          "column": 0,
+          "depth": 3
+        },
+        "web": {
+          "type": "header",
+          "text": "Web",
+          "value": "web",
+          "line": 73,
+          "column": 0,
+          "depth": 4
+        },
+        "mobile": {
+          "type": "header",
+          "text": "Mobile",
+          "value": "mobile",
+          "line": 78,
+          "column": 0,
+          "depth": 4
+        },
+        "software-architechture": {
+          "type": "header",
+          "text": "Software Architechture",
+          "value": "software-architechture",
+          "line": 83,
+          "column": 0,
+          "depth": 3
+        },
+        "diagraming": {
+          "type": "header",
+          "text": "Diagraming",
+          "value": "diagraming",
+          "line": 85,
+          "column": 0,
+          "depth": 4
+        },
+        "golang": {
+          "type": "header",
+          "text": "Golang",
+          "value": "golang",
+          "line": 91,
+          "column": 0,
+          "depth": 3
+        },
+        "continous-profiling": {
+          "type": "header",
+          "text": "Continous Profiling",
+          "value": "continous-profiling",
+          "line": 103,
+          "column": 0,
+          "depth": 3
+        },
+        "observability": {
+          "type": "header",
+          "text": "Observability",
+          "value": "observability",
+          "line": 108,
           "column": 0,
           "depth": 3
         }
       },
-      "children": [],
-      "parent": "aecilpcu1r34pyssvz4irzy",
-      "data": {}
-    },
-    "u3lhhpriar8wgcjw8svapha": {
-      "id": "u3lhhpriar8wgcjw8svapha",
-      "title": "Tags",
-      "desc": "",
-      "updated": 1682012396832,
-      "created": 1682012396832,
-      "custom": {},
-      "fname": "tags",
-      "type": "note",
-      "vault": {
-        "fsPath": "vault"
-      },
-      "contentHash": "fde5aa139b42846b72af66339f7d8bae",
-      "links": [],
-      "anchors": {},
       "children": [
-        "eowp1kx28x7z84a884kho3i",
-        "nlertrhxzb5mffxocj8c0uw",
-        "i4qdpg3wjwnulk1by0ti8dm",
-        "6y00oq5e6tpq0g68u34frr7",
-        "1l18nvi2v8de3tka75ibojn",
-        "wghdytgfyphqrrcmgp3ko0h",
-        "2s2ic9ajltco1l0einjx23g",
-        "8mz3dc3neqofv79za5ey5jp",
-        "68iwuc6hvz6bq5i6l8r53qa",
-        "gknqzf9ovamau992x4ew8u8"
+        "6z24mjncoue34r2mlyk8zzu",
+        "wjllig57c56t1zd1r06zi14",
+        "oihv5n0rca8xhqoon4efmh5",
+        "uftcxwjagb6qyz86je4gqkw"
       ],
       "parent": "oqxmejlafk9x8rj9t5hya5z",
       "data": {}
     },
-    "gknqzf9ovamau992x4ew8u8": {
-      "id": "gknqzf9ovamau992x4ew8u8",
-      "title": "Zeno Rocha",
-      "desc": "",
-      "updated": 1646860349309,
-      "created": 1646860340597,
-      "custom": {},
-      "fname": "tags.zeno-rocha",
-      "type": "note",
-      "vault": {
-        "fsPath": "vault"
-      },
-      "contentHash": "21b9cfef7000217bda061bd1f47f5f56",
-      "links": [
-        {
-          "from": {
-            "fname": "book-summaries.14-habits-of-highly-productive-developers",
-            "id": "n7oobf4m1pytfexf8scoxao",
-            "vaultName": "vault"
-          },
-          "type": "backlink",
-          "position": {
-            "start": {
-              "line": 3,
-              "column": 1,
-              "offset": 19
-            },
-            "end": {
-              "line": 3,
-              "column": 12,
-              "offset": 30
-            },
-            "indent": []
-          },
-          "value": "tags.zeno-rocha"
-        }
-      ],
-      "anchors": {},
-      "children": [],
-      "parent": "u3lhhpriar8wgcjw8svapha",
-      "data": {}
-    },
-    "68iwuc6hvz6bq5i6l8r53qa": {
-      "id": "68iwuc6hvz6bq5i6l8r53qa",
+    "uftcxwjagb6qyz86je4gqkw": {
+      "id": "uftcxwjagb6qyz86je4gqkw",
       "title": "Software Architechture",
       "desc": "",
-      "updated": 1666075418993,
-      "created": 1666075418993,
+      "updated": 1682013795320,
+      "created": 1682013795320,
       "custom": {},
-      "fname": "tags.software-architechture",
+      "fname": "notes.software-architechture",
       "type": "note",
       "vault": {
         "fsPath": "vault"
       },
-      "contentHash": "e988811c80de0cbe64f2cb5996ea4897",
+      "contentHash": "6dc9ffa5383f99ae1f71e5c246b0ac0e",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "lkwby4sk4bgobls2xo80u8c",
+        "tbz9r5q0jhld5v6so147hz0"
+      ],
+      "parent": "ohf85tu5nw2b8ewx6cetsmp",
+      "data": {}
+    },
+    "tbz9r5q0jhld5v6so147hz0": {
+      "id": "tbz9r5q0jhld5v6so147hz0",
+      "title": "Software Architechture Tradeoff",
+      "desc": "",
+      "updated": 1674110510897,
+      "created": 1674106458496,
+      "custom": {},
+      "fname": "notes.software-architechture.software-architechture-tradeoff",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "e2ce162352bfe449c54ebb3499f37fee",
+      "links": [],
+      "anchors": {
+        "law-of-software-architechture": {
+          "type": "header",
+          "text": "Law of Software Architechture",
+          "value": "law-of-software-architechture",
+          "line": 13,
+          "column": 0,
+          "depth": 2
+        },
+        "analyzing-architechture-tradeoff": {
+          "type": "header",
+          "text": "Analyzing Architechture Tradeoff",
+          "value": "analyzing-architechture-tradeoff",
+          "line": 30,
+          "column": 0,
+          "depth": 2
+        },
+        "modern-tradeoff-analysis": {
+          "type": "header",
+          "text": "Modern tradeoff analysis",
+          "value": "modern-tradeoff-analysis",
+          "line": 44,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "uftcxwjagb6qyz86je4gqkw",
+      "data": {}
+    },
+    "lkwby4sk4bgobls2xo80u8c": {
+      "id": "lkwby4sk4bgobls2xo80u8c",
+      "title": "C4",
+      "desc": "",
+      "updated": 1666077306710,
+      "created": 1666072852463,
+      "custom": {},
+      "fname": "notes.software-architechture.C4",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "423cb5934fab1121a11c7598c2d63849",
       "links": [
         {
+          "type": "wiki",
           "from": {
-            "fname": "notes.microservice",
-            "id": "32oadwuttrn541ymo6goqgl",
-            "vaultName": "vault-public"
+            "fname": "notes.software-architechture.C4",
+            "id": "lkwby4sk4bgobls2xo80u8c",
+            "vaultName": "vault"
           },
-          "type": "backlink",
+          "value": "tags.software-architechture",
+          "alias": "#software-architechture",
           "position": {
             "start": {
               "line": 2,
@@ -2160,443 +1227,20 @@
             },
             "indent": []
           },
-          "value": "tags.software-architechture"
+          "xvault": false,
+          "to": {
+            "fname": "tags.software-architechture"
+          }
         },
         {
+          "type": "wiki",
           "from": {
             "fname": "notes.software-architechture.C4",
             "id": "lkwby4sk4bgobls2xo80u8c",
-            "vaultName": "vault-public"
-          },
-          "type": "backlink",
-          "position": {
-            "start": {
-              "line": 2,
-              "column": 1,
-              "offset": 51
-            },
-            "end": {
-              "line": 2,
-              "column": 24,
-              "offset": 74
-            },
-            "indent": []
-          },
-          "value": "tags.software-architechture"
-        },
-        {
-          "from": {
-            "fname": "work.efishery.2023.as-software-architechture",
-            "id": "4qi32s6jcap4kpr0fa52bzy",
-            "vaultName": "vault-private"
-          },
-          "type": "backlink",
-          "position": {
-            "start": {
-              "line": 3,
-              "column": 20,
-              "offset": 56
-            },
-            "end": {
-              "line": 3,
-              "column": 43,
-              "offset": 79
-            },
-            "indent": []
-          },
-          "value": "tags.software-architechture"
-        }
-      ],
-      "anchors": {},
-      "children": [],
-      "parent": "u3lhhpriar8wgcjw8svapha",
-      "data": {}
-    },
-    "8mz3dc3neqofv79za5ey5jp": {
-      "id": "8mz3dc3neqofv79za5ey5jp",
-      "title": "Self Improvement",
-      "desc": "",
-      "updated": 1646860308990,
-      "created": 1646860308990,
-      "custom": {},
-      "fname": "tags.self-improvement",
-      "type": "note",
-      "vault": {
-        "fsPath": "vault"
-      },
-      "contentHash": "9b631004e76dd3092c010d88935b8214",
-      "links": [
-        {
-          "from": {
-            "fname": "book-summaries.14-habits-of-highly-productive-developers",
-            "id": "n7oobf4m1pytfexf8scoxao",
             "vaultName": "vault"
           },
-          "type": "backlink",
-          "position": {
-            "start": {
-              "line": 2,
-              "column": 1,
-              "offset": 1
-            },
-            "end": {
-              "line": 2,
-              "column": 18,
-              "offset": 18
-            },
-            "indent": []
-          },
-          "value": "tags.self-improvement"
-        },
-        {
-          "from": {
-            "fname": "book-summaries.dare-to-lead",
-            "id": "qt1780a5r3yr1h7fcqql1by",
-            "vaultName": "vault-public"
-          },
-          "type": "backlink",
-          "position": {
-            "start": {
-              "line": 2,
-              "column": 1,
-              "offset": 1
-            },
-            "end": {
-              "line": 2,
-              "column": 18,
-              "offset": 18
-            },
-            "indent": []
-          },
-          "value": "tags.self-improvement"
-        },
-        {
-          "from": {
-            "fname": "book-summaries.filosofi-teras",
-            "id": "nqcileafeym7dxnxgdjw469",
-            "vaultName": "vault"
-          },
-          "type": "backlink",
-          "position": {
-            "start": {
-              "line": 2,
-              "column": 1,
-              "offset": 1
-            },
-            "end": {
-              "line": 2,
-              "column": 18,
-              "offset": 18
-            },
-            "indent": []
-          },
-          "value": "tags.self-improvement"
-        },
-        {
-          "from": {
-            "fname": "book-summaries.self-driving",
-            "id": "oorvvxz032oov7psrw9ygte",
-            "vaultName": "vault"
-          },
-          "type": "backlink",
-          "position": {
-            "start": {
-              "line": 2,
-              "column": 1,
-              "offset": 1
-            },
-            "end": {
-              "line": 2,
-              "column": 18,
-              "offset": 18
-            },
-            "indent": []
-          },
-          "value": "tags.self-improvement"
-        },
-        {
-          "from": {
-            "fname": "book-summaries.the-compound-effect",
-            "id": "xvnfefwi9o4b10oxbk491wa",
-            "vaultName": "vault"
-          },
-          "type": "backlink",
-          "position": {
-            "start": {
-              "line": 2,
-              "column": 1,
-              "offset": 1
-            },
-            "end": {
-              "line": 2,
-              "column": 18,
-              "offset": 18
-            },
-            "indent": []
-          },
-          "value": "tags.self-improvement"
-        }
-      ],
-      "anchors": {},
-      "children": [],
-      "parent": "u3lhhpriar8wgcjw8svapha",
-      "data": {}
-    },
-    "2s2ic9ajltco1l0einjx23g": {
-      "id": "2s2ic9ajltco1l0einjx23g",
-      "title": "Rhenald Kasali",
-      "desc": "",
-      "updated": 1646860329713,
-      "created": 1646860329713,
-      "custom": {},
-      "fname": "tags.rhenald-kasali",
-      "type": "note",
-      "vault": {
-        "fsPath": "vault"
-      },
-      "contentHash": "47d704aa4a1d8202ec0eb9cec0cf77af",
-      "links": [
-        {
-          "from": {
-            "fname": "book-summaries.self-driving",
-            "id": "oorvvxz032oov7psrw9ygte",
-            "vaultName": "vault"
-          },
-          "type": "backlink",
-          "position": {
-            "start": {
-              "line": 3,
-              "column": 1,
-              "offset": 19
-            },
-            "end": {
-              "line": 3,
-              "column": 16,
-              "offset": 34
-            },
-            "indent": []
-          },
-          "value": "tags.rhenald-kasali"
-        }
-      ],
-      "anchors": {},
-      "children": [],
-      "parent": "u3lhhpriar8wgcjw8svapha",
-      "data": {}
-    },
-    "wghdytgfyphqrrcmgp3ko0h": {
-      "id": "wghdytgfyphqrrcmgp3ko0h",
-      "title": "Linter",
-      "desc": "",
-      "updated": 1646862692439,
-      "created": 1646862692439,
-      "custom": {},
-      "fname": "tags.linter",
-      "type": "note",
-      "vault": {
-        "fsPath": "vault"
-      },
-      "contentHash": "c3e6319acbbfd7ce9d2351da7e8bad21",
-      "links": [
-        {
-          "from": {
-            "fname": "handbook.golang.4-setup-golang-ci",
-            "id": "7hpir84idoztmofa72t2ozc",
-            "vaultName": "vault"
-          },
-          "type": "backlink",
-          "position": {
-            "start": {
-              "line": 2,
-              "column": 5,
-              "offset": 5
-            },
-            "end": {
-              "line": 2,
-              "column": 12,
-              "offset": 12
-            },
-            "indent": []
-          },
-          "value": "tags.linter"
-        }
-      ],
-      "anchors": {},
-      "children": [],
-      "parent": "u3lhhpriar8wgcjw8svapha",
-      "data": {}
-    },
-    "1l18nvi2v8de3tka75ibojn": {
-      "id": "1l18nvi2v8de3tka75ibojn",
-      "title": "Go",
-      "desc": "",
-      "updated": 1646862045751,
-      "created": 1646861882260,
-      "custom": {},
-      "fname": "tags.go",
-      "type": "note",
-      "vault": {
-        "fsPath": "vault"
-      },
-      "contentHash": "bc842cb11e092d6750e6cc591a86929f",
-      "links": [
-        {
-          "from": {
-            "fname": "handbook.golang.1-idiomatic",
-            "id": "gscpu1k5cvyqrwnobbyna8p",
-            "vaultName": "vault"
-          },
-          "type": "backlink",
-          "position": {
-            "start": {
-              "line": 2,
-              "column": 1,
-              "offset": 1
-            },
-            "end": {
-              "line": 2,
-              "column": 4,
-              "offset": 4
-            },
-            "indent": []
-          },
-          "value": "tags.go"
-        },
-        {
-          "from": {
-            "fname": "handbook.golang.2-membuat-http-server",
-            "id": "ro7nzb092u06toxmg4iofya",
-            "vaultName": "vault"
-          },
-          "type": "backlink",
-          "position": {
-            "start": {
-              "line": 2,
-              "column": 1,
-              "offset": 1
-            },
-            "end": {
-              "line": 2,
-              "column": 4,
-              "offset": 4
-            },
-            "indent": []
-          },
-          "value": "tags.go"
-        },
-        {
-          "from": {
-            "fname": "handbook.golang.3-build-image-dengan-docker",
-            "id": "s74bijnsy1zt9zzshpmeyk3",
-            "vaultName": "vault"
-          },
-          "type": "backlink",
-          "position": {
-            "start": {
-              "line": 2,
-              "column": 1,
-              "offset": 1
-            },
-            "end": {
-              "line": 2,
-              "column": 4,
-              "offset": 4
-            },
-            "indent": []
-          },
-          "value": "tags.go"
-        },
-        {
-          "from": {
-            "fname": "handbook.golang.4-setup-golang-ci",
-            "id": "7hpir84idoztmofa72t2ozc",
-            "vaultName": "vault"
-          },
-          "type": "backlink",
-          "position": {
-            "start": {
-              "line": 2,
-              "column": 1,
-              "offset": 1
-            },
-            "end": {
-              "line": 2,
-              "column": 4,
-              "offset": 4
-            },
-            "indent": []
-          },
-          "value": "tags.go"
-        }
-      ],
-      "anchors": {},
-      "children": [],
-      "parent": "u3lhhpriar8wgcjw8svapha",
-      "data": {}
-    },
-    "6y00oq5e6tpq0g68u34frr7": {
-      "id": "6y00oq5e6tpq0g68u34frr7",
-      "title": "Docker",
-      "desc": "",
-      "updated": 1646862679650,
-      "created": 1646862679650,
-      "custom": {},
-      "fname": "tags.docker",
-      "type": "note",
-      "vault": {
-        "fsPath": "vault"
-      },
-      "contentHash": "f2840a52b4ab0eb7e0ad3b7c8b374788",
-      "links": [
-        {
-          "from": {
-            "fname": "handbook.golang.3-build-image-dengan-docker",
-            "id": "s74bijnsy1zt9zzshpmeyk3",
-            "vaultName": "vault"
-          },
-          "type": "backlink",
-          "position": {
-            "start": {
-              "line": 2,
-              "column": 5,
-              "offset": 5
-            },
-            "end": {
-              "line": 2,
-              "column": 12,
-              "offset": 12
-            },
-            "indent": []
-          },
-          "value": "tags.docker"
-        }
-      ],
-      "anchors": {},
-      "children": [],
-      "parent": "u3lhhpriar8wgcjw8svapha",
-      "data": {}
-    },
-    "i4qdpg3wjwnulk1by0ti8dm": {
-      "id": "i4qdpg3wjwnulk1by0ti8dm",
-      "title": "Diagram",
-      "desc": "",
-      "updated": 1666075405282,
-      "created": 1666075405282,
-      "custom": {},
-      "fname": "tags.diagram",
-      "type": "note",
-      "vault": {
-        "fsPath": "vault"
-      },
-      "contentHash": "08c9dca50e292fa6181247ae8c92b562",
-      "links": [
-        {
-          "from": {
-            "fname": "notes.software-architechture.C4",
-            "id": "lkwby4sk4bgobls2xo80u8c",
-            "vaultName": "vault-public"
-          },
-          "type": "backlink",
+          "value": "tags.diagram",
+          "alias": "#diagram",
           "position": {
             "start": {
               "line": 3,
@@ -2610,96 +1254,98 @@
             },
             "indent": []
           },
-          "value": "tags.diagram"
+          "xvault": false,
+          "to": {
+            "fname": "tags.diagram"
+          }
         }
       ],
-      "anchors": {},
+      "anchors": {
+        "c4-on-vscode-with-plantuml-extension": {
+          "type": "header",
+          "text": "C4 on VSCode with PlantUML extension",
+          "value": "c4-on-vscode-with-plantuml-extension",
+          "line": 22,
+          "column": 0,
+          "depth": 2
+        }
+      },
       "children": [],
-      "parent": "u3lhhpriar8wgcjw8svapha",
+      "parent": "uftcxwjagb6qyz86je4gqkw",
       "data": {}
     },
-    "nlertrhxzb5mffxocj8c0uw": {
-      "id": "nlertrhxzb5mffxocj8c0uw",
-      "title": "Darren Hardy",
+    "oihv5n0rca8xhqoon4efmh5": {
+      "id": "oihv5n0rca8xhqoon4efmh5",
+      "title": "Eventstorming",
       "desc": "",
-      "updated": 1646860321221,
-      "created": 1646860321221,
+      "updated": 1660600415983,
+      "created": 1660598446523,
       "custom": {},
-      "fname": "tags.darren-hardy",
+      "fname": "notes.eventstorming",
       "type": "note",
       "vault": {
         "fsPath": "vault"
       },
-      "contentHash": "4f53e26324c46ebb215a72fca8bb0890",
-      "links": [
-        {
-          "from": {
-            "fname": "book-summaries.the-compound-effect",
-            "id": "xvnfefwi9o4b10oxbk491wa",
-            "vaultName": "vault"
-          },
-          "type": "backlink",
-          "position": {
-            "start": {
-              "line": 3,
-              "column": 1,
-              "offset": 19
-            },
-            "end": {
-              "line": 3,
-              "column": 14,
-              "offset": 32
-            },
-            "indent": []
-          },
-          "value": "tags.darren-hardy"
-        }
-      ],
+      "contentHash": "3aa85faaeae89091449817562dabcf59",
+      "links": [],
       "anchors": {},
       "children": [],
-      "parent": "u3lhhpriar8wgcjw8svapha",
+      "parent": "ohf85tu5nw2b8ewx6cetsmp",
       "data": {}
     },
-    "eowp1kx28x7z84a884kho3i": {
-      "id": "eowp1kx28x7z84a884kho3i",
-      "title": "Brené Brown",
+    "wjllig57c56t1zd1r06zi14": {
+      "id": "wjllig57c56t1zd1r06zi14",
+      "title": "Continous Delivery",
       "desc": "",
-      "updated": 1646860361464,
-      "created": 1646860361464,
+      "updated": 1662669642981,
+      "created": 1662658315170,
       "custom": {},
-      "fname": "tags.brené-brown",
+      "fname": "notes.continous-delivery",
       "type": "note",
       "vault": {
         "fsPath": "vault"
       },
-      "contentHash": "5d39b4f6de8122f7774f1d77081c7c92",
-      "links": [
-        {
-          "from": {
-            "fname": "book-summaries.dare-to-lead",
-            "id": "qt1780a5r3yr1h7fcqql1by",
-            "vaultName": "vault-public"
-          },
-          "type": "backlink",
-          "position": {
-            "start": {
-              "line": 3,
-              "column": 1,
-              "offset": 19
-            },
-            "end": {
-              "line": 3,
-              "column": 13,
-              "offset": 31
-            },
-            "indent": []
-          },
-          "value": "tags.brené-brown"
-        }
-      ],
+      "contentHash": "df9731833a57c8a0b880d2d03ffe3155",
+      "links": [],
       "anchors": {},
       "children": [],
-      "parent": "u3lhhpriar8wgcjw8svapha",
+      "parent": "ohf85tu5nw2b8ewx6cetsmp",
+      "data": {}
+    },
+    "6z24mjncoue34r2mlyk8zzu": {
+      "id": "6z24mjncoue34r2mlyk8zzu",
+      "title": "API Management",
+      "desc": "",
+      "updated": 1721120088368,
+      "created": 1662554583293,
+      "custom": {},
+      "fname": "notes.api-management",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "ef094ccc63f303fdb0238e22b2cba196",
+      "links": [],
+      "anchors": {
+        "notes": {
+          "type": "header",
+          "text": "Notes",
+          "value": "notes",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "read--wacth-list": {
+          "type": "header",
+          "text": "Read / Wacth List",
+          "value": "read--wacth-list",
+          "line": 10,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "ohf85tu5nw2b8ewx6cetsmp",
       "data": {}
     },
     "bsv930j2j6qlih60c7eu7wh": {
@@ -2718,9 +1364,46 @@
       "links": [],
       "anchors": {},
       "children": [
-        "3e9942id79hw89ncudt79ok"
+        "3e9942id79hw89ncudt79ok",
+        "qsjn6anz0awbgtdp59s2n0i"
       ],
       "parent": "oqxmejlafk9x8rj9t5hya5z",
+      "data": {}
+    },
+    "qsjn6anz0awbgtdp59s2n0i": {
+      "id": "qsjn6anz0awbgtdp59s2n0i",
+      "title": "Rust",
+      "desc": "",
+      "updated": 1705884635260,
+      "created": 1705884547047,
+      "custom": {},
+      "fname": "handbook.rust",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "552574ad0c3785d70ba024b4eae60258",
+      "links": [],
+      "anchors": {
+        "setup": {
+          "type": "header",
+          "text": "Setup",
+          "value": "setup",
+          "line": 9,
+          "column": 0,
+          "depth": 2
+        },
+        "coding": {
+          "type": "header",
+          "text": "Coding",
+          "value": "coding",
+          "line": 24,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "bsv930j2j6qlih60c7eu7wh",
       "data": {}
     },
     "3e9942id79hw89ncudt79ok": {
@@ -3111,15 +1794,361 @@
       "anchors": {},
       "children": [
         "n7oobf4m1pytfexf8scoxao",
+        "23znyhsi9lugmrcvhx4b5qr",
         "qt1780a5r3yr1h7fcqql1by",
-        "jljq4xao1aar28ec8sjucjn",
         "nqcileafeym7dxnxgdjw469",
-        "udapxjv1fpf80boxvak0rva",
         "oorvvxz032oov7psrw9ygte",
-        "3nf7tr2quluye6g8t1c4lhr",
-        "xvnfefwi9o4b10oxbk491wa"
+        "z2knclhdtc45qgvhiv78nfx",
+        "xvnfefwi9o4b10oxbk491wa",
+        "apvcp6t3nkh534u1dwngqtv",
+        "tl8lc3dlcmt97609fjhhi8o"
       ],
       "parent": "oqxmejlafk9x8rj9t5hya5z",
+      "data": {}
+    },
+    "tl8lc3dlcmt97609fjhhi8o": {
+      "id": "tl8lc3dlcmt97609fjhhi8o",
+      "title": "Youtube",
+      "desc": "",
+      "updated": 1683597737332,
+      "created": 1683597737332,
+      "custom": {},
+      "fname": "book-summaries.youtube",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "be2433c5752a36350fbff415bc9d1943",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "7q7g9eix5c7adk4h8hy4vqp"
+      ],
+      "parent": "spfwom01chbihki1twghclf",
+      "data": {}
+    },
+    "7q7g9eix5c7adk4h8hy4vqp": {
+      "id": "7q7g9eix5c7adk4h8hy4vqp",
+      "title": "The Super Mario Effect Tricking Your Brain into Learning More",
+      "desc": "",
+      "updated": 1683596864482,
+      "created": 1683596292281,
+      "custom": {},
+      "fname": "book-summaries.youtube.the-super-mario-effect-tricking-your-brain-into-learning-more",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "27c7a1f86adfaa8644dc473f31eff658",
+      "links": [],
+      "anchors": {
+        "summary": {
+          "type": "header",
+          "text": "Summary",
+          "value": "summary",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        },
+        "problem--solution": {
+          "type": "header",
+          "text": "Problem & Solution",
+          "value": "problem--solution",
+          "line": 14,
+          "column": 0,
+          "depth": 2
+        },
+        "takeaways": {
+          "type": "header",
+          "text": "Takeaways",
+          "value": "takeaways",
+          "line": 20,
+          "column": 0,
+          "depth": 2
+        },
+        "transcript": {
+          "type": "header",
+          "text": "Transcript",
+          "value": "transcript",
+          "line": 32,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "tl8lc3dlcmt97609fjhhi8o",
+      "data": {}
+    },
+    "apvcp6t3nkh534u1dwngqtv": {
+      "id": "apvcp6t3nkh534u1dwngqtv",
+      "title": "The Devops Handbook",
+      "desc": "",
+      "updated": 1682050104200,
+      "created": 1682046153823,
+      "custom": {},
+      "fname": "book-summaries.the-devops-handbook",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "4f8729af1d5585b17fe36c9caef77fbd",
+      "links": [],
+      "anchors": {
+        "outcomes-devops": {
+          "type": "header",
+          "text": "Outcomes Devops",
+          "value": "outcomes-devops",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "awal-cerita": {
+          "type": "header",
+          "text": "Awal cerita",
+          "value": "awal-cerita",
+          "line": 12,
+          "column": 0,
+          "depth": 2
+        },
+        "the-problem-something-in-your-organization-must-need-improvement": {
+          "type": "header",
+          "text": "THE PROBLEM: SOMETHING IN YOUR ORGANIZATION MUST NEED IMPROVEMENT",
+          "value": "the-problem-something-in-your-organization-must-need-improvement",
+          "line": 24,
+          "column": 0,
+          "depth": 2
+        },
+        "the-core-chronic-conflict": {
+          "type": "header",
+          "text": "THE CORE, CHRONIC CONFLICT",
+          "value": "the-core-chronic-conflict",
+          "line": 28,
+          "column": 0,
+          "depth": 3
+        },
+        "downward-spiral-in-three-acts": {
+          "type": "header",
+          "text": "DOWNWARD SPIRAL IN THREE ACTS",
+          "value": "downward-spiral-in-three-acts",
+          "line": 42,
+          "column": 0,
+          "depth": 3
+        },
+        "why-does-this-downward-spiral-happen-everywhere": {
+          "type": "header",
+          "text": "WHY DOES THIS DOWNWARD SPIRAL HAPPEN EVERYWHERE?",
+          "value": "why-does-this-downward-spiral-happen-everywhere",
+          "line": 68,
+          "column": 0,
+          "depth": 2
+        },
+        "bagaimana-memecahkan-spiral-down-dengan-devops": {
+          "type": "header",
+          "text": "Bagaimana memecahkan Spiral Down dengan Devops",
+          "value": "bagaimana-memecahkan-spiral-down-dengan-devops",
+          "line": 72,
+          "column": 0,
+          "depth": 2
+        },
+        "beberapa-action-item": {
+          "type": "header",
+          "text": "Beberapa action item",
+          "value": "beberapa-action-item",
+          "line": 100,
+          "column": 0,
+          "depth": 3
+        },
+        "bisnis-value-dari-devops": {
+          "type": "header",
+          "text": "Bisnis value dari devops",
+          "value": "bisnis-value-dari-devops",
+          "line": 118,
+          "column": 0,
+          "depth": 2
+        },
+        "devops-helps-scale-developer-productivity": {
+          "type": "header",
+          "text": "DEVOPS HELPS SCALE DEVELOPER PRODUCTIVITY",
+          "value": "devops-helps-scale-developer-productivity",
+          "line": 142,
+          "column": 0,
+          "depth": 2
+        },
+        "bagian-dari-buku-the-devops-handbook": {
+          "type": "header",
+          "text": "Bagian dari buku the devops handbook",
+          "value": "bagian-dari-buku-the-devops-handbook",
+          "line": 156,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [
+        "2jw8nj1c5iybgzw5bjuz4hu"
+      ],
+      "parent": "spfwom01chbihki1twghclf",
+      "data": {}
+    },
+    "2jw8nj1c5iybgzw5bjuz4hu": {
+      "id": "2jw8nj1c5iybgzw5bjuz4hu",
+      "title": "Part I - The Three Ways",
+      "desc": "",
+      "updated": 1682050411373,
+      "created": 1682049639262,
+      "custom": {},
+      "fname": "book-summaries.the-devops-handbook.part-I-the-three-ways",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "7eb50b508b5978b9de56354e26c87ef0",
+      "links": [],
+      "anchors": {
+        "the-lean-movement": {
+          "type": "header",
+          "text": "THE LEAN MOVEMENT",
+          "value": "the-lean-movement",
+          "line": 18,
+          "column": 0,
+          "depth": 3
+        },
+        "the-agile-manifesto": {
+          "type": "header",
+          "text": "THE AGILE MANIFESTO",
+          "value": "the-agile-manifesto",
+          "line": 26,
+          "column": 0,
+          "depth": 3
+        },
+        "agile-infrastructure-and-velocity-movement": {
+          "type": "header",
+          "text": "AGILE INFRASTRUCTURE AND VELOCITY MOVEMENT",
+          "value": "agile-infrastructure-and-velocity-movement",
+          "line": 34,
+          "column": 0,
+          "depth": 3
+        },
+        "gerakan-pengiriman-berkelanjutan": {
+          "type": "header",
+          "text": "GERAKAN PENGIRIMAN BERKELANJUTAN",
+          "value": "gerakan-pengiriman-berkelanjutan",
+          "line": 42,
+          "column": 0,
+          "depth": 3
+        },
+        "ringkasan": {
+          "type": "header",
+          "text": "Ringkasan",
+          "value": "ringkasan",
+          "line": 54,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [
+        "588eod7sssw7aq8rt2bqngf"
+      ],
+      "parent": "apvcp6t3nkh534u1dwngqtv",
+      "data": {}
+    },
+    "588eod7sssw7aq8rt2bqngf": {
+      "id": "588eod7sssw7aq8rt2bqngf",
+      "title": "Agile Continuous Delivery and the Three Ways",
+      "desc": "",
+      "updated": 1682058124603,
+      "created": 1682056287407,
+      "custom": {},
+      "fname": "book-summaries.the-devops-handbook.part-I-the-three-ways.Agile-Continuous-Delivery-and-the-Three-Ways",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "6639e78a50bcb42dd4e31b66016dc61b",
+      "links": [],
+      "anchors": {
+        "ringkasan": {
+          "type": "header",
+          "text": "Ringkasan",
+          "value": "ringkasan",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        },
+        "action-items": {
+          "type": "header",
+          "text": "Action Items",
+          "value": "action-items",
+          "line": 14,
+          "column": 0,
+          "depth": 2
+        },
+        "the-manufacturing-value-stream": {
+          "type": "header",
+          "text": "THE MANUFACTURING VALUE STREAM",
+          "value": "the-manufacturing-value-stream",
+          "line": 28,
+          "column": 0,
+          "depth": 2
+        },
+        "the-technology-value-stream": {
+          "type": "header",
+          "text": "THE TECHNOLOGY VALUE STREAM",
+          "value": "the-technology-value-stream",
+          "line": 36,
+          "column": 0,
+          "depth": 2
+        },
+        "focus-on-deployment-lead-time": {
+          "type": "header",
+          "text": "FOCUS ON DEPLOYMENT LEAD TIME",
+          "value": "focus-on-deployment-lead-time",
+          "line": 44,
+          "column": 0,
+          "depth": 2
+        },
+        "defining-lead-time-vs-processing-time": {
+          "type": "header",
+          "text": "Defining Lead Time vs. Processing Time",
+          "value": "defining-lead-time-vs-processing-time",
+          "line": 52,
+          "column": 0,
+          "depth": 3
+        },
+        "skenario-umum-waktu-pemakaian-yang-memerlukan-berbulan-bulan": {
+          "type": "header",
+          "text": "Skenario Umum: Waktu Pemakaian Yang Memerlukan Berbulan-Bulan",
+          "value": "skenario-umum-waktu-pemakaian-yang-memerlukan-berbulan-bulan",
+          "line": 62,
+          "column": 0,
+          "depth": 3
+        },
+        "visi-devops-kami-deployment-lead-time-dalam-hitungan-menit": {
+          "type": "header",
+          "text": "Visi DevOps Kami: Deployment Lead Time dalam Hitungan Menit",
+          "value": "visi-devops-kami-deployment-lead-time-dalam-hitungan-menit",
+          "line": 71,
+          "column": 0,
+          "depth": 3
+        },
+        "observing-ca-as-a-measure-of-rework": {
+          "type": "header",
+          "text": "OBSERVING “%C/A” AS A MEASURE OF REWORK",
+          "value": "observing-ca-as-a-measure-of-rework",
+          "line": 83,
+          "column": 0,
+          "depth": 3
+        },
+        "the-three-ways-the-principles-underpinning-devops": {
+          "type": "header",
+          "text": "THE THREE WAYS: THE PRINCIPLES UNDERPINNING DEVOPS",
+          "value": "the-three-ways-the-principles-underpinning-devops",
+          "line": 93,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "2jw8nj1c5iybgzw5bjuz4hu",
       "data": {}
     },
     "xvnfefwi9o4b10oxbk491wa": {
@@ -3325,52 +2354,156 @@
       "parent": "spfwom01chbihki1twghclf",
       "data": {}
     },
-    "3nf7tr2quluye6g8t1c4lhr": {
-      "id": "3nf7tr2quluye6g8t1c4lhr",
-      "title": "Staffeng",
+    "z2knclhdtc45qgvhiv78nfx": {
+      "id": "z2knclhdtc45qgvhiv78nfx",
+      "title": "Team Topologies",
       "desc": "",
-      "updated": 1647369240178,
-      "created": 1647369240178,
+      "updated": 1683595554316,
+      "created": 1683524168473,
       "custom": {},
-      "fname": "book-summaries.staffeng",
+      "fname": "book-summaries.team-topologies",
       "type": "note",
       "vault": {
         "fsPath": "vault"
       },
-      "contentHash": "a4315e30965b3f5bb7029403feccd34c",
-      "links": [
-        {
-          "from": {
-            "fname": "work.efishery.daily.journal.2022.03.15",
-            "id": "3il9fyy2yvu9izk7rqrqts2",
-            "vaultName": "vault-private"
-          },
-          "type": "backlink",
-          "position": {
-            "start": {
-              "line": 6,
-              "column": 52,
-              "offset": 205
-            },
-            "end": {
-              "line": 6,
-              "column": 79,
-              "offset": 232
-            },
-            "indent": []
-          },
-          "value": "book-summaries.staffeng"
+      "contentHash": "b0daa9ee0ba99f51c639c5bde84ec8b2",
+      "links": [],
+      "anchors": {
+        "the-problem-with-org-charts": {
+          "type": "header",
+          "text": "The Problem with Org Charts",
+          "value": "the-problem-with-org-charts",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "problem--solution": {
+          "type": "header",
+          "text": "Problem & Solution",
+          "value": "problem--solution",
+          "line": 10,
+          "column": 0,
+          "depth": 3
+        },
+        "takeaways": {
+          "type": "header",
+          "text": "Takeaways",
+          "value": "takeaways",
+          "line": 17,
+          "column": 0,
+          "depth": 3
+        },
+        "summary": {
+          "type": "header",
+          "text": "Summary",
+          "value": "summary",
+          "line": 25,
+          "column": 0,
+          "depth": 3
         }
+      },
+      "children": [
+        "k774ju38pzm0h85rubp4dib"
       ],
-      "anchors": {},
-      "children": [],
       "parent": "spfwom01chbihki1twghclf",
+      "data": {}
+    },
+    "k774ju38pzm0h85rubp4dib": {
+      "id": "k774ju38pzm0h85rubp4dib",
+      "title": "The Problem with Org Charts",
+      "desc": "",
+      "updated": 1683595988177,
+      "created": 1683526227862,
+      "custom": {},
+      "fname": "book-summaries.team-topologies.the-problem-with-org-charts",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "292bfcc769088fe57667c3202ec62b89",
+      "links": [],
+      "anchors": {
+        "masalah-dengan-struktur-organisasi": {
+          "type": "header",
+          "text": "Masalah dengan Struktur Organisasi",
+          "value": "masalah-dengan-struktur-organisasi",
+          "line": 9,
+          "column": 0,
+          "depth": 2
+        },
+        "struktur-komunikasi-dalam-organisasi": {
+          "type": "header",
+          "text": "Struktur Komunikasi dalam Organisasi",
+          "value": "struktur-komunikasi-dalam-organisasi",
+          "line": 27,
+          "column": 0,
+          "depth": 3
+        },
+        "berpikir-menggunakan-org-chart-adalah-masalah": {
+          "type": "header",
+          "text": "Berpikir Menggunakan Org Chart Adalah Masalah",
+          "value": "berpikir-menggunakan-org-chart-adalah-masalah",
+          "line": 37,
+          "column": 0,
+          "depth": 2
+        },
+        "melampaui-diagram-organisasi": {
+          "type": "header",
+          "text": "Melampaui Diagram Organisasi",
+          "value": "melampaui-diagram-organisasi",
+          "line": 49,
+          "column": 0,
+          "depth": 2
+        },
+        "tim-topologi-cara-baru-memikirkan-tentang-tim": {
+          "type": "header",
+          "text": "Tim Topologi: Cara Baru Memikirkan Tentang Tim",
+          "value": "tim-topologi-cara-baru-memikirkan-tentang-tim",
+          "line": 78,
+          "column": 0,
+          "depth": 2
+        },
+        "kebangkitan-hukum-conway": {
+          "type": "header",
+          "text": "Kebangkitan Hukum Conway",
+          "value": "kebangkitan-hukum-conway",
+          "line": 90,
+          "column": 0,
+          "depth": 3
+        },
+        "beban-kognitif-dan-bottlenecks": {
+          "type": "header",
+          "text": "Beban Kognitif dan Bottlenecks",
+          "value": "beban-kognitif-dan-bottlenecks",
+          "line": 106,
+          "column": 0,
+          "depth": 3
+        },
+        "ringkasan-rethink-struktur-tim-tujuan-dan-interaksi": {
+          "type": "header",
+          "text": "Ringkasan: Rethink Struktur Tim, Tujuan, dan Interaksi",
+          "value": "ringkasan-rethink-struktur-tim-tujuan-dan-interaksi",
+          "line": 124,
+          "column": 0,
+          "depth": 3
+        },
+        "catatan": {
+          "type": "header",
+          "text": "Catatan",
+          "value": "catatan",
+          "line": 138,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "z2knclhdtc45qgvhiv78nfx",
       "data": {}
     },
     "oorvvxz032oov7psrw9ygte": {
       "id": "oorvvxz032oov7psrw9ygte",
       "title": "Self Driving",
-      "updated": 1647079907,
+      "updated": 1721120039367,
       "created": 1646854981225,
       "tags": [
         "Self Improvement",
@@ -3383,7 +2516,7 @@
       "vault": {
         "fsPath": "vault"
       },
-      "contentHash": "9e55e3dfc8ecefe1da385c34e0537029",
+      "contentHash": "47a840a8e0777676ed69fc30d6d02445",
       "links": [
         {
           "type": "frontmatterTag",
@@ -3578,34 +2711,6 @@
           "text": "13: Epilog",
           "value": "13-epilog",
           "line": 365,
-          "column": 0,
-          "depth": 2
-        }
-      },
-      "children": [],
-      "parent": "spfwom01chbihki1twghclf",
-      "data": {}
-    },
-    "udapxjv1fpf80boxvak0rva": {
-      "id": "udapxjv1fpf80boxvak0rva",
-      "title": "Measure What Matters",
-      "desc": "",
-      "updated": 1659496238406,
-      "created": 1659370069465,
-      "custom": {},
-      "fname": "book-summaries.measure-what-matters",
-      "type": "note",
-      "vault": {
-        "fsPath": "vault"
-      },
-      "contentHash": "4edfd99b2fe0e85b69ed8174540ac122",
-      "links": [],
-      "anchors": {
-        "kata-pengantar": {
-          "type": "header",
-          "text": "Kata pengantar",
-          "value": "kata-pengantar",
-          "line": 8,
           "column": 0,
           "depth": 2
         }
@@ -3814,48 +2919,6 @@
       "parent": "spfwom01chbihki1twghclf",
       "data": {}
     },
-    "jljq4xao1aar28ec8sjucjn": {
-      "id": "jljq4xao1aar28ec8sjucjn",
-      "title": "Developer Advocate",
-      "desc": "",
-      "updated": 1647370757037,
-      "created": 1647370757037,
-      "custom": {},
-      "fname": "book-summaries.developer-advocate",
-      "type": "note",
-      "vault": {
-        "fsPath": "vault"
-      },
-      "contentHash": "58d75d9a38aeaa40b71666d801b3880d",
-      "links": [
-        {
-          "from": {
-            "fname": "notes.questions.bagaimana-melakukan-advokasi-technology",
-            "id": "yrvi88srn2ysokv1u5j0t4t",
-            "vaultName": "vault-private"
-          },
-          "type": "backlink",
-          "position": {
-            "start": {
-              "line": 4,
-              "column": 4,
-              "offset": 18
-            },
-            "end": {
-              "line": 4,
-              "column": 62,
-              "offset": 76
-            },
-            "indent": []
-          },
-          "value": "book-summaries.developer-advocate"
-        }
-      ],
-      "anchors": {},
-      "children": [],
-      "parent": "spfwom01chbihki1twghclf",
-      "data": {}
-    },
     "qt1780a5r3yr1h7fcqql1by": {
       "id": "qt1780a5r3yr1h7fcqql1by",
       "title": "Dare to Lead",
@@ -3879,7 +2942,7 @@
           "from": {
             "fname": "book-summaries.dare-to-lead",
             "id": "qt1780a5r3yr1h7fcqql1by",
-            "vaultName": "vault-public"
+            "vaultName": "vault"
           },
           "value": "tags.Self Improvement",
           "alias": "Self Improvement",
@@ -3893,7 +2956,7 @@
           "from": {
             "fname": "book-summaries.dare-to-lead",
             "id": "qt1780a5r3yr1h7fcqql1by",
-            "vaultName": "vault-public"
+            "vaultName": "vault"
           },
           "value": "tags.Brené Brown",
           "alias": "Brené Brown",
@@ -3907,7 +2970,7 @@
           "from": {
             "fname": "book-summaries.dare-to-lead",
             "id": "qt1780a5r3yr1h7fcqql1by",
-            "vaultName": "vault-public"
+            "vaultName": "vault"
           },
           "value": "tags.self-improvement",
           "alias": "#self-improvement",
@@ -3934,7 +2997,7 @@
           "from": {
             "fname": "book-summaries.dare-to-lead",
             "id": "qt1780a5r3yr1h7fcqql1by",
-            "vaultName": "vault-public"
+            "vaultName": "vault"
           },
           "value": "tags.brené-brown",
           "alias": "#brené-brown",
@@ -4017,6 +3080,127 @@
       },
       "children": [],
       "parent": "spfwom01chbihki1twghclf",
+      "data": {}
+    },
+    "23znyhsi9lugmrcvhx4b5qr": {
+      "id": "23znyhsi9lugmrcvhx4b5qr",
+      "title": "Continuous Integration (CI) and Continuous Delivery (CD) a Practical Guide to Designing and Developing Pipelines",
+      "desc": "",
+      "updated": 1721119995202,
+      "created": 1688713938195,
+      "custom": {},
+      "fname": "book-summaries.continuous-integration-CI-and-continuous-delivery-CD-a-practical-guide-to-designing-and-developing-pipelines",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "7d31a1a275ff3ecbdc82b54356946ea4",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "pviuhlbg2byizkycrj21y2e"
+      ],
+      "parent": "spfwom01chbihki1twghclf",
+      "data": {}
+    },
+    "pviuhlbg2byizkycrj21y2e": {
+      "id": "pviuhlbg2byizkycrj21y2e",
+      "title": "7. Implementing Pipelines",
+      "desc": "",
+      "updated": 1688716971658,
+      "created": 1688714023571,
+      "custom": {},
+      "fname": "book-summaries.continuous-integration-CI-and-continuous-delivery-CD-a-practical-guide-to-designing-and-developing-pipelines.implementing-pipelines",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "9b9d90d79ac8f5ba11a6d0e32b2e5c99",
+      "links": [],
+      "anchors": {
+        "implementasi-pipeline": {
+          "type": "header",
+          "text": "Implementasi Pipeline",
+          "value": "implementasi-pipeline",
+          "line": 17,
+          "column": 0,
+          "depth": 2
+        },
+        "dampak-organisasi": {
+          "type": "header",
+          "text": "Dampak Organisasi",
+          "value": "dampak-organisasi",
+          "line": 25,
+          "column": 0,
+          "depth": 2
+        },
+        "disiplin-tim": {
+          "type": "header",
+          "text": "Disiplin Tim",
+          "value": "disiplin-tim",
+          "line": 35,
+          "column": 0,
+          "depth": 3
+        },
+        "platform-integrasi": {
+          "type": "header",
+          "text": "Platform Integrasi",
+          "value": "platform-integrasi",
+          "line": 51,
+          "column": 0,
+          "depth": 3
+        },
+        "persiapan-lingkungan-target": {
+          "type": "header",
+          "text": "Persiapan Lingkungan Target",
+          "value": "persiapan-lingkungan-target",
+          "line": 82,
+          "column": 0,
+          "depth": 3
+        },
+        "playbook": {
+          "type": "header",
+          "text": "Playbook",
+          "value": "playbook",
+          "line": 90,
+          "column": 0,
+          "depth": 4
+        },
+        "implementasi-aplikasi": {
+          "type": "header",
+          "text": "Implementasi Aplikasi",
+          "value": "implementasi-aplikasi",
+          "line": 96,
+          "column": 0,
+          "depth": 3
+        },
+        "runbook": {
+          "type": "header",
+          "text": "Runbook",
+          "value": "runbook",
+          "line": 100,
+          "column": 0,
+          "depth": 4
+        },
+        "release-note": {
+          "type": "header",
+          "text": "Release Note",
+          "value": "release-note",
+          "line": 113,
+          "column": 0,
+          "depth": 3
+        },
+        "promosi-artefak": {
+          "type": "header",
+          "text": "Promosi Artefak",
+          "value": "promosi-artefak",
+          "line": 141,
+          "column": 0,
+          "depth": 4
+        }
+      },
+      "children": [],
+      "parent": "23znyhsi9lugmrcvhx4b5qr",
       "data": {}
     },
     "n7oobf4m1pytfexf8scoxao": {
@@ -4130,7 +3314,6 @@
             "vaultName": "vault"
           },
           "value": "Habits",
-          "alias": "Habits",
           "position": {
             "start": {
               "line": 14,
@@ -4158,7 +3341,6 @@
             "vaultName": "vault"
           },
           "value": "Teaching",
-          "alias": "Teaching",
           "position": {
             "start": {
               "line": 106,
@@ -4186,7 +3368,6 @@
             "vaultName": "vault"
           },
           "value": "learning",
-          "alias": "learning",
           "position": {
             "start": {
               "line": 106,
@@ -4214,7 +3395,6 @@
             "vaultName": "vault"
           },
           "value": "Side Projects",
-          "alias": "Side Projects",
           "position": {
             "start": {
               "line": 279,
@@ -4244,10 +3424,10 @@
           "column": 0,
           "depth": 2
         },
-        "why-habits": {
+        "why-": {
           "type": "header",
-          "text": "Why Habits?",
-          "value": "why-habits",
+          "text": "Why ?",
+          "value": "why-",
           "line": 24,
           "column": 0,
           "depth": 3
@@ -4308,10 +3488,10 @@
           "column": 0,
           "depth": 4
         },
-        "habit-3-teaching-equals-learning": {
+        "habit-3--equals": {
           "type": "header",
-          "text": "Habit 3: Teaching equals learning",
-          "value": "habit-3-teaching-equals-learning",
+          "text": "Habit 3:  equals",
+          "value": "habit-3--equals",
           "line": 116,
           "column": 0,
           "depth": 3
@@ -4444,10 +3624,10 @@
           "column": 0,
           "depth": 4
         },
-        "habit-8-side-projects": {
+        "habit-8": {
           "type": "header",
-          "text": "Habit 8: Side Projects",
-          "value": "habit-8-side-projects",
+          "text": "Habit 8:",
+          "value": "habit-8",
           "line": 289,
           "column": 0,
           "depth": 3
@@ -4645,9 +3825,9 @@
   "domains": [
     {
       "id": "oqxmejlafk9x8rj9t5hya5z",
-      "title": "Root",
+      "title": "Hi 👋",
       "desc": "",
-      "updated": 1646842475821,
+      "updated": 1721116613997,
       "created": 1646842475821,
       "custom": {
         "nav_order": 0,
@@ -4658,14 +3838,14 @@
       "vault": {
         "fsPath": "vault"
       },
-      "contentHash": "07f18305ffd998624eafbf443e02f3c2",
+      "contentHash": "64c62caa2f0c02c2d68a5a2d826cc01e",
       "links": [],
       "anchors": {
-        "welcome-to-dendron": {
+        "welcome-to-sotoy": {
           "type": "header",
-          "text": "Welcome to Dendron",
-          "value": "welcome-to-dendron",
-          "line": 7,
+          "text": "Welcome to Sotoy",
+          "value": "welcome-to-sotoy",
+          "line": 8,
           "column": 0,
           "depth": 1
         },
@@ -4673,7 +3853,7 @@
           "type": "header",
           "text": "Lookup",
           "value": "lookup",
-          "line": 11,
+          "line": 12,
           "column": 0,
           "depth": 2
         }
@@ -4683,27 +3863,29 @@
         "bsv930j2j6qlih60c7eu7wh",
         "ohf85tu5nw2b8ewx6cetsmp",
         "u3lhhpriar8wgcjw8svapha",
-        "aecilpcu1r34pyssvz4irzy",
         "tvdcga33h6hi7fxd9cwqd66",
-        "ugk2ov2xb97m8o44u1b9iu1",
         "t58wEmhAtf1GlHmO",
+        "u7j98ka2t55hajzrl5a8oib",
         "91eqybfohputr1iaxqbsbfe",
+        "xfsiepyapo4o9u17mvwwmmz",
+        "7udjlx2925dhyxgkrntgcbz",
         "x1aw4xgjnlqqzeww7dkz75g",
-        "78yyzb5l8ey7dvp4c08vyu7",
-        "lav66a9h50vq4ntzjyhx4y7",
-        "y4idqlpbg8tophfjvwd3b2q",
-        "3xecfpxxtvzgorwrmbt3cqz"
+        "z7qt819xp1pg1nqocan3dgt",
+        "x2igauua7kh84r52tyj7o3u",
+        "voqvz4ahoyv7bbivylyivw1",
+        "ode6u3a9n5hypn4jmcwit7t",
+        "wt3mgyiw1rd3tj99r2fam41"
       ],
       "parent": null,
       "data": {},
-      "body": "# Welcome to Dendron\n\nThis is the root of your dendron vault. If you decide to publish your entire vault, this will be your landing page. You are free to customize any part of this page except the frontmatter on top.\n\n## Lookup\n\nThis section contains useful links to related resources.\n\n- [Getting Started Guide](https://link.dendron.so/6b25)\n- [Discord](https://link.dendron.so/6b23)\n- [Home Page](https://wiki.dendron.so/)\n- [Github](https://link.dendron.so/6b24)\n- [Developer Docs](https://docs.dendron.so/)\n"
+      "body": "\n# Welcome to Sotoy\n\nThis is the root of your dendron vault. If you decide to publish your entire vault, this will be your landing page. You are free to customize any part of this page except the frontmatter on top.\n\n## Lookup\n\nThis section contains useful links to related resources.\n\n- [Getting Started Guide](https://link.dendron.so/6b25)\n- [Discord](https://link.dendron.so/6b23)\n- [Home Page](https://wiki.dendron.so/)\n- [Github](https://link.dendron.so/6b24)\n- [Developer Docs](https://docs.dendron.so/)\n"
     }
   ],
   "noteIndex": {
     "id": "oqxmejlafk9x8rj9t5hya5z",
-    "title": "Root",
+    "title": "Hi 👋",
     "desc": "",
-    "updated": 1646842475821,
+    "updated": 1721116613997,
     "created": 1646842475821,
     "custom": {
       "nav_order": 0,
@@ -4714,14 +3896,14 @@
     "vault": {
       "fsPath": "vault"
     },
-    "contentHash": "07f18305ffd998624eafbf443e02f3c2",
+    "contentHash": "64c62caa2f0c02c2d68a5a2d826cc01e",
     "links": [],
     "anchors": {
-      "welcome-to-dendron": {
+      "welcome-to-sotoy": {
         "type": "header",
-        "text": "Welcome to Dendron",
-        "value": "welcome-to-dendron",
-        "line": 7,
+        "text": "Welcome to Sotoy",
+        "value": "welcome-to-sotoy",
+        "line": 8,
         "column": 0,
         "depth": 1
       },
@@ -4729,7 +3911,7 @@
         "type": "header",
         "text": "Lookup",
         "value": "lookup",
-        "line": 11,
+        "line": 12,
         "column": 0,
         "depth": 2
       }
@@ -4739,20 +3921,22 @@
       "bsv930j2j6qlih60c7eu7wh",
       "ohf85tu5nw2b8ewx6cetsmp",
       "u3lhhpriar8wgcjw8svapha",
-      "aecilpcu1r34pyssvz4irzy",
       "tvdcga33h6hi7fxd9cwqd66",
-      "ugk2ov2xb97m8o44u1b9iu1",
       "t58wEmhAtf1GlHmO",
+      "u7j98ka2t55hajzrl5a8oib",
       "91eqybfohputr1iaxqbsbfe",
+      "xfsiepyapo4o9u17mvwwmmz",
+      "7udjlx2925dhyxgkrntgcbz",
       "x1aw4xgjnlqqzeww7dkz75g",
-      "78yyzb5l8ey7dvp4c08vyu7",
-      "lav66a9h50vq4ntzjyhx4y7",
-      "y4idqlpbg8tophfjvwd3b2q",
-      "3xecfpxxtvzgorwrmbt3cqz"
+      "z7qt819xp1pg1nqocan3dgt",
+      "x2igauua7kh84r52tyj7o3u",
+      "voqvz4ahoyv7bbivylyivw1",
+      "ode6u3a9n5hypn4jmcwit7t",
+      "wt3mgyiw1rd3tj99r2fam41"
     ],
     "parent": null,
     "data": {},
-    "body": "# Welcome to Dendron\n\nThis is the root of your dendron vault. If you decide to publish your entire vault, this will be your landing page. You are free to customize any part of this page except the frontmatter on top.\n\n## Lookup\n\nThis section contains useful links to related resources.\n\n- [Getting Started Guide](https://link.dendron.so/6b25)\n- [Discord](https://link.dendron.so/6b23)\n- [Home Page](https://wiki.dendron.so/)\n- [Github](https://link.dendron.so/6b24)\n- [Developer Docs](https://docs.dendron.so/)\n"
+    "body": "\n# Welcome to Sotoy\n\nThis is the root of your dendron vault. If you decide to publish your entire vault, this will be your landing page. You are free to customize any part of this page except the frontmatter on top.\n\n## Lookup\n\nThis section contains useful links to related resources.\n\n- [Getting Started Guide](https://link.dendron.so/6b25)\n- [Discord](https://link.dendron.so/6b23)\n- [Home Page](https://wiki.dendron.so/)\n- [Github](https://link.dendron.so/6b24)\n- [Developer Docs](https://docs.dendron.so/)\n"
   },
   "vaults": [
     {
@@ -4761,7 +3945,8 @@
     {
       "fsPath": "templates",
       "seed": "dendron.templates",
-      "name": "dendron.templates"
+      "name": "dendron.templates",
+      "visibility": "private"
     },
     {
       "fsPath": "vault2",

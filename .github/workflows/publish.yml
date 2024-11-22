@@ -41,6 +41,9 @@ jobs:
           .next/static/chunks
         key: ${{ runner.os }}-nextjs-${{ hashFiles('.next/yarn.lock', '.next/package-lock.json') }}-${{ hashFiles('.next/**.[jt]s', '.next/**.[jt]sx') }}
 
+    - name: Check dendron version
+      run: yarn dendron --version
+
     - name: Export notes
       run: yarn dendron publish export --target github --yes
 
