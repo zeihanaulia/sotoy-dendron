@@ -47,10 +47,11 @@ jobs:
     - name: Remove private and template vaults
       run: |
         echo "Removing private and template vaults from dendron.yml..."
-        sed -i '/fsPath: templates/,+4d' dendron.yml
-        sed -i '/fsPath: vault2/,+6d' dendron.yml
+        sed -i '/- fsPath: templates/,+3d' dendron.yml
+        sed -i '/- fsPath: vault2/,+6d' dendron.yml
         echo "Updated dendron.yml:"
         cat dendron.yml
+
   
     - name: Export notes
       run: yarn dendron publish export --target github --yes

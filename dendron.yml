@@ -22,21 +22,18 @@ commands:
 workspace:
     dendronVersion: 0.83.0
     vaults:
-        -
-            fsPath: vault
-        -
-            fsPath: templates
-            seed: dendron.templates
-            name: dendron.templates
-            visibility: private
-        -
-            fsPath: vault2
-            name: vault-private
-            sync: sync
-            visibility: private
-            remote:
-                type: git
-                url: git@github.com:zeihanaulia/journal.git
+        - fsPath: vault
+        - fsPath: templates
+          seed: dendron.templates
+          name: dendron.templates
+          visibility: private
+        - fsPath: vault2
+          name: vault-private
+          sync: sync
+          visibility: private
+          remote:
+            type: git
+            url: git@github.com:zeihanaulia/journal.git
     journal:
         dailyDomain: daily
         name: journal
