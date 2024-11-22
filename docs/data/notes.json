@@ -9,8 +9,8 @@
       "title": "This page has not yet sprouted",
       "schemaStub": false,
       "type": "note",
-      "updated": 1732273830091,
-      "created": 1732273830091,
+      "updated": 1732278463569,
+      "created": 1732278463569,
       "desc": "",
       "links": [],
       "anchors": {},
@@ -101,6 +101,7 @@
       ],
       "anchors": {},
       "children": [
+        "czze72lb4zct2gtw8tn97e2",
         "xnm5vsac3fqan9fasug824y",
         "icjz52rcva7bmaw5f0dnubh",
         "ysy5ewwozapqa7ck9m69yn7",
@@ -108,93 +109,9 @@
         "w4ptpcefqr98mej5hjhs3m9",
         "amiow0h2k6amtoz2zfgn38v",
         "87x3xiegfz6oofofhvflxms",
-        "e8r4q5f145zsdgsnyw0oxch",
-        "czze72lb4zct2gtw8tn97e2"
+        "e8r4q5f145zsdgsnyw0oxch"
       ],
       "parent": "oqxmejlafk9x8rj9t5hya5z",
-      "data": {}
-    },
-    "czze72lb4zct2gtw8tn97e2": {
-      "id": "czze72lb4zct2gtw8tn97e2",
-      "title": "bagaimana-instrumentasi-golang-dengan-elastic-APM",
-      "desc": "",
-      "updated": 1647492888219,
-      "created": 1647490689917,
-      "custom": {},
-      "fname": "til.bagaimana-instrumentasi-golang-dengan-elastic-APM",
-      "type": "note",
-      "vault": {
-        "fsPath": "vault"
-      },
-      "contentHash": "c2b6697574773feab00a3403746d16c8",
-      "links": [
-        {
-          "from": {
-            "fname": "daily.journal.2023.03.16",
-            "id": "8wsjp98hnzsygkrvs7hgr42",
-            "vaultName": "vault-private"
-          },
-          "type": "backlink",
-          "position": {
-            "start": {
-              "line": 21,
-              "column": 42,
-              "offset": 681
-            },
-            "end": {
-              "line": 21,
-              "column": 99,
-              "offset": 738
-            },
-            "indent": []
-          },
-          "value": "til.bagaimana-instrumentasi-golang-dengan-elastic-APM"
-        }
-      ],
-      "anchors": {
-        "membuat-webrequest": {
-          "type": "header",
-          "text": "Membuat webrequest",
-          "value": "membuat-webrequest",
-          "line": 12,
-          "column": 0,
-          "depth": 2
-        },
-        "setup-kibana-dan-apm": {
-          "type": "header",
-          "text": "Setup Kibana dan APM",
-          "value": "setup-kibana-dan-apm",
-          "line": 41,
-          "column": 0,
-          "depth": 2
-        },
-        "local": {
-          "type": "header",
-          "text": "Local",
-          "value": "local",
-          "line": 43,
-          "column": 0,
-          "depth": 3
-        },
-        "trial-elastic-cloud": {
-          "type": "header",
-          "text": "Trial Elastic Cloud",
-          "value": "trial-elastic-cloud",
-          "line": 116,
-          "column": 0,
-          "depth": 3
-        },
-        "instrumenting-application": {
-          "type": "header",
-          "text": "Instrumenting application",
-          "value": "instrumenting-application",
-          "line": 140,
-          "column": 0,
-          "depth": 2
-        }
-      },
-      "children": [],
-      "parent": "tvdcga33h6hi7fxd9cwqd66",
       "data": {}
     },
     "e8r4q5f145zsdgsnyw0oxch": {
@@ -948,6 +865,89 @@
       "contentHash": "a48294b1c3ebff82822929dd2e4c7d70",
       "links": [],
       "anchors": {},
+      "children": [],
+      "parent": "tvdcga33h6hi7fxd9cwqd66",
+      "data": {}
+    },
+    "czze72lb4zct2gtw8tn97e2": {
+      "id": "czze72lb4zct2gtw8tn97e2",
+      "title": "Bagaimana instrumentasi golang dengan elastic APM",
+      "desc": "",
+      "updated": 1732274111594,
+      "created": 1647490689917,
+      "custom": {},
+      "fname": "til.bagaimana-instrumentasi-golang-dengan-elastic-APM",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "28aea869cbde6608fcc6c53522e429cd",
+      "links": [
+        {
+          "from": {
+            "fname": "daily.journal.2023.03.16",
+            "id": "8wsjp98hnzsygkrvs7hgr42",
+            "vaultName": "vault-private"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 21,
+              "column": 42,
+              "offset": 681
+            },
+            "end": {
+              "line": 21,
+              "column": 99,
+              "offset": 738
+            },
+            "indent": []
+          },
+          "value": "til.bagaimana-instrumentasi-golang-dengan-elastic-APM"
+        }
+      ],
+      "anchors": {
+        "membuat-webrequest": {
+          "type": "header",
+          "text": "Membuat webrequest",
+          "value": "membuat-webrequest",
+          "line": 12,
+          "column": 0,
+          "depth": 2
+        },
+        "setup-kibana-dan-apm": {
+          "type": "header",
+          "text": "Setup Kibana dan APM",
+          "value": "setup-kibana-dan-apm",
+          "line": 41,
+          "column": 0,
+          "depth": 2
+        },
+        "local": {
+          "type": "header",
+          "text": "Local",
+          "value": "local",
+          "line": 43,
+          "column": 0,
+          "depth": 3
+        },
+        "trial-elastic-cloud": {
+          "type": "header",
+          "text": "Trial Elastic Cloud",
+          "value": "trial-elastic-cloud",
+          "line": 116,
+          "column": 0,
+          "depth": 3
+        },
+        "instrumenting-application": {
+          "type": "header",
+          "text": "Instrumenting application",
+          "value": "instrumenting-application",
+          "line": 140,
+          "column": 0,
+          "depth": 2
+        }
+      },
       "children": [],
       "parent": "tvdcga33h6hi7fxd9cwqd66",
       "data": {}
@@ -3865,16 +3865,16 @@
         "u3lhhpriar8wgcjw8svapha",
         "tvdcga33h6hi7fxd9cwqd66",
         "t58wEmhAtf1GlHmO",
-        "u7j98ka2t55hajzrl5a8oib",
+        "0k6vv27sjk0g7lopt9y5qns",
         "91eqybfohputr1iaxqbsbfe",
         "xfsiepyapo4o9u17mvwwmmz",
         "7udjlx2925dhyxgkrntgcbz",
         "x1aw4xgjnlqqzeww7dkz75g",
-        "z7qt819xp1pg1nqocan3dgt",
-        "x2igauua7kh84r52tyj7o3u",
-        "voqvz4ahoyv7bbivylyivw1",
-        "ode6u3a9n5hypn4jmcwit7t",
-        "wt3mgyiw1rd3tj99r2fam41"
+        "tn8d44344iskkn1a89nz9rr",
+        "hbkfeuaa1d81j6s6v9hba70",
+        "i7mm47rth9gnn28skh9jdtn",
+        "lqlae5nmghava9hvlew3b38",
+        "ntlsbdyqla0mqoqn26t7jj3"
       ],
       "parent": null,
       "data": {},
@@ -3923,16 +3923,16 @@
       "u3lhhpriar8wgcjw8svapha",
       "tvdcga33h6hi7fxd9cwqd66",
       "t58wEmhAtf1GlHmO",
-      "u7j98ka2t55hajzrl5a8oib",
+      "0k6vv27sjk0g7lopt9y5qns",
       "91eqybfohputr1iaxqbsbfe",
       "xfsiepyapo4o9u17mvwwmmz",
       "7udjlx2925dhyxgkrntgcbz",
       "x1aw4xgjnlqqzeww7dkz75g",
-      "z7qt819xp1pg1nqocan3dgt",
-      "x2igauua7kh84r52tyj7o3u",
-      "voqvz4ahoyv7bbivylyivw1",
-      "ode6u3a9n5hypn4jmcwit7t",
-      "wt3mgyiw1rd3tj99r2fam41"
+      "tn8d44344iskkn1a89nz9rr",
+      "hbkfeuaa1d81j6s6v9hba70",
+      "i7mm47rth9gnn28skh9jdtn",
+      "lqlae5nmghava9hvlew3b38",
+      "ntlsbdyqla0mqoqn26t7jj3"
     ],
     "parent": null,
     "data": {},
