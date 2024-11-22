@@ -1,11 +1,11 @@
 ---
 id: w4ptpcefqr98mej5hjhs3m9
-title: "Notes: Resolving Connection Issues from WSL to Windows"
+title: 'Notes: Resolving Connection Issues from WSL to Windows'
 desc: ''
 updated: 1732271159615
 created: 1732271049414
 tags:
-    - wsl2
+  - wsl2
 ---
 
 ## Steps to Resolve "Connection Refused" from WSL to Windows
