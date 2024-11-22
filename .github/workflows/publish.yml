@@ -1,16 +1,16 @@
-name: Build Dendron Static Site
+name: Publish Notes to GitHub Pages
 
 on:
   workflow_dispatch: # Enables on-demand/manual triggering
   push:
     branches:
-    - main
+      - main
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout source
+    - name: Checkout source code
       uses: actions/checkout@v2
       with:
         fetch-depth: 0
@@ -30,7 +30,18 @@ jobs:
       run: npx install-peerdeps --dev @dendronhq/cli
 
     - name: Initialize or pull nextjs template
-      run: "(test -d .next) && (echo 'updating dendron next...' && cd .next && git reset --hard && git pull && npx install-peerdeps --dev @dendronhq/cli && cd ..) || (echo 'init dendron next' && npx install-peerdeps --dev @dendronhq/cli && npx dendron publish init)"
+      run: |
+        if [ ! -d ".next" ]; then
+          echo "Initializing dendron next..."
+          npx dendron publish init
+        else
+          echo "Updating dendron next..."
+          cd .next
+          git reset --hard
+          git pull
+          npm install
+          cd ..
+        fi
 
     - name: Restore Next cache
       uses: actions/cache@v2
@@ -47,7 +58,7 @@ jobs:
     - name: Export notes
       run: npx dendron publish export --target github --yes
 
-    - name: Deploy site
+    - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
