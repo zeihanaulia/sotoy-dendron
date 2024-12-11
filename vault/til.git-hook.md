@@ -2,8 +2,9 @@
 id: tr5zhbf4ay1te9xwqvq00lf
 title: Git Hook
 desc: ''
-updated: 1733472773619
+updated: 1733886891779
 created: 1733471866704
+published: false
 ---
 
 ## Apa itu git hook?
@@ -53,6 +54,42 @@ test "" = "$(grep '^Signed-off-by: ' "$1" |
 }
 ```
 
+## Menambahkan commit-msg
 
+```sh
+#!/bin/sh
+LOG_FILE=".git/commit-log.txt"
 
-## 
+# Cek duplikasi Signed-off-by
+test "" = "$(grep '^Signed-off-by: ' "$1" |
+         sort | uniq -c | sed -e '/^[   ]*1[    ]/d')" || {
+        echo >&2 "Duplicate Signed-off-by lines detected. Commit aborted."
+        exit 1
+}
+
+# Tambahkan Signed-off-by jika tidak ada
+SOB=$(git var GIT_AUTHOR_IDENT | sed -n 's/^\(.*>\).*$/Signed-off-by: \1/p')
+if ! grep -qs "^$SOB" "$1"; then
+  echo "$SOB" >> "$1"
+  echo "Baris Signed-off-by ditambahkan ke pesan commit."
+fi
+
+# Validasi format pesan commit
+REGEX="^(feat|fix|docs|style|refactor|test|chore): .+"
+if ! grep -qE "$REGEX" "$1"; then
+  echo >&2 "Format pesan commit tidak valid."
+  echo >&2 "Gunakan format: <type>: <description>"
+  echo >&2 "Contoh: feat: add user login feature"
+  exit 1
+fi
+
+# Batalkan commit jika mengandung "WIP"
+if grep -qi "WIP" "$1"; then
+  echo >&2 "Pesan commit tidak boleh mengandung 'WIP'. Commit aborted."
+  exit 1
+fi
+
+# Log pesan commit ke file
+echo "$(date) - $(cat "$1")" >> "$LOG_FILE"
+echo "Pesan commit diverifikasi dan dicatat ke log."
+```
